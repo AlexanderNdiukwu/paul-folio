@@ -6,7 +6,7 @@ function Logo() {
     <div className=' flex items-center'>
         <p className=' py-2 px-4'>
         <Icon className=" items-center  p-[4px] bg-gradient-to-r from-[#0a0aaf] to-[#4e4e75] rounded-xl inline-block shadow-2xl shadow-[#0a0aaf]/70 animate-pulse" />
-
+        
         </p>
 
        <div>
@@ -14,7 +14,7 @@ function Logo() {
         <div >
 
 
-        <div className='text-white'>
+        <div className=' font-bold '>
         <p >
           Ndiukwu Paul Chukwuemeka 
         </p>
@@ -26,7 +26,7 @@ function Logo() {
 
         </p>
 
-        <p className='text-white'>
+        <p className=''>
           Avaliable for hire
         </p>
 

@@ -1,17 +1,16 @@
 import React from 'react'
+import Navbarbtn from '../Pagebutton/Pagebtn'
 import Logo from './Logo'
-import Navbarbtn from './NavbarBtn/Navbarbtn'
 
 const NavbarPage = () => {
   return (
-    <div className='bg-[#0A0A0F] flex items-center justify-between'>
+    <div className=' backdrop-blur-xs flex items-center justify-between '>
 
-        <div>
+        <div >
         <Logo/>
-
         </div>
 
-        <div className='flex text-white gap-3 '>
+        <div className='flex border border-black/100 rounded-md py-2 px-3 backdrop-blur-3xl  gap-3'>
             <p>About</p>
             <p>Skills</p>
             <p>Projects</p>
@@ -20,9 +19,10 @@ const NavbarPage = () => {
         </div>
 
         <div className='flex gap-3'>
+           <Navbarbtn/>
 
-            <Navbarbtn btndetail='Hire me' style='bg-[#FF4F00] text-white px-4 py-2 rounded-[26843500px]'/>
-            <Navbarbtn btndetail='Get in Touch' style='bg-gradient-to-r from-[#00D9F5] via-[#8A00FF] to-[#4E4E75] bg-clip-text text-transparent  px-4 py-2 rounded-[26843500px]' style1="inline-block rounded-[26843500px] bg-gradient-to-r from-[#00D9F5] via-[#8A00FF] to-[#4E4E75] p-[2px]"/>
+            <Navbarbtn btndetail='Hire me' style='w-36 text-center bg-[#A133FF] rounded-[12px] font-bold  px-8 py-2 '/>
+            <Navbarbtn btndetail='Get in Touch' style='bg-black  text-[#8A00FF]  px-8 py-1.5 rounded-[12px] whitespace-nowrap' style1=" text-center  p-0.5 inline-block rounded-[12px] bg-gradient-to-r from-[#00D9F5] via-[#8A00FF] to-[#4E4E75] "/>
 
 
             

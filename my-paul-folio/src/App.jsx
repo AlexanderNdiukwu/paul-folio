@@ -1,9 +1,12 @@
 
+import NavbarPage from "./Navbar/NavbarPage"
+
 function App() {
  
   return (
-   <div className="bg-red-500">
-    hello world
+   <div>
+    <NavbarPage/>
+
 
    </div>
   )

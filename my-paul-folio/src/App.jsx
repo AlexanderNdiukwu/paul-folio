@@ -4,6 +4,7 @@ import Particles from "./HeroBackground/Particles"
 import Herosectionpage from "./HeroSection/Herosectionpage"
 import NavbarPage from "./Navbar/NavbarPage"
 import Subherosection from "./HeroSection/Subherosection"
+import Technicalpage from "./TechnicalExpertSection/Technicalpage"
 
 function App() {
   const containerRef = useRef()
@@ -23,17 +24,21 @@ function App() {
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10  p-6">
+    <div className="relative z-10 ">
 
     <Herosectionpage/>
     </div>
 
     <div >
-
       <Subherosection/>
+    </div>
 
     </div>
 
+
+
+    <div>
+      <Technicalpage/>
     </div>
 
 

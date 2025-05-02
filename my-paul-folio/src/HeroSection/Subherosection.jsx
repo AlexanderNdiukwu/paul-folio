@@ -5,21 +5,21 @@ const Subherosection = () => {
   return (
     <div>
 
-        <div className='grid grid-cols-4 gap-8 text-4xl font-bold text-[#00D9F5]  '>
-            <div className=' border'>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base'  btndetail2='AL models' style='px-8 py-7 backdrop-blur-xl' />
+        <div className='grid grid-cols-4 gap-8 text-4xl font-bold text-[#00D9F5] pt-22 '>
+            <div className=' '>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base'  btndetail2='AL models' style='px-8 py-7 bg-[#F8F8F8] shadow-2xl' />
             </div>
 
-            <div className=' border'>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='AL models' style='px-8 py-7 backdrop-blur-3xl'/>
+            <div className=' '>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='AL models' style='px-8 py-7 shadow-2xl bg-[#F8F8F8]  '/>
             </div>
 
-            <div  className=' border' >
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='AL models' style='px-8 py-7 backdrop-blur-3xl'/>
+            <div  className=' ' >
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='Web Applications' style='px-8 py-7 shadow-2xl bg-[#F8F8F8]'/>
             </div>
 
-            <div  className=' border'>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='AL models' style='px-8 py-7 backdrop-blur-3xl'/>
+            <div  className=' '>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='Robots Built' style='px-8 py-7 shadow-2xl bg-[#F8F8F8]'/>
             </div>
         </div>
       

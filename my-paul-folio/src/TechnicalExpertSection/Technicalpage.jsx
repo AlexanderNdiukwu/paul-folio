@@ -28,7 +28,9 @@ const Technicalpage = () => {
             <div>
                 <BarStatus Listofskills='react' statusPercentage='98%'  />
             </div> 
-          
+              <div>
+                <BarStatus Listofskills='react' statusPercentage='98%'  />
+            </div>
 
             </div>
 

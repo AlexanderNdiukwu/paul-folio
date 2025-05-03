@@ -4,7 +4,7 @@ const BarStatus = ({Listofskills,statusPercentage,Outerstatus,Innerstatus}) => {
   return (
     <div>
         <div className='my-3'>
-            <div className='flex justify-between text-base text-white'>
+            <div className='flex justify-between text-base text-[#666666]'>
             <div>
                 {Listofskills}
             </div>

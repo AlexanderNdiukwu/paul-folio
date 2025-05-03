@@ -5,6 +5,8 @@ import Herosectionpage from "./HeroSection/Herosectionpage"
 import NavbarPage from "./Navbar/NavbarPage"
 import Subherosection from "./HeroSection/Subherosection"
 import Technicalpage from "./TechnicalExpertSection/Technicalpage"
+import ProjectMainProject from "./Feactuesfolderpage/ProjectMainProject"
+import GetintouchMain from "./Getintouch/GetintouchMain"
 
 function App() {
   const containerRef = useRef()
@@ -18,13 +20,13 @@ function App() {
     ref={containerRef}
     className="relative w-full h-screen overflow-hidden">
 
-    <Particles  />
+    <Particles  moveParticlesOnHover={true} particleHoverFactor={8}  />
 
-    <div className="border-b border-[#1E1E22]/70">
+    <div className="border-b border-[#1E1E22]/70 w-full fixed top-0 z-50  ">
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 ">
+    <div className="relative z-10 pt-17 ">
 
     <Herosectionpage/>
     </div>
@@ -41,7 +43,13 @@ function App() {
       <Technicalpage/>
     </div>
 
+    <div>
+      <ProjectMainProject/>
+    </div>
 
+    <div>
+      <GetintouchMain/>
+    </div>
 
 
 

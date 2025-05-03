@@ -50,7 +50,7 @@ const Herosectionpage = () => {
 
             <div className='flex text-xl gap-3 py-3'>
                 <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] py-2 px-8 ' />
-                <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='flex items-center gap-1 rounded-[26843500px] py-2 px-8 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
+                <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] py-2 px-8 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
             </div>
             </div>
 

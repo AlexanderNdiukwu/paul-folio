@@ -7,24 +7,28 @@ import BarStatus from './Technicalexpertcard/BarStatus'
 const Technicalpage = () => {
   return (
     <div>
-        <div className='border '>
+        <div className=' '>
 
-            <div>
+            <div className='text-4xl font-bold text-[#E5E5E5] flex justify-center'>
                 <p>Expertise Areas</p>
             </div >
             <div>
                 <Technicalheader/>
             </div>
 
+            
 
-            <div className='bg-[#48484C] pt-8 px-8 w-full'>
+            <div className='flex gap-4'>
+
+
+            <div className='bg-[#F8F8F8] pt-8 px-8 w-full shadow-2xl'>
             <div className='text-[#00D9F5] '>
 
-                <Technicalexpcard Carddetails='fullstack' />
+                <Technicalexpcard Carddetails='Full-Stack Development' style='text-2xl font-bold'/>
             </div>
 
 
-                <BarStatus Listofskills='react' statusPercentage='98%'  />
+                <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
             <div>
                 <BarStatus Listofskills='react' statusPercentage='98%'  />
             </div> 
@@ -34,6 +38,32 @@ const Technicalpage = () => {
 
             </div>
 
+
+            <div className='bg-[#F8F8F8] pt-8 px-8 w-full shadow-2xl'>
+            <div className='text-[#00D9F5] '>
+
+                <Technicalexpcard Carddetails='Backend Development' style='text-2xl font-bold' />
+            </div>
+
+
+                <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
+            {/* <div>
+                <BarStatus Listofskills='react' statusPercentage='98%'  />
+            </div> 
+              <div>
+                <BarStatus Listofskills='react' statusPercentage='98%'  />
+            </div> */}
+
+            </div>
+
+
+
+
+
+            </div>
+
+
+          
            
 
 

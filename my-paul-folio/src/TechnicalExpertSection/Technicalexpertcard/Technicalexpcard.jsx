@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Technicalexpcard = ({Carddetails}) => {
+const Technicalexpcard = ({Carddetails,style}) => {
   return (
     <div>
 
-        <div className='text-2xl font-bold'>
+        <div className={style}>
                 {Carddetails}
         </div>
       

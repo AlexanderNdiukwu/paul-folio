@@ -7,12 +7,12 @@ import BarStatus from './Technicalexpertcard/BarStatus'
 const Technicalpage = () => {
   return (
     <div>
-        <div className=' '>
+        <div className=' mx-8 py-4 '>
 
-            <div className='text-4xl font-bold text-[#E5E5E5] flex justify-center'>
+            <div className='text-4xl font-bold text-[#E5E5E5] flex justify-center py-2 '>
                 <p>Expertise Areas</p>
             </div >
-            <div>
+            <div className='mx-'>
                 <Technicalheader/>
             </div>
 

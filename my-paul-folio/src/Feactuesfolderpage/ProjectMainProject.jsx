@@ -5,7 +5,7 @@ import Technicalexpcard from '../TechnicalExpertSection/Technicalexpertcard/Tech
 
 const ProjectMainProject = () => {
   return (
-    <div>
+    <div className='mx-8'>
 
 
         <div>

@@ -5,7 +5,7 @@ import Pagebtn from '../Pagebutton/Pagebtn'
 const Herosectionpage = () => {
 
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-2 mx-8 pt-3 '>
 
 
 
@@ -28,8 +28,9 @@ const Herosectionpage = () => {
 
 
             <div>
-                <p className=' '>
-                Full-Stack & Robotics Engineer building intelligent systems where software meets machines.
+                <p className='  '>
+                {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
+                "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
                 </p>
 

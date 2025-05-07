@@ -4,7 +4,7 @@ import Icon from '../../images/SvgPhoto/Icon'
 function Logo() {
   return (
     <div className=' flex items-center'>
-        <p className=' py-2 px-4'>
+        <p className=' py-2 pr-2'>
         <Icon className=" items-center  p-[4px] bg-gradient-to-r from-[#0a0aaf] to-[#4e4e75] rounded-xl inline-block shadow-2xl shadow-[#0a0aaf]/70 " />
         
         </p>

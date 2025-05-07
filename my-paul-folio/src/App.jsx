@@ -11,7 +11,7 @@ import Footermain from "./Footerpage/Footermain"
 
 
 function App() {
-  // const containerRef = useRef()
+  const containerRef = useRef()
  
   return (
    <div >
@@ -19,23 +19,23 @@ function App() {
 
 
     <div
-    // ref={containerRef}
+    ref={containerRef}
     className="relative w-full h-screen overflow-hidden">
 
-    <Particles  moveParticlesOnHover={true} particleHoverFactor={8}  />
+    <Particles    />
 
-    <div className="border-b border-[#1E1E22]/70 w-full fixed top-0 z-50  ">
+    <div className=" w-full fixed top-0 z-50  ">
     <NavbarPage/>
 
     </div>
     <div className="relative z-10 pt-17 ">
 
     <Herosectionpage/>
-    </div>
-
     <div >
       <Subherosection/>
     </div>
+    </div>
+
 
     </div>
 
@@ -58,7 +58,9 @@ function App() {
       <Footermain/>
     </div>
 
-    
+  
+
+
 
 
    </div>

@@ -5,7 +5,7 @@ import Pagebtn from '../Pagebutton/Pagebtn'
 const Herosectionpage = () => {
 
   return (
-    <div>
+    <div className='grid grid-cols-2'>
 
 
 
@@ -56,10 +56,20 @@ const Herosectionpage = () => {
 
 
 
+
           
           
         </div>
+
+        
        
+            <div className='relative bg-black/5  p-6 rounded-[20px]  '>
+                <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-2  '></p>
+                <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-2 '></p>
+                <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-2'></p>
+                <p className='absolute bg-white size-5 rounded-4xl bottom-0 right-0 m-2'></p>
+                <img src="../../images/HeroSectionImage/logo.webp" alt="image" className='w-full h-104 rounded-[20px]' />
+            </div>
     </div>
   )
 }

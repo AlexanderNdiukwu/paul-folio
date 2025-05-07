@@ -5,7 +5,10 @@ const Technicalexpcard = ({Carddetails,style}) => {
     <div>
 
         <div className={style}>
+          <div>
                 {Carddetails}
+
+          </div>
         </div>
       
     </div>

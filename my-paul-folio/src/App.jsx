@@ -7,9 +7,11 @@ import Subherosection from "./HeroSection/Subherosection"
 import Technicalpage from "./TechnicalExpertSection/Technicalpage"
 import ProjectMainProject from "./Feactuesfolderpage/ProjectMainProject"
 import GetintouchMain from "./Getintouch/GetintouchMain"
+import Footermain from "./Footerpage/Footermain"
+
 
 function App() {
-  const containerRef = useRef()
+  // const containerRef = useRef()
  
   return (
    <div >
@@ -17,7 +19,7 @@ function App() {
 
 
     <div
-    ref={containerRef}
+    // ref={containerRef}
     className="relative w-full h-screen overflow-hidden">
 
     <Particles  moveParticlesOnHover={true} particleHoverFactor={8}  />
@@ -52,6 +54,11 @@ function App() {
     </div>
 
 
+    <div>
+      <Footermain/>
+    </div>
+
+    
 
 
    </div>

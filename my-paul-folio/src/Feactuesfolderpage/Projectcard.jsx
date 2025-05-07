@@ -8,7 +8,7 @@ const Projectcard = ({img,imgstyle, imgdescription,imgdetails,frameworksused}) =
         <div>
 
             <div>
-                <p>
+                <div>
                     {img && 
                     <div className='relative'>
 
@@ -20,7 +20,7 @@ const Projectcard = ({img,imgstyle, imgdescription,imgdetails,frameworksused}) =
 
                     }
 
-                </p>
+                </div>
 
 
 

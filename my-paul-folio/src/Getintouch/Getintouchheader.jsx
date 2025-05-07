@@ -4,7 +4,8 @@ const Getintouchheader = () => {
   return (
     <div>
         <div>
-            <p className='font-bold text-4xl w-fit bg-gradient-to-r from-[#00D9F5] to-[#8A00FF] bg-clip-text text-transparent '>Get in Touch</p>
+        {/* <p className='font-bold text-4xl w-fit bg-gradient-to-r from-[#00D9F5] to-[#8A00FF] bg-clip-text text-transparent '>Get in Touch</p> */}
+        <p className='font-bold text-4xl  '>Get in Touch</p>
         </div>
       
     </div>

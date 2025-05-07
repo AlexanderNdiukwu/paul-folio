@@ -11,7 +11,7 @@ const NavbarPage = () => {
         </div>
 
         <div className='flex border border-black/100 rounded-md  backdrop-blur-3xl  gap-3'>
-            <p className='hover:bg-[#00D9F5] hover:border-r hover:text-white py-2 px-3 rounded-l-md'>About</p>
+            <p className='hover:bg-white/20 hover:border-r hover:text-white py-2 px-3 rounded-l-md'>About</p>
             <p className='hover:bg-[#00D9F5] hover:border hover:text-white py-2 px-3 '>Skills</p>
             <p className='hover:bg-[#00D9F5] hover:border hover:text-white py-2 px-3 '>Projects</p>
             <p className='hover:bg-[#00D9F5] hover:border hover:text-white py-2 px-3 '>Experience</p>

@@ -4,7 +4,7 @@ import Logo from './Logo'
 
 const NavbarPage = () => {
   return (
-    <div className=' backdrop-blur-xs flex items-center border-b border-[#1E1E22]/70 justify-between mx-8 py-1 '>
+    <div className=' backdrop-blur-xs flex items-center border-b border-[#1E1E22]/70 justify-between mx-9 py-1 '>
 
         <div >
         <Logo/>

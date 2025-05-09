@@ -20,7 +20,9 @@ function App() {
 
     <div
     ref={containerRef}
-    className="relative w-full h-screen overflow-hidden">
+    // className="relative w-full h-screen overflow-hidden">
+
+     className="relative w-full h-full overflow-hidden"> 
 
     <Particles    />
 
@@ -28,13 +30,13 @@ function App() {
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 pt-17 ">
+    <div className="relative z-10 pt-17 h-fit ">
 
     <Herosectionpage/>
-    <div >
+    </div>
+    {/* <div >
       <Subherosection/>
-    </div>
-    </div>
+    </div> */}
 
 
     </div>
@@ -45,7 +47,7 @@ function App() {
       <Technicalpage/>
     </div>
 
-    <div>
+    <div className="">
       <ProjectMainProject/>
     </div>
 

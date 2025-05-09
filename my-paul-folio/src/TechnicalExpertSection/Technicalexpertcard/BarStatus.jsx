@@ -3,7 +3,7 @@ import React from 'react'
 const BarStatus = ({Listofskills,statusPercentage,Outerstatus,Innerstatus}) => {
   return (
     <div>
-        <div className='my-3'>
+        <div className='my-3 mx-4'>
             <div className='flex justify-between text-base text-[#666666]'>
             <div>
                 {Listofskills}

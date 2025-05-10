@@ -7,22 +7,22 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' mx-9 pt-5 '>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 '>
 
 
-    <div className='grid grid-cols-2'>
+    <div className='grid md:grid-cols-2'>
         
     <div>
 
-<div className='flex gap-3 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] text-sm py-3 px-4 rounded-[26843500px]  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] text-sm text-[#8A00FF] px-4 py-3 rounded-[26843500px]'  />
+<div className='flex md:gap-3 gap-1 '>
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-3 px-4 whitespace-nowrap py-1.5 text-[10px] rounded-[26843500px]  '/>
+    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-3 rounded-[26843500px] text-[10px] whitespace-nowrap py-1.5'  />
 
   
 </div>
 
 
-<div className='text-5xl font-bold w-2xl  text-zinc-900 max-sm:text-4xl'>
+<div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
 
 
 
@@ -31,7 +31,7 @@ const Herosectionpage = () => {
 
 
 <div>
-    <p className=' py-2 '>
+    <p className=' md:py-2 py-1 '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
     "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
@@ -41,7 +41,7 @@ const Herosectionpage = () => {
 </div>
 
 <div>
-    <p className='text-xl w-xl text-justify py-2'>
+    <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
     Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
     </p>
 </div>
@@ -52,7 +52,7 @@ const Herosectionpage = () => {
 </div> */}
 
 
-<div className='flex text-xl gap-3 py-3'>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 md:py-3 py-2'>
     <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] py-2 px-8 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] py-2 px-8 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
 </div>
@@ -67,7 +67,7 @@ const Herosectionpage = () => {
 
 
 
-<div className='relative bg-black/5  p-8 rounded-[20px]  '>
+<div className='relative bg-black/5  p-8 rounded-[20px] hidden md:block  '>
     <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-3  '></p>
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>

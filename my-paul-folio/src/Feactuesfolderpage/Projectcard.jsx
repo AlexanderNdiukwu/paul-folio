@@ -10,7 +10,7 @@ const Projectcard = ({img,imgstyle, imgdescription,imgdetails,frameworksused}) =
             <div>
                 <div>
                     {img && 
-                    <div className='relative '>
+                    <div className='relative rounded-3xl '>
 
                         <img src={img} alt="img" className={imgstyle}/>
     
@@ -30,10 +30,10 @@ const Projectcard = ({img,imgstyle, imgdescription,imgdetails,frameworksused}) =
 
             </div>
 
-            <div className='grid gap-2 py-3 mx-3 '>
+            <div className='grid md:gap-2 gap-1 md:py-3 py-1 mx-3 '>
 
 
-            <div className='text-2xl font-bold'>
+            <div className='md:text-2xl text-xl font-bold'>
                 <p>{imgdetails}</p>
             </div>
 

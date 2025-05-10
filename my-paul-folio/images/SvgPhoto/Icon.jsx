@@ -4,6 +4,7 @@ const Icon = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     width={48}
     height={40}
+    className={props.className}
     fill="none"
     viewBox="15 -60 400 450"
     {...props}

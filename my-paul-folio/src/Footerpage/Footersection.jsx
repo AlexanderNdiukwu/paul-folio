@@ -20,8 +20,8 @@ const Footersection = () => {
                 <p>Copyright © 2025 Ndiukwu Chukwuemeka Paul</p>
             </div>
 
-            <div>
-                <img src="../../images/HeroSectionImage/X.png" alt="" className='text-black bg-black' />
+            <div className='text-black'>
+                <img src="../../images/HeroSectionImage/X.png" alt="" className='text-black ' />
             </div>
 
 

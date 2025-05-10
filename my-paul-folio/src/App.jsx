@@ -50,15 +50,25 @@ function App() {
     <div className="">
       <ProjectMainProject/>
     </div>
+    
 
-    <div>
+    <div className="">
+
+    <div className=" ">
+    <div className="relative top-16 z-30 ">
       <GetintouchMain/>
     </div>
 
 
-    <div>
+    <div className="bg-[#1A1A1F]/20 relative z-10 flex justify-center items-center py-18 ">
       <Footermain/>
     </div>
+
+    </div>
+
+
+    </div>
+
 
   
 

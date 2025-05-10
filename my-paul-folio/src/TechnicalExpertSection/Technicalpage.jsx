@@ -7,7 +7,7 @@ import BarStatus from './Technicalexpertcard/BarStatus'
 const Technicalpage = () => {
   return (
     <div>
-        <div className=' mx-8 py-4 '>
+        <div className=' md:mx-8 mx-3 py-4 '>
 
             <div className='bg-black/5 pb-10'>
 
@@ -16,9 +16,9 @@ const Technicalpage = () => {
                 <p>Expertise Areas</p>
             </div >
 
-            <div className='mx-24'>
+            <div className='md:mx-20 mx-4'>
 
-            <div className=' py-6 grid justify-center '>
+            <div className=' md:py-6 py-3 grid justify-center '>
                 <Technicalheader/>
 
                 <div className='flex justify-center gap-2'>
@@ -29,18 +29,18 @@ const Technicalpage = () => {
 
             
 
-            <div className='flex gap-10'>
+            <div className='md:flex grid md:gap-10 gap-3'>
 
 
-            <div className='bg-[#F8F8F8] border border-black/20 rounded-3xl  pt-8  px-8 w-full '>
+            <div className='bg-[#F8F8F8] border border-black/20 rounded-3xl  md:pt-8 pt-4 md:px-8 w-full '>
             <div className='text-[#00D9F5] '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='text-3xl py-2 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl text-2xl py-2 px-1 font-bold'/>
             </div>
 
 
 
-            <div className='py-6'>
+            <div className='md:py-6 py-3'>
             <div>
                 <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
 
@@ -58,15 +58,15 @@ const Technicalpage = () => {
             </div>
 
 
-            <div className='bg-[#F8F8F8] pt-8 px-8 w-full border rounded-3xl border-black/20'>
-            <div className='text-[#00D9F5] '>
+            <div className='bg-[#F8F8F8] md:pt-8 pt-4 md:px-8 w-full border rounded-3xl border-black/20 '>
+            <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Backend Development' style='text-3xl py-2 font-bold' />
+                <Technicalexpcard Carddetails='Backend Development' style='md:text-3xl text-2xl py-2 px-1 font-bold' />
             </div>
 
 
            
-            <div className='py-6'>
+            <div className='md:py-6 py-3'>
             <div>
                 <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
 

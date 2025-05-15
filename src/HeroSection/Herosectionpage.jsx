@@ -15,8 +15,8 @@ const Herosectionpage = () => {
     <div>
 
 <div className='flex md:gap-3 gap-1 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-3 px-4 whitespace-nowrap py-1.5 text-[10px] rounded-[26843500px]  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-3 rounded-[26843500px] text-[10px] whitespace-nowrap py-1.5'  />
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-2  px-4 whitespace-nowrap py-1.5 text-[10px] rounded-[26843500px]  '/>
+    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-2 rounded-[26843500px] text-[10px] whitespace-nowrap py-1.5'  />
 
   
 </div>
@@ -31,7 +31,7 @@ const Herosectionpage = () => {
 
 
 <div>
-    <p className=' md:py-2 py-1 '>
+    <p className='  py-1 '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
     "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
@@ -52,7 +52,7 @@ const Herosectionpage = () => {
 </div> */}
 
 
-<div className='flex md:text-xl text-sm md:gap-3 gap-1 md:py-3 py-2'>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 md:py-3 py-2 '>
     <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] py-2 px-8 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] py-2 px-8 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
 </div>

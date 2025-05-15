@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pagebtn = ({style1,style,btndetail,btndetail2,img,btndetailsty,btndetail2sty}) => {
   return (
-    <div >
+    <div className='' >
 
         <div className={style1}>
 

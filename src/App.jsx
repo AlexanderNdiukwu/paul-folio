@@ -55,13 +55,17 @@ function App() {
     <div className="">
 
     <div className=" ">
-    <div className="relative top-16 z-30 ">
+    <div className="relative md:top-10 top-0 z-30 md:h-54 h-40   ">
       <GetintouchMain/>
     </div>
 
 
-    <div className="bg-[#1A1A1F]/20 relative z-10 flex justify-center items-center py-18 ">
+    <div className="bg-[#1A1A1F]/20  z-10 h-70 md:h-54  flex items-end justify-center md:py-3  ">
+    <div className="">
       <Footermain/>
+
+    </div>
+   
     </div>
 
     </div>

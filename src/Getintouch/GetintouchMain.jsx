@@ -30,7 +30,7 @@ const GetintouchMain = () => {
   return (
     <div className=''>
 
-        <div className='bg-[#1A1A1F] md:mx-8 mx-3 rounded-lg text-white  mt-4  '>
+        <div className='bg-[#1A1A1F] md:mx-8 mx-3 rounded-2xl text-white  '>
 
 
         <div className='flex md:mx-20 mx-4  pb-4'>
@@ -40,7 +40,7 @@ const GetintouchMain = () => {
             <div className='py-4' >
                 <Getintouchheader/>
 
-                <div>
+                <div className='text-sm text-white/50 py-1'>
                 Full-stack developer and robotics engineer specializing in creating innovative solutions that bridge the digital and physical worlds.
 
                 </div>
@@ -52,21 +52,21 @@ const GetintouchMain = () => {
 
             <div className='grid md:grid-cols-2 gap-6 text-white'>
                 <div>
-                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 py-2 opacity-100 rounded-lg w-full'/>
+                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 md:py-2 py-1 opacity-100 rounded-lg w-full'/>
 
                 </div>
 
                 <div>
-                <input type="text" placeholder='Email Address' name='email' value={email} onChange={handleChange} className='border px-4 py-2  backdrop-blur-3xl rounded-lg w-full'/>
+                <input type="text" placeholder='Email Address' name='email' value={email} onChange={handleChange} className='border px-4 md:py-2 py-1 backdrop-blur-3xl rounded-lg w-full'/>
 
                 </div>
 
                 <div className='md:col-span-2 w-full h-full'>
-                <textarea name="message" placeholder='message' value={message} onChange={handleChange}  className=' p-1 w-full h-20  px-1 rounded-lg border'></textarea>
+                <textarea name="message" placeholder='Message' value={message} onChange={handleChange}  className='px-4 p-1 w-full md:h-20 h-15 rounded-lg border'></textarea>
 
                 </div>
                 <div className='md:col-span-2'>
-                <button type="submit" className='bg-gradient-to-r from-[#00D9F5] via-[#6E2BFD] to-[#8A00FF] text-white rounded-lg w-full  py-2'>Send Message</button>
+                <button type="submit" className='bg-gradient-to-r from-[#00D9F5] via-[#6E2BFD] to-[#8A00FF] text-white rounded-lg w-full py-1  md:py-2'>Send Message</button>
 
                 </div>
 

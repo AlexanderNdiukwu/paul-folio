@@ -33,7 +33,7 @@ const Herosectionpage = () => {
 <div>
     <p className='  py-1 '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
-    "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
+    "H, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
     </p>
 

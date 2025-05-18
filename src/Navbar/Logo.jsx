@@ -5,7 +5,7 @@ function Logo() {
   return (
     <div className=' flex items-center'>
         <p className=' py-2 md:pr-2 pr-1'>
-        <Icon className="h-8 w-10  md:h-10 md:w-12  items-center  p-[4px] bg-gradient-to-r from-[#0a0aaf] to-[#4e4e75] rounded-xl inline-block shadow-2xl shadow-[#0a0aaf]/70 " />
+        <Icon className="h-7 w-8  md:h-9 md:w-11  items-center  p-[4px] bg-gradient-to-r from-[#0a0aaf] to-[#4e4e75] rounded-xl inline-block shadow-2xl shadow-[#0a0aaf]/70 " />
         
         </p>
 
@@ -14,7 +14,7 @@ function Logo() {
         <div >
 
 
-        <div className='font-bold lg:text-base text-sm'>
+        <div className='font-bold lg:text-base text-xs'>
         <p >
           Ndiukwu Paul Chukwuemeka 
         </p>
@@ -24,7 +24,7 @@ function Logo() {
 
         <p className='bg-[#0ba622] md:size-2 size-1.5 rounded-4xl animate-pulse '></p>
 
-        <p className='text-sm md:text-base '>
+        <p className='text-xs md:text-base '>
           Avaliable for hire
         </p>
 

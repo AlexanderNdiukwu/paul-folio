@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import Subherosection from './Subherosection'
+import CubeRotator from '../CubeRotator'
 
 
 const Herosectionpage = () => {
@@ -15,8 +16,8 @@ const Herosectionpage = () => {
     <div>
 
 <div className='flex md:gap-3 gap-1 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-2  px-4 whitespace-nowrap py-1.5 text-[10px] rounded-[26843500px]  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-2 rounded-[26843500px] text-[10px] whitespace-nowrap py-1.5'  />
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1.5 text-[10px]  rounded-[26843500px] text-center items-center  '/>
+    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[10px] whitespace-nowrap py-1.5'  />
 
   
 </div>
@@ -31,17 +32,22 @@ const Herosectionpage = () => {
 
 
 <div>
-    <p className='  py-1 '>
+    <p className='  py-1  '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
-    "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
+    {/* "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines." */}
 
+<div className='flex md:gap-3 gap-1'>
+  <CubeRotator
+  
+  />
+</div>
     </p>
 
 
 </div>
 
 <div>
-    <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
+    <p className='translate-z-4 md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
     Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
     </p>
 </div>

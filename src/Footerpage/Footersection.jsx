@@ -16,13 +16,13 @@ const Footersection = () => {
 
             </div> */}
 
-            <div>
+            <div className='text-sm'>
                 <p>Copyright © 2025 Ndiukwu Chukwuemeka Paul</p>
             </div>
-
+{/* 
             <div className='text-black'>
                 <img src="../../images/HeroSectionImage/X.png" alt="" className='text-black ' />
-            </div>
+            </div> */}
 
 
 

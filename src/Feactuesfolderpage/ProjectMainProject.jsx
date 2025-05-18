@@ -5,12 +5,12 @@ import Technicalexpcard from '../TechnicalExpertSection/Technicalexpertcard/Tech
 
 const ProjectMainProject = () => {
   return (
-    <div className='md:mx-8 mx-3 bg-black/5'>
+    <div className='md:mx-8 mx-3 bg-black/5 rounded-lg'>
 
 
-        <div className='md:mx-20 mx-5'>
+        <div className='md:mx-30 mx-8 '>
             
-        <div className='py-6 flex text-[#E5E5E5] justify-center'>
+        <div className='pb-5 py-6 flex text-black/40  justify-center'>
             <Projectheader />
         </div>
 

@@ -33,16 +33,10 @@ function App() {
     <div className="relative z-10 pt-17 h-fit ">
 
     <Herosectionpage/>
-    </div>
-    {/* <div >
-      <Subherosection/>
-    </div> */}
-
-
-    </div>
 
 
 
+     
     <div>
       <Technicalpage/>
     </div>
@@ -55,12 +49,12 @@ function App() {
     <div className="">
 
     <div className=" ">
-    <div className="relative md:top-10 top-0 z-30 md:h-54 h-40   ">
+    <div className="relative md:top-12 top-3 z-30 md:h-54 h-40   ">
       <GetintouchMain/>
     </div>
 
 
-    <div className="bg-[#1A1A1F]/20  z-10 h-70 md:h-54  flex items-end justify-center md:py-3  ">
+    <div className="bg-black/10  z-10 h-70 md:h-54  flex items-end justify-center md:py-3  ">
     <div className="">
       <Footermain/>
 
@@ -72,6 +66,20 @@ function App() {
 
 
     </div>
+
+
+    
+    </div>
+    {/* <div >
+      <Subherosection/>
+    </div> */}
+
+   
+
+
+
+    </div>
+
 
 
   

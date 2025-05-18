@@ -30,17 +30,17 @@ const GetintouchMain = () => {
   return (
     <div className=''>
 
-        <div className='bg-[#1A1A1F] md:mx-8 mx-3 rounded-2xl text-white  '>
+        <div className='backdrop-blur-3xl/10 md:mx-8 mx-3 rounded-2xl  border border-black/20  '>
 
 
         <div className='flex md:mx-20 mx-4  pb-4'>
 
 
         <div className='w-full px-3'>
-            <div className='py-4' >
+            <div className='py-4 ' >
                 <Getintouchheader/>
 
-                <div className='text-sm text-white/50 py-1'>
+                <div className='text-sm text-black/50 py-1'>
                 Full-stack developer and robotics engineer specializing in creating innovative solutions that bridge the digital and physical worlds.
 
                 </div>
@@ -50,9 +50,9 @@ const GetintouchMain = () => {
         
            <form action="" method="post" onSubmit={submit}>
 
-            <div className='grid md:grid-cols-2 gap-6 text-white'>
+            <div className='grid md:grid-cols-2 gap-6 '>
                 <div>
-                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 md:py-2 py-1 opacity-100 rounded-lg w-full'/>
+                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 md:py-2 py-1 text-bl opacity-100 rounded-lg w-full'/>
 
                 </div>
 
@@ -66,7 +66,7 @@ const GetintouchMain = () => {
 
                 </div>
                 <div className='md:col-span-2'>
-                <button type="submit" className='bg-gradient-to-r from-[#00D9F5] via-[#6E2BFD] to-[#8A00FF] text-white rounded-lg w-full py-1  md:py-2'>Send Message</button>
+                <button type="submit" className='bg-gradient-to-r from-[#00D9F5] via-[#6E2BFD]/80 to-[#8A00FF]/50 text-white rounded-lg w-full py-1  md:py-2'>Send Message</button>
 
                 </div>
 

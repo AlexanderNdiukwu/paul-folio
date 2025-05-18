@@ -20,7 +20,7 @@ const BarStatus = ({Listofskills,statusPercentage,Outerstatus,Innerstatus}) => {
               
                 <div className={`w-full h-2 bg-[#41575D] rounded-[26843500px] ${Outerstatus}`}>
                     
-                    <div className={`w-[95%] rounded-[26843500px] h-2 bg-gradient-to-r from-[#8A00FF] via-[#00D9F5] to-[#3489F9] ${Innerstatus}`}>
+                    <div className={`w-[95%] rounded-[26843500px] h-2 bg-gradient-to-r to-[#8A00FF] from-[#00D9F5] via-[#3489F9] ${Innerstatus}`}>
                         
 
                     </div>

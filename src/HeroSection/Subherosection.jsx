@@ -5,21 +5,22 @@ const Subherosection = () => {
   return (
     <div className=' '>
 
-        <div className='grid md:grid-cols-4 grid-cols-3 md:gap-8 gap-3 md:text-4xl font-bold text-[#00D9F5] pt-10 w-full h-full  '>
-            <div className=' '>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base'  btndetail2='AL models' style='md:px-8 md:py-7  px-5 py-1 bg-[#F8F8F8] shadow-2xl ' />
+        <div className='grid md:grid-cols-4 justify-between justify-items-center grid-cols-3 md:gap-8 gap-2 md:text-4xl font-bold text-[#00D9F5] pt-10 w-full h-full   md:items-center   '>
+             
+            <div className='w-full md:h-37 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 bg-[#F8F8F8] shadow-2xl flex justify-center items-center '>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] md:text-base text-xs'  btndetail2='AL models' style='whitespace-nowrap     ' />
             </div>
 
-            <div className=' h-full '>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='AL models' style='md:px-8 md:py-7 px-5 py-1 shadow-2xl bg-[#F8F8F8] '/>
+            <div className='w-full  md:h-37 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3  bg-[#F8F8F8] smd:adow-2xl flex justify-center items-center '>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] md:text-base text-xs ' btndetail2='AL models' style='wmd:itespace-nowrap  '/>
             </div>
 
-            <div  className=' ' >
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='Web Applications' style='md:px-8 md:py-7 px-3 py-1 shadow-2xl bg-[#F8F8F8]'/>
+            <div  className=' w-full md:h-37 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 bg-[#F8F8F8] shadow-2xl flex justify-center items-center' >
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] md:text-base text-xs' btndetail2='Web Applications' style='whitespace-nowrap '/>
             </div>
 
-            <div  className=' col-span-3 md:col-span-1'>
-            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] text-base' btndetail2='Robots Built' style='md:px-8 md:py-7 px-5 py-3 text-center shadow-2xl bg-[#F8F8F8] '/>
+            <div  className=' md:h-37 w-full border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 bg-[#F8F8F8] shadow-2xl flex justify-center items-center col-span-3 md:col-span-1'>
+            <Pagebtn btndetail='25' btndetail2sty='text-[#787878] md:text-base text-xs ' btndetail2='Robots Built' style='whitespace-nowrap text-center  '/>
             </div>
 
           

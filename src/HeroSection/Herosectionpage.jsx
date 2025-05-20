@@ -31,7 +31,7 @@ const Herosectionpage = () => {
 
 
 <div>
-    <p className='  py-1  '>
+    <p className='  py-1 flex justify-start '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
     "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
@@ -52,9 +52,9 @@ const Herosectionpage = () => {
 </div> */}
 
 
-<div className='flex md:text-xl text-sm md:gap-3 gap-1 md:py-3 py-2 '>
-    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] py-2 px-8 ' />
-    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] py-2 px-8 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-3 '>
+    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
+    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
 </div>
 </div>
 

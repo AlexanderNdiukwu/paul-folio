@@ -1,5 +1,5 @@
 import React from 'react'
-import Icon from '../../images/SvgPhoto/Icon'
+import Icon from '../../public/images/SvgPhoto/Icon'
  
 function Logo() {
   return (

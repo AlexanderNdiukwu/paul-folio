@@ -42,7 +42,7 @@ const Herosectionpage = () => {
 
 <div>
     <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
-    ridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
+    Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
     </p>
 </div>
 

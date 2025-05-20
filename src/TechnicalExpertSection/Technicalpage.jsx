@@ -16,7 +16,7 @@ const Technicalpage = () => {
                 <p className='underline '>Expertise Areas</p>
             </div >
 
-            <div className='mx-4'>
+            <div className='grid justify-center'>
                 <Technicalheader/>
 
             </div>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import Subherosection from './Subherosection'
-import CubeRotator from '../CubeRotator'
 
 
 const Herosectionpage = () => {
@@ -34,20 +33,15 @@ const Herosectionpage = () => {
 <div>
     <p className='  py-1  '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
-    {/* "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines." */}
+    "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
-<div className='flex md:gap-3 gap-1'>
-  <CubeRotator
-  
-  />
-</div>
     </p>
 
 
 </div>
 
 <div>
-    <p className='translate-z-4 md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
+    <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
     Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
     </p>
 </div>
@@ -78,7 +72,7 @@ const Herosectionpage = () => {
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 right-0 m-3'></p>
-    <img src="../../images/HeroSectionImage/logo.webp" alt="image" className='w-full  h-110 flex items-center justify-center rounded-[20px]' />
+    <img src="../../images/HeroSectionImage/logo.webp" alt="image" className='w-full  h-104 flex items-center justify-center rounded-[20px]' />
 </div>
 
     </div>

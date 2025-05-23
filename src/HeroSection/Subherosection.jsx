@@ -1,5 +1,6 @@
 import React from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
+import RotatingFlipCard from '../RotatingFlipCard'
 
 const Subherosection = () => {
   return (
@@ -22,6 +23,9 @@ const Subherosection = () => {
             <div  className=' md:h-37 w-full border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center col-span-3 md:col-span-1'>
             <Pagebtn btndetail='25' btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-base text-xs ' btndetail2='Robots Built' style='whitespace-nowrap text-center  '/>
             </div>
+
+
+            
 
           
         </div>

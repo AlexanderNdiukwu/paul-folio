@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import Subherosection from './Subherosection'
+import RotatingFlipCard from '../RotatingFlipCard'
 
 
 const Herosectionpage = () => {
@@ -31,11 +32,25 @@ const Herosectionpage = () => {
 
 
 <div>
-    <p className='   flex justify-start '>
+    <div className='   '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
-    "Hi, I'm a Full-Stack & Robotics Engineer creating intelligent systems at the intersection of software and machines."
 
-    </p>
+    <div className='flex  items-center'>
+        <div className='whitespace-nowrap'>
+        "Hi, I'm a
+            
+        </div>
+        <div className=' w-full h-fit whitespace-nowrap '>
+            <RotatingFlipCard/>
+            
+        </div> 
+
+    </div>
+
+    
+     creating intelligent systems at the intersection of software and machines."
+
+    </div>
 
 
 </div>

@@ -14,6 +14,7 @@ const Technicalpage = () => {
                 
             <div className='text-4xl font-bold text-black/25 flex justify-center py-2'>
                 <p className='underline '>Expertise Areas</p>
+                  
             </div >
 
             <div className='grid justify-center'>

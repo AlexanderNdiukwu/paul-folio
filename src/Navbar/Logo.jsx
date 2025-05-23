@@ -14,7 +14,7 @@ function Logo() {
         <div >
 
 
-        <div className='font-bold lg:text-base text-[8px]'>
+        <div className='font-bold lg:text-base text-xs'>
         <p >
           Ndiukwu Paul Chukwuemeka 
         </p>
@@ -22,9 +22,9 @@ function Logo() {
 
         <div className='flex items-center md:gap-2 gap-1'>
 
-        <p className='bg-[#0ba622] md:size-2 size-0.5 rounded-4xl animate-pulse '></p>
+        <p className='bg-[#0ba622] md:size-2 size-1.5 rounded-4xl animate-pulse '></p>
 
-        <p className='text-[8px] md:text-base '>
+        <p className='text-xs md:text-base '>
           Avaliable for hire
         </p>
 

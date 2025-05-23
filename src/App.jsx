@@ -30,7 +30,7 @@ function App() {
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 pt-14 h-fit ">
+    <div className="relative z-10 pt-15 h-fit  ">
 
     <Herosectionpage/>
 

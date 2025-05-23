@@ -5,7 +5,7 @@ const Projectheader = () => {
     <div>
 
         <div>
-            <p className='text-4xl  font-bold underline'>
+            <p className='text-4xl whitespace-nowrap font-bold underline'>
             Featured Projects
             </p>
         </div>

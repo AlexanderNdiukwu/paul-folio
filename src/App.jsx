@@ -26,11 +26,11 @@ function App() {
 
     <Particles    />
 
-    <div className=" w-full fixed top-0 z-50  ">
+    <div className=" w-full fixed top-0 z-50 py-2  ">
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 pt-17 h-fit ">
+    <div className="relative z-10 pt-14 h-fit ">
 
     <Herosectionpage/>
 

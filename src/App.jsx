@@ -25,13 +25,13 @@ function App() {
 
      className="relative w-full h-full overflow-hidden"> 
 
-    <Particles    />
+    <Particles />
 
     <div className=" w-full fixed top-0 z-50 py-2  ">
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 pt-15 h-fit  ">
+    <div className="relative z-10 pt-17 h-fit  ">
 
     <Herosectionpage/>
 
@@ -55,7 +55,7 @@ function App() {
     </div>
 
 
-    <div className="bg-black/10  z-10 h-70 md:h-54  flex items-end justify-center md:py-3  ">
+    <div className="bg-white/20  z-10 h-70 md:h-54  flex items-end justify-center md:py-3  ">
     <div className="">
       <Footermain/>
 

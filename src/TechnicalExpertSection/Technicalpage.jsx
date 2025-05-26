@@ -9,7 +9,7 @@ const Technicalpage = () => {
     <div>
         <div className=' md:mx-8 mx-3 py-4 '>
 
-            <div className='bg-black/5 pb-10 rounded-lg'>
+            <div className='bg-white/5 pb-10 rounded-lg'>
 
                 
             <div className='text-4xl font-bold text-black/25 flex justify-center py-2'>

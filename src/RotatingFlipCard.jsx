@@ -1,7 +1,7 @@
 // src/components/RotatingFlipCard.jsx
 import React, { useState, useEffect } from 'react';
 
-const words = [ 'Robotics','FullStack'];
+const words = [ 'Robotics','Full-Stack','fishpie','testing'];
 
 const RotatingFlipCard = () => {
   const [flipped, setFlipped] = useState(false);

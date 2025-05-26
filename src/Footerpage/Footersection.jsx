@@ -16,7 +16,7 @@ const Footersection = () => {
 
             </div> */}
 
-            <div className='text-sm'>
+            <div className='text-sm text-white '>
                 <p>Copyright © 2025 Ndiukwu Chukwuemeka Paul</p>
             </div>
 {/* 

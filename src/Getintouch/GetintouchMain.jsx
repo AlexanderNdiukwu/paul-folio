@@ -30,7 +30,7 @@ const GetintouchMain = () => {
   return (
     <div className=''>
 
-        <div className='backdrop-blur-3xl/10 md:mx-8 mx-3 rounded-2xl  border border-black/20  '>
+        <div className='backdrop-blur-3xl/10 md:mx-8 mx-3 rounded-2xl text-white  border border-white/20  '>
 
 
         <div className='flex md:mx-20 mx-4  pb-4'>
@@ -40,7 +40,7 @@ const GetintouchMain = () => {
             <div className='py-4 ' >
                 <Getintouchheader/>
 
-                <div className='text-sm text-black/50 py-1'>
+                <div className='text-sm text-white py-1'>
                 Full-stack developer and robotics engineer specializing in creating innovative solutions that bridge the digital and physical worlds.
 
                 </div>
@@ -50,9 +50,9 @@ const GetintouchMain = () => {
         
            <form action="" method="post" onSubmit={submit}>
 
-            <div className='grid md:grid-cols-2 gap-6 '>
+            <div className='grid md:grid-cols-2 gap-6 text-white '>
                 <div>
-                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 md:py-2 py-1 text-bl opacity-100 rounded-lg w-full'/>
+                <input type="text" placeholder='Name' name='name' value={name} onChange={handleChange} className='border px-4 md:py-2 py-1  opacity-100 rounded-lg w-full'/>
 
                 </div>
 

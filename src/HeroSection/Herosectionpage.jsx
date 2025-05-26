@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import Subherosection from './Subherosection'
 import RotatingFlipCard from '../RotatingFlipCard'
+import RotatingText from '../RotatingText'
 
 
 const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 '>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white'>
 
 
     <div className='grid md:grid-cols-2'>
@@ -32,23 +33,42 @@ const Herosectionpage = () => {
 
 
 <div>
-    <div className='   '>
+    <div className='  text-white '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
-    <div className='flex  items-center'>
+    <div className='flex  items-center text-white'>
         <div className='whitespace-nowrap'>
         "Hi, I'm a
             
         </div>
-        <div className=' w-full h-fit whitespace-nowrap '>
+        {/* <div className=' w-full h-fit whitespace-nowrap '>
             <RotatingFlipCard/>
             
-        </div> 
+        </div>  */}
+
+<div className='whitespace-nowrap'>
+<RotatingText
+  texts={[ 'Robotics','Full-Stack ', 'Software']}
+  mainClassName=" text-white overflow-hidden px-2 mx-2 justify-center rounded-lg whitespace-nowrap"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 0 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+  transition={{ type: "spring", damping: 100, stiffness: 400 }}
+  rotationInterval={3000}
+/>
+
+</div>
+
+
+  
 
     </div>
 
     
-     creating intelligent systems at the intersection of software and machines."
+    engineer creating intelligent systems at the intersection of software and machines."
 
     </div>
 
@@ -56,7 +76,7 @@ const Herosectionpage = () => {
 </div>
 
 <div>
-    <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-black/50'>
+    <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-white'>
     Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
     </p>
 </div>
@@ -84,7 +104,7 @@ const Herosectionpage = () => {
 
 
 
-<div className='relative bg-black/5  p-8 rounded-[20px] hidden md:block  '>
+<div className='relative bg-white/20  p-8 rounded-[20px] hidden md:block  '>
     <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-3  '></p>
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>

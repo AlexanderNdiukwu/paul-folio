@@ -4,19 +4,19 @@ import Logo from './Logo'
 
 const NavbarPage = () => {
   return (
-    <div className=' backdrop-blur-xs flex items-center md:border-b border rounded-xl   border-[#1E1E22]/20 justify-between md:mx-8 mx-3 py-1 px-2 '>
+    <div className=' backdrop-blur-xs bg-white/10 flex items-center md:border-b border rounded-xl   border-[#1E1E22]/20 justify-between md:mx-8 mx-3 py-1 px-2 '>
 
         <div >
         <Logo/>
         </div>
 
-        <div className='hidden md:block'>
-        <div className='flex border border-black/20 rounded-md bg-white/20  backdrop-blur-sm shadow-2xs  '>
-            <p className="bg-white/10 hover:text-black/70 backdrop-blur-sm hover:border-r hover:border-black/10  px-3 py-2  transition-all duration-300 ease-in-out  hover:backdrop-blur-lg hover:shadow-xl hover:scale-[1.02] transform">About</p>
+        <div className='hidden md:block rounded-3xl '>
+        <div className='flex border border-black rounded-3xl bg-white/70 '>
+            <p className="bg-white/10 rounded-l-3xl hover:text-black/70 backdrop-blur-sm hover:border-r hover:border-black/10  px-3 py-2  transition-all duration-300 ease-in-out  hover:backdrop-blur-lg hover:shadow-xl hover:scale-[1.02] transform">About</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm  hover:border-black/10   px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl  hover:scale-[1.02] transform">Skills</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm hover:border-black/10  px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl  hover:scale-[1.02] transform">Projects</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl hover:border-black/10 hover:scale-[1.02] transform">Experience</p>
-            <p className="bg-white/10 hover:text-black/70 backdrop-blur-sm hover:rounded-lg hover:border-l hover:border-r-white/20   px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl hover:border-l-black/10 hover:scale-[1.02] transform">Contact</p>
+            <p className="bg-white/10 hover:text-black/70 backdrop-blur-sm rounded-r-3xl hover:rounded-r-3xl hover:border-l hover:border-r-white/20   px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl hover:border-l-black/10 hover:scale-[1.02] transform">Contact</p>
         </div>
 
         </div>

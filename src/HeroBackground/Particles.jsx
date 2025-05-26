@@ -75,14 +75,14 @@ const fragment = /* glsl */ `
 `;
 
 const Particles = ({
-  particleCount = 200,
+  particleCount = 1000,
   particleSpread = 10,
   speed = 0.1,
   particleColors,
   moveParticlesOnHover = false,
   particleHoverFactor = 1,
   alphaParticles = false,
-  particleBaseSize = 400,
+  particleBaseSize = 100,
   sizeRandomness = 1,
   cameraDistance = 20,
   disableRotation = false,
@@ -98,8 +98,8 @@ const Particles = ({
     const renderer = new Renderer({ depth: false, alpha: true });
     const gl = renderer.gl;
     container.appendChild(gl.canvas);
-    gl.clearColor(0, 0, 0, 0);
-    // gl.clearColor(10 / 255, 10 / 255, 15 / 255, 1);
+    // gl.clearColor(0, 0, 0, 0);
+    gl.clearColor(10 / 255, 10 / 255, 15 / 255, 1);
 
     const camera = new Camera(gl, { fov: 15 });
     camera.position.set(0, 0, cameraDistance);

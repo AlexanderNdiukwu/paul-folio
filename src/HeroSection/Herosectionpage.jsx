@@ -49,14 +49,14 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']}
-  mainClassName=" text-white overflow-hidden px-2 mx-2 justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-white overflow-hidden px-2  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 0 }}
   exit={{ y: "-120%" }}
   staggerDuration={0.025}
   splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-  transition={{ type: "spring", damping: 100, stiffness: 400 }}
+  transition={{ type: "spring", damping: 70, stiffness: 400 }}
   rotationInterval={3000}
 />
 
@@ -87,7 +87,7 @@ const Herosectionpage = () => {
 </div> */}
 
 
-<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-3 '>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-6 '>
     <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
 </div>

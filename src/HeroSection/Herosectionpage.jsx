@@ -3,13 +3,14 @@ import Pagebtn from '../Pagebutton/Pagebtn'
 import Subherosection from './Subherosection'
 import RotatingFlipCard from '../RotatingFlipCard'
 import RotatingText from '../RotatingText'
+import TiltedCard from '../TiltedCard'
 
 
 const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white'>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white h-lvh'>
 
 
     <div className='grid md:grid-cols-2'>
@@ -46,7 +47,7 @@ const Herosectionpage = () => {
             
         </div>  */}
 
-<div className='whitespace-nowrap'>
+<div className='whitespace-nowrap py-0'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']}
   mainClassName=" text-white overflow-hidden px-2  justify-center rounded-lg whitespace-nowrap"
@@ -57,7 +58,7 @@ const Herosectionpage = () => {
   staggerDuration={0.025}
   splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
   transition={{ type: "spring", damping: 70, stiffness: 400 }}
-  rotationInterval={3000}
+  rotationInterval={300}
 />
 
 </div>
@@ -67,8 +68,13 @@ const Herosectionpage = () => {
 
     </div>
 
+    <div>
+   
+
+    </div>
+
     
-    engineer creating intelligent systems at the intersection of software and machines."
+    engineer  creating intelligent systems at the intersection of software and machines."
 
     </div>
 
@@ -87,10 +93,13 @@ const Herosectionpage = () => {
 </div> */}
 
 
-<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-6 '>
-    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF] rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
-    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]'/>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-10 '>
+    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20 text-white rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
+    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
 </div>
+
+
+
 </div>
 
 
@@ -108,8 +117,30 @@ const Herosectionpage = () => {
     <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-3  '></p>
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>
-    <p className='absolute bg-white size-5 rounded-4xl bottom-0 right-0 m-3'></p>
-    <img src="../../images/HeroSectionImage/logo.webp" alt="image" className='w-full  h-104 flex items-center justify-center rounded-[20px]' />
+    <p className='absolute bg-white size-5 rounded-4xl bottom-0 right-0 m-3 '></p>
+   
+
+<TiltedCard
+  imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
+  altText="Kendrick Lamar - GNX Album Cover"
+  captionText="Kendrick Lamar - GNX"
+  containerHeight="300px"
+  containerWidth="300px"
+  imageHeight="24rem"
+  imageWidth="100%"
+  rotateAmplitude={12}
+  scaleOnHover={1.2}
+  showMobileWarning={false}
+  showTooltip={true}
+  displayOverlayContent={true}
+  overlayContent={
+    <p className="tilted-card-demo-text">
+      Kendrick Lamar - GNX
+    </p>
+  }
+/>
+  
+    {/* <img src="../../images/HeroSectionImage/logo.webp" alt="image" className='w-full  h-104 flex items-center justify-center rounded-[20px]' /> */}
 </div>
 
     </div>

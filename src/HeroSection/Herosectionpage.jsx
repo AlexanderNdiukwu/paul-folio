@@ -40,12 +40,13 @@ const Herosectionpage = () => {
   displayOverlayContent={true}
   overlayContent={
     <p className="tilted-card-demo-text">
-     <div className='flex md:gap-3 gap-1 pb-4 '>
+     {/* <div className='flex md:gap-3 gap-1 pb-4 '>
     <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
     <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
 
   
-</div>
+</div> */}
+hel
 
     </p>
   }
@@ -60,6 +61,11 @@ const Herosectionpage = () => {
 
 <div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
 
+    <div className='flex md:gap-3 gap-1 pb-4 '>
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
+    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
+  
+</div>
 
 
 

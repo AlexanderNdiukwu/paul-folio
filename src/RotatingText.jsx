@@ -8,13 +8,14 @@ import {
   useMemo,
   useState,
 } from "react";
+
 import { motion, AnimatePresence } from "framer-motion";
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const RotatingText = forwardRef((props, ref) => {
+const  RotatingText = forwardRef((props, ref) => {
   const {
     texts,
     transition = { type: "spring", damping: 25, stiffness: 300 },

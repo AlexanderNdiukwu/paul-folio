@@ -17,20 +17,10 @@ const Technicalpage = () => {
                   
             </div >
 
-            <div className='grid justify-center'>
-                <Technicalheader/>
+     
 
-            </div>
+            <div className='md:mx-30 mx-8 py-8'>
 
-            <div className='md:mx-30 mx-8'>
-
-            <div className=' md:py-8 py-3 grid justify-center '>
-
-                <div className='flex justify-center gap-2'>
-                    <p className='size-2 bg-blue-800 rounded-full'></p>
-                    <p className='size-2 bg-black/45 rounded-full'></p>
-                </div>
-            </div>
 
             
 

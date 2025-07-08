@@ -33,7 +33,7 @@ const GetintouchMain = () => {
         <div className='backdrop-blur-3xl/10 md:mx-8 mx-3 rounded-2xl text-white  border border-white/20  '>
 
 
-        <div className='flex md:mx-20 mx-4  pb-4'>
+        <div className='flex md:mx-20 mx-4  pb-3'>
 
 
         <div className='w-full px-3'>
@@ -67,8 +67,33 @@ const GetintouchMain = () => {
                 </div>
                 <div className='md:col-span-2'>
                 <button type="submit" className='bg-gradient-to-r from-[#00D9F5] via-[#6E2BFD]/80 to-[#8A00FF]/50 text-white rounded-lg w-full py-1  md:py-2'>Send Message</button>
+           
+       
+                    <div className='flex justify-center py-2 items-center'>
+                      <hr className='w-full '/>
+                      <div className='px-2'>
+                        or
+                      </div>
+                      <hr className='w-full '/>
+
+                    </div>
+                  
+              
+               
+                 <div className='flex gap-2 items-center justify-center pt-2 '>
+                <div><img src="/images/facebook.png" alt="" className='size-7' /></div>
+                <div><img src="/images/instagram.png" alt="" className='size-7'/></div>
+                <div><img src="/images/linkedin.png" alt="" className='size-6' /></div>
+                <div><img src="/images/whatsapp.png" alt="" className='size-6.5'/></div>
+
+                 </div>
+              
+
+         
+            
 
                 </div>
+
 
             </div>
            </form>

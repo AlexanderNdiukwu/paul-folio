@@ -1,20 +1,49 @@
 
 
 import { motion } from 'framer-motion'
+import Technicalexpcard from './TechnicalExpertSection/Technicalexpertcard/Technicalexpcard'
 
-export default function ScrollingText() {
+export default function ScrollingText({text}) {
   return (
     <div className="overflow-hidden whitespace-nowrap w-full bg-transparent py-2">
       <motion.div
-        className="inline-block text-lg font-medium text-white px-4"
-        animate={{ x: ['100%', '-100%'] }}
+        className=" inline-flex text-lg font-medium text-white px-4"
+        animate={{ x: ['0%', '-100%'] }}
        transition={{
           repeat: Infinity,
-          duration: 3, // ⬅️ Slowed down from 1 to 20 seconds
-          ease: 'Linear',
+          duration: 15, 
+          repeatType:"loop",
+
+          ease: "linear"
+      
+          
         }}
       >
-        Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.
+     
+{text}
+       
+      
+      </motion.div>
+
+          <motion.div
+        className=" inline-flex text-lg font-medium text-white px-4"
+        animate={{ x: ['0%', '-100%'] }}
+       transition={{
+          repeat: Infinity,
+          duration: 15, 
+          repeatType:"loop",
+
+          ease: "linear"
+       
+          
+        }}
+      >
+     
+{text}
+
+
+       
+      
       </motion.div>
     </div>
   )

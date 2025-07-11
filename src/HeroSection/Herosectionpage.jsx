@@ -18,7 +18,7 @@ const Herosectionpage = () => {
 
   
       
-<div className=' w-full '>
+<div className=' w-full hidden md:block'>
     {/* <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-3  '></p>
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>
@@ -27,7 +27,7 @@ const Herosectionpage = () => {
    
 
 <TiltedCard
-  imageSrc="/images/uploadimg.png"
+  imageSrc="/images/uploadimg.png "
   altText="Ndiukwu chukwuemeka Paul"
   captionText="Ndiukwu Chukwuemeka Paul "
   containerHeight="100%"
@@ -77,7 +77,7 @@ const Herosectionpage = () => {
     <div className='  text-white  '>
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
-    <div className='  items-center text-white '>
+    <div className='  items-center text-white hidden md:block'>
         <div className=''>
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
             
@@ -108,6 +108,47 @@ engineer"
   
 
     </div>
+    
+    <div className='  items-center text-white block md:hidden '>
+        <div className=''>
+        "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm  
+        <span className='hidden md:block'> a</span>
+        
+        
+        
+            
+        </div>
+        {/* <div className=' w-full h-fit whitespace-nowrap '>
+            <RotatingFlipCard/>
+            
+        </div>  */}
+
+<div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
+  <span className='block md:hidden'>a</span>
+  <div className=''>
+
+<RotatingText
+  texts={[ 'Robotics','Full-Stack ', 'Software']} 
+  mainClassName=" text-white overflow-hidden px-2  justify-center rounded-lg whitespace-nowrap"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 5 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+  transition={{ type: "spring", damping: 70, stiffness: 400 }}
+  rotationInterval={3000}
+/>
+  </div>
+engineer"
+
+</div>
+
+
+  
+
+    </div>
+
 
     <div>
    
@@ -124,7 +165,8 @@ engineer"
 </div>
 
 <div>
-  <ScrollingText/>
+  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
+  />
 </div>
 
 {/* <div>

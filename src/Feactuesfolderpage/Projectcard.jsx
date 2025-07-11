@@ -14,7 +14,7 @@ const Projectcard = ({img,imgstyle, imgdescription,imgdetails,frameworksused}) =
 
                         <img src={img} alt="img" className={imgstyle}/>
     
-                        <Technicalexpcard Carddetails='View Project' style='absolute top-1 right-2 hover:scale-95 hover:text-white/70 font-semibold bg-gradient-to-r from-[#00D9F5] to-[#8A00FF] my-3 mx-2 py-1 px-3 rounded-[26843500px] '/>
+                        <Technicalexpcard Carddetails='View Project' style='absolute top-1 right-2 hover:scale-95 hover:text-white/70 font-semibold bg-gradient-to-r from-[#00D9F5] to-[#8A00FF] my-3 mx-2 md:py-1 md:px-3 px-2 rounded-lg md:rounded-[26843500px] '/>
 
                     </div>
 

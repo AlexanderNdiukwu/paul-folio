@@ -70,11 +70,11 @@ const GetintouchMain = () => {
            
        
                     <div className='flex justify-center py-2 items-center'>
-                      <hr className='w-full '/>
+                      <hr className='md:w-80 w-20  '/>
                       <div className='px-2'>
                         or
                       </div>
-                      <hr className='w-full '/>
+                      <hr className='md:w-80 w-20 '/>
 
                     </div>
                   

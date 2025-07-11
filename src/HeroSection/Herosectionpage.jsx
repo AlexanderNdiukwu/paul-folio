@@ -14,8 +14,10 @@ const Herosectionpage = () => {
     <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white h-[90vh] flex flex-col justify-between'>
 
 
+<div className='block md:hidden'>
+  <img src="/images/uploadimg.png" alt="" className='w-50 absolute'/>
+</div>
     <div className='grid grid-cols-[700px_1fr] '>
-
   
       
 <div className=' w-full hidden md:block'>

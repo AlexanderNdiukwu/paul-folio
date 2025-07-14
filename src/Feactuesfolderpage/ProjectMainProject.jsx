@@ -9,7 +9,7 @@ const ProjectMainProject = () => {
     <div className='md:mx-8 mx-3 bg-white/5 rounded-lg'>
 
 
-        <div className='md:mx-30 mx-2 '>
+        <div className='md:mx-30 mx-8 '>
             
         <div className='pb-5 py-6 flex text-white/40  justify-center'>
             <Projectheader />

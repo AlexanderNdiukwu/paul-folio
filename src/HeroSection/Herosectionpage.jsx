@@ -11,12 +11,10 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white h-[90vh] flex flex-col justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white h-[90vh] flex flex-col md:justify-between'>
 
 
-<div className='block md:hidden'>
-  <img src="/images/uploadimg.png" alt="" className='w-50 absolute'/>
-</div>
+
     <div className='grid grid-cols-[700px_1fr] '>
   
       
@@ -58,16 +56,23 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' h-[60vh] w-[100vw]  flex flex-col justify-end '>
+    <div className=' h-[60vh] w-[100vw]  flex flex-col justify-center md:justify-end '>
 
 
 
 <div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
 
-    <div className='flex md:gap-3 gap-1 pb-8 '>
+    <div className='flex md:gap-3 gap-1 pb-8 pt-8'>
     <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
     <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
   
+</div>
+<div className='block md:hidden py-2 relative '>
+  <div className='flex'>
+  <img src="/images/uploadimg.png" alt="" className='w-40  '/>
+  <p className='text-white text-xs absolute right-[28%] top-13 animate-bounce'> maybe your next hire ? </p>
+
+  </div>
 </div>
 
 
@@ -92,13 +97,13 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap flex items-center w-2xl'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-white overflow-hidden px-2  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-white overflow-hidden px-2   justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
   exit={{ y: "-120%" }}
   staggerDuration={0.025}
-  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-5   md:pb-1"
   transition={{ type: "spring", damping: 70, stiffness: 400 }}
   rotationInterval={3000}
 />
@@ -131,7 +136,7 @@ engineer"
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-white overflow-hidden px-2  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-white overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -183,7 +188,7 @@ engineer"
 </div> */}
 
 
-<div className='flex md:text-xl text-sm md:gap-3 gap-1 py-10 '>
+<div className='flex md:text-xl text-sm md:gap-3 gap-1 pt-10 '>
     <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20 text-white rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
 </div>

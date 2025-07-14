@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Charge({text='react',color='bg-green-400/20'}) {
+export default function Charge({text='react',color='bg-[#00ffd1]/80'}) {
   return (
     <div>
 
         <div className={color}>
 
-            <p className='text-center text-xl capitalize font-semibold '>{text}</p>
+            <p className='text-center text-xl  capitalize font-semibold '>{text}</p>
 
         </div>
       

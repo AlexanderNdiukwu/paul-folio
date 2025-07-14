@@ -35,7 +35,7 @@ const Technicalpage = () => {
 
                 
             <div className='text-4xl font-bold text-white  flex justify-center py-2'>
-                <p className='underline '>About Me </p>
+                <p className='underline text-[#00c2ff] '>About Me </p>
                   
             </div >
 
@@ -44,18 +44,18 @@ const Technicalpage = () => {
 
             <div className='md:mx-30 mx-8 py-8 '>
 
-            <div className='bg-white/60 w-full h-60 rounded-lg border-b-4 border-white'>
+            <div className='bg-[#1c1c1e]/20 w-full h-60 rounded-lg border-b-4 border-[#333]'>
                 <p>about</p>
             </div>
 
             
 
-            <div className='md:flex grid md:gap-26  '>
+            <div className='md:flex grid md:gap-50  '>
 
         <div>
 
               <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400 '>
+                <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
@@ -74,14 +74,14 @@ const Technicalpage = () => {
             <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
           
 
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'} />
+            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
+            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
+            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
+            <Charge text='next.jsx'/>
+            <Charge text='next.jsx' />
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' />
 
 
             </div>
@@ -107,7 +107,7 @@ const Technicalpage = () => {
            <div>
 
               <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400 '>
+                <div className=' border-t-3 animate-pulse rounded-t-sm  border-amber-400/20 '>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
@@ -126,14 +126,14 @@ const Technicalpage = () => {
             <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
           
 
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}  />
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
 
 
             </div>
@@ -158,7 +158,7 @@ const Technicalpage = () => {
           <div>
 
               <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400 '>
+                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400/20 '>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
@@ -177,14 +177,14 @@ const Technicalpage = () => {
             <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
           
 
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/20'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color={'bg-green-400/70'}/>
+            <Charge text='next.jsx' />
 
 
             </div>

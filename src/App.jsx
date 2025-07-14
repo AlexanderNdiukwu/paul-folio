@@ -51,7 +51,7 @@ function App() {
     <div className="">
 
     <div className=" ">
-    <div className="relative md:top-4 top-3  z-30 md:h-61 h-60   ">
+    <div className="relative md:top-4 top-6  z-30 md:h-61 h-70   ">
       <GetintouchMain/>
     </div>
 

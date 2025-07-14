@@ -44,8 +44,11 @@ const Technicalpage = () => {
 
             <div className='md:mx-30 mx-8 py-8 '>
 
-            <div className='bg-[#1c1c1e]/20 w-full h-60 rounded-lg border-b-4 border-[#333]'>
-                <p>about</p>
+            <div className='bg-[#1c1c1e]/20 relative   w-full h-60 rounded-lg border-b-4 border-[#333]'>
+                <p className='text-white'>about jwdijfhdwic fwiofchjfcwei</p>
+                <div className='h-4 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
+
+                </div>
             </div>
 
             
@@ -74,10 +77,10 @@ const Technicalpage = () => {
             <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
           
 
-            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'} />
-            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
-            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
-            <Charge text='next.jsx' color={'bg-[#00ffd1]/20'}/>
+            <Charge text='next.jsx'  />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
+            <Charge text='next.jsx' />
             <Charge text='next.jsx'/>
             <Charge text='next.jsx' />
             <div className='rounded-b-xl overflow-hidden'>
@@ -177,14 +180,14 @@ const Technicalpage = () => {
             <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
           
 
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
+            <Charge text='next.jsx'color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent' />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent' />
 
 
             </div>

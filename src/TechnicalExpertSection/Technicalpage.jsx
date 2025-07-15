@@ -45,8 +45,8 @@ const Technicalpage = () => {
 
             <div className='bg-[#444449]/50 relative   w-full h-[45vh] rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/20 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 pt-1  text-center'>About Me </p>
-                  <p className='absolute block md:hidden right-5 top-2  rotate-180'> <Loader size="sm" /></p>
+                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/40 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 pt-1  text-center'>About Me </p>
+                  <p className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></p>
                   <p className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></p>
 
 

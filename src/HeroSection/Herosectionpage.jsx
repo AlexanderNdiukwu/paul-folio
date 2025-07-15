@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-2 text-white h-[90vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-3 text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -60,14 +60,14 @@ const Herosectionpage = () => {
 
 
 
-<div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
+<div className='md:text-5xl text-3xl font-bold md:w-2xl w-90   text-zinc-900 '>
 
     <div className='flex md:gap-3 gap-1 pb-7 pt-7'>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] animate-pulse   md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
+    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] animate-pulse px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
   
 </div>
-<div className='block md:hidden py-2 relative '>
+<div className='block md:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-40  '/>
   <p className='text-white text-xs absolute right-[28%] top-13 animate-bounce'> maybe your next hire ? </p>
@@ -188,7 +188,7 @@ engineer"
 </div> */}
 
 
-<div className='flex md:text-xl text-xs md:gap-3 gap-1 pt-10 '>
+<div className='flex md:text-xl text-xs md:gap-3 gap-1 pt-7 '>
     <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20 text-white rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
 </div>

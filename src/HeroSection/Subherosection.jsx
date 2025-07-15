@@ -6,7 +6,7 @@ const Subherosection = () => {
   return (
     <div className=' '>
 
-        <div className=' grid md:grid-cols-4 justify-between justify-items-center grid-cols-3 md:gap-8 gap-2  font-bold text-[#00D9F5] pt-10 w-full h-full   md:items-center   '>
+        <div className=' grid md:grid-cols-4 justify-between justify-items-center grid-cols-3 md:gap-8 gap-2  font-bold text-[#00D9F5] pt-8 w-full h-full   md:items-center   '>
             <div className='w-full  md:h-32 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail='5' btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
             </div>

@@ -34,38 +34,93 @@ const Technicalpage = () => {
             <div className='bg-white/5 pb-10 rounded-lg'>
 
                 
-            <div className='text-4xl font-bold text-white  flex justify-center py-2'>
-                <p className='underline text-[#00c2ff] '>About Me </p>
-                  
-            </div >
 
 
      
 
-            <div className='md:mx-30 mx-6 py-8 '>
+            <div className='lg:mx-40   mx-6 pt-6 '>
 
-            <div className='bg-[#1c1c1e] relative   w-full h-60 rounded-lg border-b-4 border-[#333]'>
+            <div className='bg-[#444449]/50 relative   w-full h-[45vh] rounded-lg border-b-1 border-[#333]'>
+            <div className=' font-bold text-white    flex justify-center '>
+                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/20 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-2 pt-1  text-center'>About Me </p>
+                  <p className='absolute right-0'>wwww</p>
+            </div >
                 <p className='text-white'>about </p>
-                <div className='h-4 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
+                <div className='h-1 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
                 </div>
             </div>
 
             
 
-            <div className='md:flex grid md:gap-50  '>
-
-        <div className=' mx-7'>
+            <div className='lg:flex grid lg:justify-between  md:gap-40   '>
+             <div className='md:mx-0 mx-6'>
 
               <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
+                <div className=' border-t-3 animate-pulse rounded-t-sm  border-white/20 '>
+                <div className='bg-white/5 animate-pulse h-4 w-18'>
+
+                </div>
+
+                </div>
+              </div>
+            <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-6 px-4 w-full '>
+            <div className='bg-[#F8F8F8]/5 rounded-xl'>
+            <div className='text-[#00D9F5]/70  '>
+
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-xl py-1 px-1 font-bold'/>
+            </div>
+
+
+
+            <div className=' bg-black rounded-b-xl '>
+            {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
+          
+
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <div className='rounded-b-xl overflow-hidden'>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+
+
+            </div>
+            {/* <div>
+                <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
+
+            </div>
+
+            <div>
+                <BarStatus Listofskills='react' statusPercentage='98%'  />
+            </div> 
+              <div>
+                <BarStatus Listofskills='react' statusPercentage='98%'  />
+            </div> */}
+
+            </div>
+
+            </div>
+
+            </div>
+     </div>
+
+        <div className=' mx-7 md:mx-0'>
+
+              <div className='flex justify-center'>
+                <div className='  '>
+                <div className='border-t- animate-pulse rounded-t-sm  border-white/20'>
+
+                </div>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
 
                 </div>
               </div>
-            <div className='bg-[#F8F8F8]/15 border border-black/20 rounded-3xl pb-5  md:py-7 pt-4 md:pt-4 md:pb-7 px-3 w-full '>
+            <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-5  md:py-7 pt-4 md:pt-4 md:pb-7 px-3 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
@@ -74,20 +129,31 @@ const Technicalpage = () => {
 
 
 
-            <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
+            <div className=' bg-black rounded-b-xl '>
+            {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
-
-            <Charge text='next.jsx'  />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx' />
-            <Charge text='next.jsx'/>
-            <Charge text='next.jsx' />
+           <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
 
 
             </div>
+            {/* <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent' />
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent' />
+            <div className='rounded-b-xl overflow-hidden'>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent' />
+
+
+            </div> */}
             {/* <div>
                 <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
 
@@ -107,80 +173,31 @@ const Technicalpage = () => {
             </div>
      </div>
 
-           <div className='mx-6'>
+       
+          <div className='md:mx-0 mx-5'>
 
               <div className='flex justify-center'>
-                <div className=' border-t-3 animate-pulse rounded-t-sm  border-amber-400/20 '>
+                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400/15 '>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
 
                 </div>
               </div>
-            <div className='bg-[#F8F8F8]/15 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-7 px-4 w-full '>
+            <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-7 px-4 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl text-center  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 
 
-            <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
+            <div className=' bg-black/95 rounded-b-xl '>
+            {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
 
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}  />
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-            <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color={'bg-[#00c2ff]'}/>
-
-
-            </div>
-            {/* <div>
-                <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
-
-            </div>
-
-            <div>
-                <BarStatus Listofskills='react' statusPercentage='98%'  />
-            </div> 
-              <div>
-                <BarStatus Listofskills='react' statusPercentage='98%'  />
-            </div> */}
-
-            </div>
-
-            </div>
-
-            </div>
-     </div>
-          <div className='mx-5'>
-
-              <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400/20 '>
-                <div className='bg-white/10 animate-pulse h-4 w-18'>
-
-                </div>
-
-                </div>
-              </div>
-            <div className='bg-[#F8F8F8]/15 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-7 px-4 w-full '>
-            <div className='bg-[#F8F8F8]/5 rounded-xl'>
-            <div className='text-[#00D9F5]  '>
-
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
-            </div>
-
-
-
-            <div className=' bg-[#F8F8F8]/30 rounded-b-xl '>
-          
-
-            <Charge text='next.jsx'color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent' />
+            <Charge text='next.jsx'color='bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent' />
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>

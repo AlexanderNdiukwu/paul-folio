@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Charge({text='react',color='bg-[#00ffd1]/70'}) {
+export default function Charge({text='react',color='bg-[#00ffd1]/40'}) {
   return (
     <div>
 

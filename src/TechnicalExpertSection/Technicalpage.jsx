@@ -42,9 +42,9 @@ const Technicalpage = () => {
 
      
 
-            <div className='md:mx-30 mx-8 py-8 '>
+            <div className='md:mx-30 mx-6 py-8 '>
 
-            <div className='bg-[#1c1c1e]/20 relative   w-full h-60 rounded-lg border-b-4 border-[#333]'>
+            <div className='bg-[#1c1c1e] relative   w-full h-60 rounded-lg border-b-4 border-[#333]'>
                 <p className='text-white'>about jwdijfhdwic fwiofchjfcwei</p>
                 <div className='h-4 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
@@ -55,7 +55,7 @@ const Technicalpage = () => {
 
             <div className='md:flex grid md:gap-50  '>
 
-        <div>
+        <div className=' mx-7'>
 
               <div className='flex justify-center'>
                 <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
@@ -65,11 +65,11 @@ const Technicalpage = () => {
 
                 </div>
               </div>
-            <div className='bg-[#F8F8F8]/15 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-7 px-4 w-full '>
+            <div className='bg-[#F8F8F8]/15 border border-black/20 rounded-3xl pb-5  md:py-7 pt-4 md:pt-4 md:pb-7 px-3 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-xl py-1 px-1 font-bold'/>
             </div>
 
 
@@ -107,7 +107,7 @@ const Technicalpage = () => {
             </div>
      </div>
 
-           <div>
+           <div className='mx-6'>
 
               <div className='flex justify-center'>
                 <div className=' border-t-3 animate-pulse rounded-t-sm  border-amber-400/20 '>
@@ -158,7 +158,7 @@ const Technicalpage = () => {
 
             </div>
      </div>
-          <div>
+          <div className='mx-5'>
 
               <div className='flex justify-center'>
                 <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400/20 '>

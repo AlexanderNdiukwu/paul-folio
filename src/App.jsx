@@ -31,7 +31,7 @@ function App() {
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 pt-18 h-fit ">
+    <div className="relative z-10 pt-16 h-fit ">
 
 
     <Herosectionpage/>
@@ -51,12 +51,12 @@ function App() {
     <div className="">
 
     <div className=" ">
-    <div className="relative md:top-4 top-6  z-30 md:h-61 h-70   ">
+    <div className="relative md:top-4 top-6  z-30 md:h-61 h-64   ">
       <GetintouchMain/>
     </div>
 
 
-    <div className="bg-white/20  z-10 h-70 md:h-54  flex items-end justify-center py-3  ">
+    <div className="bg-white/20  z-10 h-70 md:h-54  flex items-end justify-center py-4  ">
     <div className="">
       <Footermain/>
 

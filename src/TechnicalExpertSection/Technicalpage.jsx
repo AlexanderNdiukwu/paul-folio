@@ -4,6 +4,9 @@ import Technicalheader from './Technicalheader'
 import Technicalexpcard from './Technicalexpertcard/Technicalexpcard'
 import BarStatus from './Technicalexpertcard/BarStatus'
 import Charge from './Technicalexpertcard/Charge'
+import BatteryAnimation from '../BatteryAnimation'
+import Loader from '../Loader'
+import ChargingBattery from '../ChargingBattery'
 
 const Technicalpage = () => {
     let  [tcharge,settcharge] =useState('')
@@ -42,10 +45,15 @@ const Technicalpage = () => {
 
             <div className='bg-[#444449]/50 relative   w-full h-[45vh] rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/20 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-2 pt-1  text-center'>About Me </p>
-                  <p className='absolute right-0'>wwww</p>
+                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/20 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 pt-1  text-center'>About Me </p>
+                  <p className='absolute block md:hidden right-5 top-2  rotate-180'> <Loader size="sm" /></p>
+                  <p className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></p>
+
+
+
+                 
             </div >
-                <p className='text-white'>about </p>
+                <p className='text-white'>about  </p>
                 <div className='h-1 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
                 </div>
@@ -208,6 +216,9 @@ const Technicalpage = () => {
 
 
             </div>
+
+         
+          
             {/* <div>
                 <BarStatus Listofskills='Frontend (React, Vue, Next.js)' statusPercentage='98%'  />
 

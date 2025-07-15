@@ -45,7 +45,7 @@ const Technicalpage = () => {
             <div className='md:mx-30 mx-6 py-8 '>
 
             <div className='bg-[#1c1c1e] relative   w-full h-60 rounded-lg border-b-4 border-[#333]'>
-                <p className='text-white'>about jwdijfhdwic fwiofchjfcwei</p>
+                <p className='text-white'>about </p>
                 <div className='h-4 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
                 </div>

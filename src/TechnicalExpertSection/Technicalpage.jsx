@@ -53,7 +53,25 @@ const Technicalpage = () => {
 
                  
             </div >
-                <p className='text-white'>about  </p>
+                <p className='text-white'><details className="md:hidden bg-black/80 text-white px-4 py-2 rounded-md">
+  <summary className="cursor-pointer font-semibold text-[#00c2ff] animate-pulse">
+    Hi, I’m Ndiukwu Chukwuemeka Paul 👋
+    <span className="block text-sm text-gray-300">Tap to learn more ↓</span>
+    <span className="text-sm italic text-gray-400 animate-pulse">
+  Tap to learn more →
+</span>
+  </summary>
+  <p className="mt-2 text-sm">
+    400L Mechatronics Engineer (UniPort).  
+    I build robotics systems and web apps using React, Tailwind, and Django.  
+    Passionate about real-world automation.
+  </p>
+</details>
+  </p>
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white font-semibold">
+  Ndiukwu Chukwuemeka Paul
+</span>
+
                 <div className='h-1 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
                 </div>

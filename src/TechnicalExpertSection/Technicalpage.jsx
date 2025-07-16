@@ -45,7 +45,7 @@ const Technicalpage = () => {
 
             <div className='bg-[#444449]/50 relative   w-full h-[45vh] rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/40 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 pt-1  text-center'>About Me </p>
+                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/40 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 py-1  text-center'>About Me </p>
                   <p className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></p>
                   <p className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></p>
 
@@ -74,9 +74,9 @@ const Technicalpage = () => {
               </div>
             <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-6 px-4 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
-            <div className='text-[#00D9F5]/70  '>
+            <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 
@@ -132,7 +132,7 @@ const Technicalpage = () => {
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 

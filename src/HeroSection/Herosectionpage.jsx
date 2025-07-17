@@ -121,8 +121,8 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-        <div className=' text-xl text-white'>
-        "Hi, i am Ndiukwu <br/> Chukwuemeka Paul  
+        <div className=' text-2xl text-white'>
+        "Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
         <span className='hidden md:block'> a</span>
         
         
@@ -135,12 +135,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden text-lg text-white'>i am a</span>
+  <span className='block md:hidden text-2xl text-white'>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-[#8A00FF] text-lg overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#00D9F5] text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -151,13 +151,17 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className='text-white text-lg'>
+  <div className='text-white text-2xl'>
 engineer"
 
   </div>
+  
 
 </div>
-
+     <div>
+  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
+  />
+</div>
 
   
 

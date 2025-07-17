@@ -34,26 +34,26 @@ const Technicalpage = () => {
     <div>
         <div className=' md:mx-8 mx-3 py-4 '>
 
-            <div className='bg-white/5 pb-10 rounded-lg'>
+            <div className=' pb-10 rounded-lg'>
 
                 
 
 
      
 
-            <div className='lg:mx-40   mx-6 pt-6 '>
+            <div className='lg:mx-30   mx-6 pt-6 '>
 
-            <div className='bg-[#444449]/50 relative   w-full h-[45vh] rounded-lg border-b-1 border-[#333]'>
+            <div className='bg-[#444449]/50 relative   w-full h-[55vh] rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl underline text-[#00c2ff] md:w-100 px-4 bg-black/40 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:py-1 py-1  text-center'>About Me </p>
-                  <p className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></p>
-                  <p className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></p>
+                <p className='md:text-4xl text-2xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
+                  <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
+                  <div className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></div>
 
 
 
                  
             </div >
-                <p className='text-white'><details className="md:hidden bg-black/80 text-white px-4 py-2 rounded-md">
+                <div className='text-white'><details className="md:hidden bg-black/80 text-white px-4 py-2 rounded-md">
   <summary className="cursor-pointer font-semibold text-[#00c2ff] animate-pulse">
     Hi, I’m Ndiukwu Chukwuemeka Paul 👋
     <span className="block text-sm text-gray-300">Tap to learn more ↓</span>
@@ -67,7 +67,7 @@ const Technicalpage = () => {
     Passionate about real-world automation.
   </p>
 </details>
-  </p>
+  </div>
   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white font-semibold">
   Ndiukwu Chukwuemeka Paul
 </span>
@@ -83,7 +83,7 @@ const Technicalpage = () => {
              <div className='md:mx-0 mx-6'>
 
               <div className='flex justify-center'>
-                <div className=' border-t-3 animate-pulse rounded-t-sm  border-white/20 '>
+                <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
                 <div className='bg-white/5 animate-pulse h-4 w-18'>
 
                 </div>
@@ -102,13 +102,14 @@ const Technicalpage = () => {
             <div className=' bg-black rounded-b-xl '>
             {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
-
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
+            
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            {/* <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/> */}
             <div className='rounded-b-xl overflow-hidden'>
             <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
 
@@ -137,7 +138,7 @@ const Technicalpage = () => {
 
               <div className='flex justify-center'>
                 <div className='  '>
-                <div className='border-t- animate-pulse rounded-t-sm  border-white/20'>
+                <div className='border-t-4 animate-pulse rounded-t-sm  border-white/20'>
 
                 </div>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
@@ -203,7 +204,7 @@ const Technicalpage = () => {
           <div className='md:mx-0 mx-5'>
 
               <div className='flex justify-center'>
-                <div className=' border-t-4 animate-pulse rounded-t-sm  border-amber-400/15 '>
+                <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
                 <div className='bg-white/10 animate-pulse h-4 w-18'>
 
                 </div>
@@ -219,7 +220,7 @@ const Technicalpage = () => {
 
 
 
-            <div className=' bg-black/95 rounded-b-xl '>
+            <div className=' bg-black rounded-b-xl '>
             {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
 

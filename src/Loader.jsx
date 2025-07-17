@@ -39,8 +39,8 @@ const sizeStyles = {
   `,
   md: css`
     .loader {
-      width: 80px;
-      height: 25px;
+      width: 54px;
+      height: 22px;
       padding: 3px;
       border-width: 2px;
     }

@@ -161,12 +161,12 @@ const  RotatingText = forwardRef((props, ref) => {
   return (
     <motion.span
       className={cn(
-        "flex flex-wrap whitespace-pre-wrap relative",
+        "flex flex-wrap whitespace-pre-wrap relative ",
         mainClassName
       )}
       {...rest}
       layout
-      transition={transition}
+      transition={transition} 
     >
       {/* Screen-reader only text */}
       <span className="sr-only">{texts[currentTextIndex]}</span>

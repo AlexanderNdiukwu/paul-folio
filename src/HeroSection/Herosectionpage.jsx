@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-3 text-white h-[90vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-5 pt-3  text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -70,7 +70,7 @@ const Herosectionpage = () => {
 <div className='block md:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-40  '/>
-  <p className='text-white text-xs absolute right-[26%] top-13 animate-bounce'> maybe your next hire ? </p>
+  <p className=' text-xs absolute right-[26%] top-13 animate-bounce text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> maybe your next hire ? </p>
 
   </div>
 </div>
@@ -85,7 +85,8 @@ const Herosectionpage = () => {
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
     <div className='  items-center text-white hidden md:block'>
-        <div className=''>
+           <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
             
         </div>
@@ -94,10 +95,10 @@ const Herosectionpage = () => {
             
         </div>  */}
 
-<div className='whitespace-nowrap flex items-center w-2xl'>
+<div className='whitespace-nowrap flex items-center w-2xl  h-15'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack', 'Software']} 
-  mainClassName=" text-white overflow-hidden px-2   justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -107,8 +108,11 @@ const Herosectionpage = () => {
   transition={{ type: "spring", damping: 70, stiffness: 400 }}
   rotationInterval={3000}
 />
+
+  <div className='text-transparent relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
 engineer"
 
+  </div>
 </div>
 
 
@@ -116,8 +120,8 @@ engineer"
 
     </div>
     
-    <div className='  items-center text-white block md:hidden '>
-        <div className=''>
+    <div className='  items-center  block md:hidden '>
+        <div className=' text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm  
         <span className='hidden md:block'> a</span>
         
@@ -131,12 +135,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden'>a</span>
+  <span className='block md:hidden text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-white overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -147,7 +151,10 @@ engineer"
   rotationInterval={3000}
 />
   </div>
+  <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
 engineer"
+
+  </div>
 
 </div>
 
@@ -189,7 +196,7 @@ engineer"
 
 
 <div className='flex md:text-xl text-xs md:gap-3 gap-1 pt-7 '>
-    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20 text-white rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
+    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20 animate-pulse text-[#8A00FF]  rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
 </div>
 

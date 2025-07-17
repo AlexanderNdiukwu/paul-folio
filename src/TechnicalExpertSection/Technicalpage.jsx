@@ -43,7 +43,7 @@ const Technicalpage = () => {
 
             <div className='lg:mx-30   mx-6 pt-6 '>
 
-            <div className='bg-[#444449]/50 relative   w-full h-[55vh] rounded-lg border-b-1 border-[#333]'>
+            <div className='bg-[#444449]/50 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
                 <p className='md:text-4xl text-2xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
                   <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
@@ -53,24 +53,57 @@ const Technicalpage = () => {
 
                  
             </div >
-                <div className='text-white'><details className="md:hidden bg-black/80 text-white px-4 py-2 rounded-md">
-  <summary className="cursor-pointer font-semibold text-[#00c2ff] animate-pulse">
-    Hi, I’m Ndiukwu Chukwuemeka Paul 👋
-    <span className="block text-sm text-gray-300">Tap to learn more ↓</span>
-    <span className="text-sm italic text-gray-400 animate-pulse">
-  Tap to learn more →
-</span>
+                <div className='text-white '>
+                  <details className="md:hidden  text-white px-4 py-2 rounded-md">
+  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
+    👋
+    Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
+I build smart web apps and machines with React, Django, React Native and C++.  
+Creative thinker, real-world problem solver.     I build robotics systems and web apps using React, Tailwind, and Django.  
+    Passionate about real-world automation. 
+
+
+    
+    <div className="text-sm italic flex justify-center text-gray-400 animate-pulse">
+  Tap to learn more ↓
+</div>
   </summary>
-  <p className="mt-2 text-sm">
-    400L Mechatronics Engineer (UniPort).  
-    I build robotics systems and web apps using React, Tailwind, and Django.  
-    Passionate about real-world automation.
+  <p className="mt-2  italic text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
+      
+   i am based in **Lagos**, Nigeria, and originally from **Imo State**.
+
+I specialize in combining **robotics** and **software engineering** to solve real-world problems, with a focus on intelligent systems and clean UI/UX.
+
+I’m multilingual — fluent in **English, French, Finnish, Igbo,** and **Yoruba**, and I thrive in **team-based, collaborative environments** where innovation and efficiency matter.
+
+  
   </p>
 </details>
   </div>
-  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white font-semibold">
-  Ndiukwu Chukwuemeka Paul
-</span>
+  <div className=" hidden md:block text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-2xl font-semibold px-4 py-4 pb-5">
+  I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
+I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
+
+As a full-stack developer and UI engineer, I bring ideas to life using modern tools like React, Next.js, Tailwind CSS, TypeScript, Django, and C++. — and I build cross-platform mobile apps using React Native. My approach to development is not just technical — it’s creative, human-centered, and constantly evolving.
+
+I thrive on blending hardware intelligence with scalable code, designing UIs with tools like Figma, ShadCN, and DaisyUI, and building robust backend systems using Python, Java, Django, and Node.js. Whether it’s a robotic system or a web app, I believe in thinking beyond the obvious — no dull solutions.
+
+Let’s build smarter, faster, and beautifully.
+
+{/* I'm Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  
+I’m a passionate problem-solver who merges **robotics and intelligent software** to build real-world solutions.
+
+As a **full-stack developer and UI engineer**, I bring ideas to life using modern tools like **React, Next.js, Tailwind CSS, TypeScript, Django, and C++** 
+
+I thrive on blending **hardware intelligence with scalable code**, designing UIs with tools like **Figma, ShadCN, and DaisyUI**, and building robust backend systems using **Python, Java, Django, and Node.js**. Whether it’s a robotic system or a web app, I believe in **thinking beyond the obvious** — no dull solutions.
+
+Let’s build smarter, faster, and beautifully. */}
+
+
+  </div>
+  
+
+
 
                 <div className='h-1 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
 
@@ -103,15 +136,16 @@ const Technicalpage = () => {
             {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
             
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='React.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='React Native' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='HTML5' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Nex.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='JavaScript' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='TypeScript' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='ShadCN/UI/Daisy/Figma' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             {/* <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/> */}
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Tailwind/CSS3' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
 
 
             </div>
@@ -159,14 +193,15 @@ const Technicalpage = () => {
             <div className=' bg-black rounded-b-xl '>
             {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
-           <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+           <Charge text='Python' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
+           <Charge text='Django' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'  />
+            <Charge text='Node.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='RESTful APIs' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Firebase' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='PostgreSQL/MongoDB' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Express.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Appwrite' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
 
 
             </div>
@@ -224,14 +259,15 @@ const Technicalpage = () => {
             {/* <div className=' bg-[#F8F8F8]/5 rounded-b-xl '> */}
           
 
-            <Charge text='next.jsx'color='bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent' />
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='c++'color='bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent' />
+            <Charge text='Mechatronics Systems Design' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='SolidWorks (3D CAD Modeling)' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Embedded Systems' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Python for Robotics' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Control Systems' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Motors systems' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <div className='rounded-b-xl overflow-hidden'>
-            <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent' />
+            <Charge text='Automation & Sensors' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent' />
 
 
             </div>

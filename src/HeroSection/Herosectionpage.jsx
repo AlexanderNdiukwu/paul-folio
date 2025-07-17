@@ -121,8 +121,8 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-        <div className=' text-lg text-white'>
-        "Hi, i am Ndiukwu Chukwuemeka Paul  
+        <div className=' text-xl text-white'>
+        "Hi, i am Ndiukwu <br/> Chukwuemeka Paul  
         <span className='hidden md:block'> a</span>
         
         
@@ -135,7 +135,7 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden text-lg text-white'>a</span>
+  <span className='block md:hidden text-lg text-white'>i am a</span>
   <div className=''>
 
 <RotatingText
@@ -219,10 +219,7 @@ engineer"
 
 
     <div className=''>
-      <div>
-  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
-  />
-</div>
+ 
         <Subherosection/>
     </div>
 

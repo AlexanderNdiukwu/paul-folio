@@ -2,6 +2,8 @@ import React from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import RotatingFlipCard from '../RotatingFlipCard'
 import CountUp from '../CountUp'
+import RotatingText from '../RotatingText'
+
 
 const Subherosection = () => {
   return (
@@ -10,6 +12,7 @@ const Subherosection = () => {
         <div className=' grid md:grid-cols-4 justify-between justify-items-center grid-cols-3 md:gap-8 gap-2  font-bold text-[#00D9F5] pt-8 w-full h-full   md:items-center   '>
             <div className='w-full  md:h-32 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail= 
+
 {<CountUp
   from={0}
   to={5}
@@ -44,15 +47,23 @@ const Subherosection = () => {
 />} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>
 
-            <div  className=' md:h-32 w-full border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center col-span-3 md:col-span-1'>
-            <Pagebtn btndetail={<CountUp
-  from={0}
-  to={4}
-  separator=","
-  direction="up"
-  duration={5}
-  className="count-up-text"
-/>} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs ' btndetail2='programming Languages' style='whitespace-nowrap text-center  '/>
+            <div  className=' md:h-32 w-full border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-2  shadow-2xl flex justify-center items-center col-span-3 md:col-span-1'>
+            <Pagebtn btndetail=
+  
+{<RotatingText
+  texts={[ "4",'Python', 'JavaScript', 'C++', 'Java']} 
+  mainClassName=" text-[#00D9F5] md:text-4xl text-xl overflow-hidden px-2  h-10 pr-3  justify-center rounded-lg whitespace-nowrap"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 5 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-5   md:pb-1"
+  transition={{ type: "spring", damping: 70, stiffness: 400 }}
+  rotationInterval={3000}
+/>
+}
+ btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs ' btndetail2='programming Languages' style='whitespace-nowrap text-center  '/>
             </div>
 
 

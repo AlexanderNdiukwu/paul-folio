@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import RotatingText from "./RotatingText";
+
 
 export default function CountUp({
   to,
@@ -23,6 +25,7 @@ export default function CountUp({
     damping,
     stiffness,
   });
+  
 
   const isInView = useInView(ref, { once: true, margin: "0px" });
 

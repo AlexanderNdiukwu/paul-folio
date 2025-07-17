@@ -70,7 +70,7 @@ const Herosectionpage = () => {
 <div className='block md:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-30  '/>
-  <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> maybe your next hire ? </p>
+  <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-white'> maybe your next hire ? </p>
 
   </div>
 </div>
@@ -121,8 +121,8 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-        <div className=' text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
-        "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm  
+        <div className=' text-lg text-white'>
+        "Hi, i am Ndiukwu Chukwuemeka Paul  
         <span className='hidden md:block'> a</span>
         
         
@@ -135,12 +135,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>a</span>
+  <span className='block md:hidden text-lg text-white'>a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#8A00FF] text-lg overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -151,7 +151,7 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+  <div className='text-white text-lg'>
 engineer"
 
   </div>
@@ -178,10 +178,7 @@ engineer"
 
 </div>
 
-<div>
-  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
-  />
-</div>
+
 
 {/* <div>
     <p className='md:text-xl text-sm md:w-xl md:text-justify md:py-2 text-white'>
@@ -194,10 +191,10 @@ engineer"
     <p>Coding the Future.</p>
 </div> */}
 
-<div className='hidden md:block'>
+<div className=''>
 
-<div className='flex md:text-xl  text-xs md:gap-3 gap-1 pt-7 '>
-    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20  text-[#8A00FF]  rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 ' />
+<div className='flex md:text-xl items-center  text-xs md:gap-3 gap-1 pt-7 '>
+    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20  text-[#8A00FF]   rounded-[26843500px] md:py-2 md:px-8 px-4 py-1.5  ' />
     <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
 </div>
 </div>
@@ -222,6 +219,10 @@ engineer"
 
 
     <div className=''>
+      <div>
+  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
+  />
+</div>
         <Subherosection/>
     </div>
 

@@ -52,7 +52,7 @@ const Subherosection = () => {
   
 {<RotatingText
   texts={[ "4",'Python', 'JavaScript', 'C++', 'Java']} 
-  mainClassName=" text-[#00D9F5] md:text-4xl text-xl overflow-hidden px-2  h-10 pr-3  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#00D9F5] md:text-3xl text-xl overflow-hidden px-2  h-10 md:h-11 md:h-10 pr-3  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}

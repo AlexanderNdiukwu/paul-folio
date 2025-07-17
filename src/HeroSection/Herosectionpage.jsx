@@ -158,15 +158,15 @@ engineer"
   
 
 </div>
-     <div>
-  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
-  />
-</div>
 
   
 
     </div>
 
+  <div className='hidden md:block'>
+  <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
+  />
+</div>
 
     <div>
    

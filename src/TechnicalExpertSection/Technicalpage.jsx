@@ -55,7 +55,7 @@ const Technicalpage = () => {
             </div >
                 <div className='text-white '>
                   <details className="md:hidden  text-white px-4 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
+  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-center">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  
@@ -68,7 +68,7 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
   Tap to learn more ↓
 </div>
   </summary>
-  <p className="mt-2  italic text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
+  <p className="mt-2 text-center  italic text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
       
    i am based in **Lagos**, Nigeria, and originally from **Imo State**.
 
@@ -250,7 +250,7 @@ Let’s build smarter, faster, and beautifully. */}
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Robotics Development' style='md:text-3xl text-center  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Robotics Development' style='md:text-3xl   text-2xl py-1 px-1 font-bold'/>
             </div>
 
 

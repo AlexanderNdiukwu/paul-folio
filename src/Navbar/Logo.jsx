@@ -15,7 +15,7 @@ function Logo() {
 
 
         <div className='font-bold lg:text-base text-white text-[9px]'>
-        <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#0a0aaf] via-[#00c2ff] to-[#4e4e75]'>
+        <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#56569e] via-[#00c2ff] to-[#6969be]'>
           Ndiukwu Paul Chukwuemeka 
         </p>
         </div>

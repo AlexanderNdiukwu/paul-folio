@@ -72,7 +72,7 @@ const Herosectionpage = () => {
 <div className='block md:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-30  '/>
-  <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-white'> maybe your next hire ? </p>
+  <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-white'> maybe your next hire ? 👀 </p>
 
   </div>
 </div>

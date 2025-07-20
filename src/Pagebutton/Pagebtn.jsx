@@ -9,7 +9,7 @@ const Pagebtn = ({style1,style,btndetail,btndetail2,img,btndetailsty,btndetail2s
 
         <div className={style}>
 
-            {img && <img src={img} alt="img" className='size-3 animate-bounce ' />}
+            {img && <img src={img} alt="img" className='size-4 animate-bounce ' />}
 
           
            <div>

@@ -15,7 +15,7 @@ function App() {
   const containerRef = useRef()
  
   return (
-   <div className="select-none" >
+   <div className="select-none font-serif" >
 
 
 

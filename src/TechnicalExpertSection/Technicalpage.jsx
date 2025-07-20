@@ -139,7 +139,7 @@ Let’s build smarter, faster, and beautifully. */}
             <Charge text='React.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='React Native' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='HTML5' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-            <Charge text='Nex.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
+            <Charge text='Next.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='JavaScript' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='TypeScript' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <Charge text='ShadCN/UI/Daisy/Figma' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
@@ -185,7 +185,7 @@ Let’s build smarter, faster, and beautifully. */}
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Backend Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 
@@ -250,7 +250,7 @@ Let’s build smarter, faster, and beautifully. */}
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00D9F5]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl text-center  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Robotics Development' style='md:text-3xl text-center  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 

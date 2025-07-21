@@ -112,8 +112,8 @@ Let’s build smarter, faster, and beautifully. */}
 
             
 
-            <div className='lg:flex grid lg:justify-between  md:gap-40   '>
-             <div className='md:mx-0 mx-6'>
+            <div className='lg:flex grid lg:justify-between   lg:gap-40   '>
+             <div className='lg:mx-0 md:mx-30 mx-6'>
 
               <div className='flex justify-center'>
                 <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>
@@ -168,7 +168,7 @@ Let’s build smarter, faster, and beautifully. */}
             </div>
      </div>
 
-        <div className=' mx-7 md:mx-0'>
+        <div className=' mx-7 md:mx-30 lg:mx-0'>
 
               <div className='flex justify-center'>
                 <div className='  '>
@@ -236,7 +236,7 @@ Let’s build smarter, faster, and beautifully. */}
      </div>
 
        
-          <div className='md:mx-0 mx-5'>
+          <div className='md:mx-30 lg:mx-0 mx-5'>
 
               <div className='flex justify-center'>
                 <div className=' border-t-4 animate-pulse rounded-t-sm  border-white/20 '>

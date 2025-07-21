@@ -10,7 +10,7 @@ const NavbarPage = () => {
         <Logo/>
         </div>
 
-        <div className='hidden md::hidden lg:[1020]:block rounded-lg '>
+        <div className='hidden md:hidden lg:block rounded-lg '>
         <div className='flex border border-black rounded-lg bg-white/50 '>
             <p className="bg-white/10 rounded-l-lg hover:text-black/70 backdrop-blur-sm hover:border-r hover:border-black/20  px-3 py-2  transition-all duration-300 ease-in-out  hover:backdrop-blur-lg hover:shadow-xl hover:scale-[1.02] transform">About</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm  hover:border-black/20   px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl  hover:scale-[1.02] transform">Skills</p>
@@ -25,7 +25,7 @@ const NavbarPage = () => {
         <div className='flex gap-3  '>
            <Navbarbtn/>
 
-            <Navbarbtn btndetail='Hire me' style='w-36 text-center bg-green-500  rounded-lg font-bold  px-6 py-1 '/>
+            <Navbarbtn btndetail='Hire me' style='w-36 text-center bg-green-500   rounded-lg font-bold hidden md:hidden lg:block px-6 py-1 '/>
             <Navbarbtn btndetail='Get in Touch' style='text-black items-center font-bold justify-center  text-[#8A00FF] flex  px-6 py-1 rounded-lg whitespace-nowrap' style1=" text-center justify-center  items-center   inline-block rounded-lg bg-gradient-to-r from-[#00D9F5] via-[#8A00FF] to-[#4E4E75] "/>
 
 

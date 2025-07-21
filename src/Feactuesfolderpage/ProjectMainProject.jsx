@@ -9,13 +9,13 @@ const ProjectMainProject = () => {
     <div className='md:mx-8 mx-3  rounded-lg'>
 
 
-        <div className='md:mx-30 mx-8  '>
+        <div className='lg:mx-30 mx-8  '>
             
         <div className='pb-5 py-6 flex text-white/40  justify-center'>
             <Projectheader />
         </div>
 
-        <div className='md:grid flex flex-col md:grid-cols-3 md:gap-25 gap-5 py-5 '>
+        <div className='md:grid flex flex-col lg:grid-cols-3 md:grid-cols-2 lg:gap-25 gap-5 py-5 '>
 
         <div className=' w-full h-fit  border rounded-2xl pb-3 bg-white/20 '>
             <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-50 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />

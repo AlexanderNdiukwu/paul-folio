@@ -18,7 +18,7 @@ const Herosectionpage = () => {
     <div className='grid grid-cols-[700px_1fr] '>
   
       
-<div className=' w-full hidden md:block'>
+<div className=' w-full hidden lg:block'>
     {/* <p className='absolute bg-white size-5 rounded-4xl top-0 left-0 m-3  '></p>
     <p className='absolute bg-white size-5 rounded-4xl top-0 right-0 m-3 '></p>
     <p className='absolute bg-white size-5 rounded-4xl bottom-0 left-0 m-3'></p>
@@ -69,9 +69,9 @@ const Herosectionpage = () => {
 </div>
 
      </div>
-<div className='block md:hidden pb-2 relative '>
+<div className='block lg:hidden pb-2 relative '>
   <div className='flex'>
-  <img src="/images/uploadimg.png" alt="" className='w-30  '/>
+  <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80  '/>
   <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-white'> maybe your next hire ? 👀 </p>
 
   </div>

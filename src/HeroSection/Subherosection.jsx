@@ -9,8 +9,8 @@ const Subherosection = () => {
   return (
     <div className=' '>
 
-        <div className=' grid md:grid-cols-4 justify-between justify-items-center grid-cols-3 md:gap-8 gap-2  font-bold text-[#00D9F5] pt-8 w-full h-full   md:items-center   '>
-            <div className='w-full  md:h-32 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
+        <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-[#00D9F5] pt-8 w-full h-full   md:items-center   '>
+            <div className='w-full  lg:h-32 border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail= 
 
 {<CountUp
@@ -24,7 +24,7 @@ const Subherosection = () => {
  btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
             </div>
              
-            <div className='w-full md:h-32 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center '>
+            <div className='w-full lg:h-32 border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail={<CountUp
   from={0}
   to={25}
@@ -36,7 +36,7 @@ const Subherosection = () => {
             </div>
 
 
-            <div  className=' w-full md:h-32 border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center' >
+            <div  className=' w-full lg:h-32 border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center' >
             <Pagebtn btndetail={<CountUp
   from={0}
   to={6}
@@ -47,7 +47,7 @@ const Subherosection = () => {
 />} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>
 
-            <div  className=' md:h-32 w-full border md:w-67 md:rounded-3xl rounded-xl text-center px-2 py-2  shadow-2xl flex justify-center items-center col-span-3 md:col-span-1'>
+            <div  className=' lg:h-32 md:w-full w-full border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-2  shadow-2xl flex justify-center items-center col-span-3 lg:col-span-1'>
             <Pagebtn btndetail=
   
 {<RotatingText

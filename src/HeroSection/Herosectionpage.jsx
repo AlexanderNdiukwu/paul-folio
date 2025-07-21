@@ -77,7 +77,7 @@ const Herosectionpage = () => {
  
 <RotatingText
   texts={[ 'Welcome to my space -- get it ? ','maybe i am your next hire ? 👀', 'i think on a different plane ']} 
-  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-4 pr-3 h-10  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}

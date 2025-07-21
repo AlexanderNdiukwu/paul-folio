@@ -52,7 +52,7 @@ function App() {
     <div className="">
 
     <div className=" ">
-    <div className="relative md:top-1 lg:top-2 top-6  z-30 lg:h-62 h-64  md:h-65  ">
+    <div className="relative md:top-1 lg:top-2 top-3  z-30 lg:h-62 h-64  md:h-65  ">
       <GetintouchMain/>
     </div>
 

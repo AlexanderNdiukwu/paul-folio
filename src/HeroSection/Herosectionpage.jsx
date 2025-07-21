@@ -85,7 +85,7 @@ const Herosectionpage = () => {
   staggerDuration={0.025}
   splitLevelClassName="overflow-hidden pb-0.5 sm:pb-5   md:pb-1"
   transition={{ type: "spring", damping: 40, stiffness: 500  }}
-  rotationInterval={3000}
+  rotationInterval={4000}
 />
    </p>
 

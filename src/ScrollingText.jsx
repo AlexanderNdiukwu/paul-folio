@@ -7,7 +7,7 @@ export default function ScrollingText({text}) {
   return (
     <div className="overflow-hidden whitespace-nowrap md:w-full bg-transparent  w-[90vw]   ">
       <motion.div
-        className=" inline-flex md:text-lg text-[10px] font-medium  px-4 text-white  "
+        className=" inline-flex md:text-lg text-[10px] font-medium  px-4  "
         animate={{ x: ['0%', '-100%'] }}
        transition={{
           repeat: Infinity,
@@ -26,7 +26,7 @@ export default function ScrollingText({text}) {
       </motion.div>
 
           <motion.div
-        className=" inline-flex md:text-lg text-[10px] font-medium  px-4 text-white "
+        className=" inline-flex md:text-lg text-[10px] font-medium  px-4  "
         animate={{ x: ['0%', '-100%'] }}
        transition={{
           repeat: Infinity,

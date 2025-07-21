@@ -9,7 +9,11 @@ import Loader from '../Loader'
 import ChargingBattery from '../ChargingBattery'
 
 const Technicalpage = () => {
-    let  [tcharge,settcharge] =useState('')
+    let  [change,setchange] =useState(false)
+
+    let chan = ()=>{
+      setchange(!change)
+    }
 
 
     let lists=[
@@ -41,7 +45,7 @@ const Technicalpage = () => {
 
      
 
-            <div className='lg:mx-30   mx-6 pt-6 '>
+            <div className='lg:mx-30   mx-3 pt-6 '>
 
             <div className='bg-[#444449]/50 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
@@ -54,8 +58,8 @@ const Technicalpage = () => {
                  
             </div >
                 <div className='text-white '>
-                  <details className="md:hidden  text-white px-4 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-center">
+                  <details className="md:hidden  text-white px-2 py-2 rounded-md">
+  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white ">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  
@@ -64,8 +68,12 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
 
 
     
-    <div className="text-sm italic flex justify-center text-gray-400 animate-pulse">
-  Tap to learn more ↓
+    <div onClick={chan} className="text-sm italic flex justify-center text-gray-400 animate-pulse">
+    {!change ?
+"  Tap to learn more ↓" 
+:
+"Tap to hide "
+   }
 </div>
   </summary>
   <p className="mt-2 text-center  italic text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
@@ -80,7 +88,7 @@ I’m multilingual — fluent in **English, French, Finnish, Igbo,** and **Yorub
   </p>
 </details>
   </div>
-  <div className=" hidden md:block text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-2xl font-semibold px-4 py-4 pb-5">
+  <div className=" hidden md:block text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-xl font-semibold px-6 py-10 pb-5">
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 
@@ -298,6 +306,9 @@ Let’s build smarter, faster, and beautifully. */}
 
 
 
+
+
+
             {/* <div className='bg-[#F8F8F8]/30 md:pt-8 pt-4 md:px-8 w-full pb-8 border rounded-3xl border-black/20 '>
             <div className='text-[#00D9F5]  '>
 
@@ -328,6 +339,13 @@ Let’s build smarter, faster, and beautifully. */}
 
 
             </div>
+
+            
+     <div className='text-white flex justify-center-safe text-center py-8 '>
+
+      <p className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
+     </div>
+
 
 
 

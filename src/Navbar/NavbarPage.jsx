@@ -11,7 +11,7 @@ const NavbarPage = () => {
         </div>
 
         <div className='hidden md:hidden lg:block rounded-lg '>
-        <div className='flex border border-black rounded-lg bg-white/50 '>
+        <div className='flex border border-black rounded-lg bg-white/40 '>
             <p className="bg-white/10 rounded-l-lg hover:text-black/70 backdrop-blur-sm hover:border-r hover:border-black/20  px-3 py-2  transition-all duration-300 ease-in-out  hover:backdrop-blur-lg hover:shadow-xl hover:scale-[1.02] transform">About</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm  hover:border-black/20   px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl  hover:scale-[1.02] transform">Skills</p>
             <p className="bg-white/10 hover:text-black/70 hover:border-x hover:rounded-lg backdrop-blur-sm hover:border-black/20  px-3 py-2  transition-all duration-300 ease-in-out hover:bg-white/20 hover:backdrop-blur-lg hover:shadow-xl  hover:scale-[1.02] transform">Projects</p>

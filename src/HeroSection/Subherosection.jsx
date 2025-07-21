@@ -10,7 +10,7 @@ const Subherosection = () => {
     <div className=' '>
 
         <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-[#00D9F5] pt-8 w-full h-full   md:items-center   '>
-            <div className='w-full  lg:h-32 border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
+            <div className='w-full   lg:h-32 border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail= 
 
 {<CountUp
@@ -47,7 +47,7 @@ const Subherosection = () => {
 />} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>
 
-            <div  className=' lg:h-32 md:w-full w-full border lg:w-67 md:rounded-3xl rounded-xl text-center px-2 py-2  shadow-2xl flex justify-center items-center col-span-3 lg:col-span-1'>
+            <div  className=' lg:h-32  w-full border lg:w-67 md:rounded-3xl rounded-xl text-center px-30  py-2  shadow-2xl flex justify-center items-center col-span-3 lg:col-span-1'>
             <Pagebtn btndetail=
   
 {<RotatingText

@@ -8,6 +8,7 @@ import Technicalpage from "./TechnicalExpertSection/Technicalpage"
 import ProjectMainProject from "./Feactuesfolderpage/ProjectMainProject"
 import GetintouchMain from "./Getintouch/GetintouchMain"
 import Footermain from "./Footerpage/Footermain"
+import Coverdet from "./Coverdet"
 
 
 
@@ -15,7 +16,7 @@ function App() {
   const containerRef = useRef()
  
   return (
-   <div className="select-none font-serif" >
+   <div className="select-none font-serif relative" >
 
 
 
@@ -81,6 +82,12 @@ function App() {
 
 
     </div>
+
+
+{/* 
+    <div className="" >
+      <Coverdet/>
+    </div> */}
 
 
 

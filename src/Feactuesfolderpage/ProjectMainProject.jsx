@@ -9,74 +9,139 @@ const ProjectMainProject = () => {
     <div className='md:mx-8 mx-3  rounded-lg'>
 
 
-        <div className='lg:mx-30 mx-8  '>
+        <div className='lg:mx-27 mx-8  '>
             
         <div className='pb-5 py-6 flex text-white/40  justify-center'>
             <Projectheader />
         </div>
 
-        <div className='md:grid flex flex-col lg:grid-cols-3 md:grid-cols-2 lg:gap-25 gap-5 py-5 '>
+        <div className='md:grid flex flex-col lg:grid-cols-4 md:grid-cols-2 lg:gap-7 gap-5 py-5 text-white/50 '>
 
-        <div className=' w-full h-fit  border rounded-2xl pb-3 bg-white/20 '>
-            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-50 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+        <div className=' w-full h-fit  border border-white/20 rounded-2xl pb-3 bg-white/5  '>
+            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
 
-            <div className='flex md:gap-3 gap-1 mx-3 '>
-            <ScrollingText text={<Technicalexpcard Carddetails='react , next.js , tailwindcss' />}/>
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='re' />}/> */}
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='tailwindcss' />}/> */}
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='next.js' />}/> */}
-            {/* <Technicalexpcard Carddetails='react' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-            <Technicalexpcard Carddetails='rot' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' /> */}
-                
+            <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
             </div>
         </div>
 
-          <div className=' w-full h-fit  border rounded-2xl pb-3 bg-white/20 '>
-            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-50 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+          <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
 
-            <div className='flex md:gap-3 gap-1 mx-3 '>
-            <ScrollingText text={<Technicalexpcard Carddetails='react , next.js , tailwindcss' />}/>
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='re' />}/> */}
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='tailwindcss' />}/> */}
-            {/* <ScrollingText text={<Technicalexpcard Carddetails='next.js' />}/> */}
-            {/* <Technicalexpcard Carddetails='react' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-            <Technicalexpcard Carddetails='rot' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' /> */}
-                
+             <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
             </div>
         </div>
 
-        <div className=' w-full h-fit border rounded-2xl pb-3 bg-white/20'>
-            <Projectcard imgstyle='object-cover relative w-full rounded-t-2xl h-50' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-            <div className='flex gap-3 mx-3 '>
-            <Technicalexpcard Carddetails='react' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-            <Technicalexpcard Carddetails='rot' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-                
+          <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+
+            <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
             </div>
         </div>
 
-        <div className=' w-full h-fit border rounded-2xl pb-3 bg-white/20'>
-            <Projectcard imgstyle='object-cover relative w-full h-50 rounded-t-2xl' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-            <div className='flex gap-3 mx-3'>
-            <Technicalexpcard Carddetails='react' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-            <Technicalexpcard Carddetails='rot' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-                
+         <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+  <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
             </div>
         </div>
+ 
         
-        <div className=' w-full h-fit border rounded-2xl pb-3 bg-white/20'>
-            <Projectcard imgstyle='object-cover relative w-full h-50 rounded-t-2xl' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-            <div className='flex gap-3 mx-3'>
-            <Technicalexpcard Carddetails='react' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-            <Technicalexpcard Carddetails='rot' style='py-0.5 px-4 text-sm text-[#00D9F5] rounded-[26843500px] bg-[#DFF5F8]' />
-                
+         <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+  <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
             </div>
         </div>
+
+           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+  <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
+            </div>
+        </div>
+
+           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+
+          <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
+            </div>
+        </div>
+
+           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
+            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+
+           <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+
+                </div>
+            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
+            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+
+            </div>
+            </div>
+        </div>
+
+
+
+
 
 
         </div>
        
 
         </div>
+
+        
+     <div className='text-white flex justify-center-safe text-center py-8 '>
+
+      <p className='hover:text-white/50 border bg-white/10 border-white/20 text-white py-3 px-6 rounded-2xl '>More Projects </p>
+     </div>
 
 
 

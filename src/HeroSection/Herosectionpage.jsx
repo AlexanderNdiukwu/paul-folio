@@ -72,7 +72,22 @@ const Herosectionpage = () => {
 <div className='block lg:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80  '/>
-  <p className=' text-[10px] absolute right-[41%] top-9 animate-bounce text-white'> maybe your next hire ? 👀 </p>
+  <p className=' text-[10px] absolute right-[20%] top-9 animate-bounce text-[#00c2ff]/80'> 
+  
+ 
+<RotatingText
+  texts={[ 'Welcome to my space -- get it ? ','maybe i am your next hire ? 👀', 'i think on a different plane ']} 
+  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 5 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-5   md:pb-1"
+  transition={{ type: "spring", damping: 40, stiffness: 500  }}
+  rotationInterval={3000}
+/>
+   </p>
 
   </div>
 </div>
@@ -123,7 +138,11 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-        <div className=' text-2xl text-white'>
+         <div className='text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+          {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
+
+
+        {/* <div className=' text-2xl text-white'> */}
         "Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
         <span className='hidden md:block'> a</span>
         
@@ -137,12 +156,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden text-2xl text-white'>i am a</span>
+  <span className='block md:hidden text-[#00c2ff] text-2xl '>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName=" text-[#00D9F5] text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-[#8A00FF] text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -153,7 +172,8 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className='text-white text-2xl'>
+  <div className='text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+  {/* <div className='text-white text-2xl'> */}
 engineer"
 
   </div>
@@ -165,9 +185,11 @@ engineer"
 
     </div>
 
-  <div className='hidden md:block'>
+  <div className=' relative text-white/50'>
+ 
   <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
   />
+
 </div>
 
     <div>

@@ -352,6 +352,7 @@ Let’s build smarter, faster, and beautifully. */}
      <div className='text-white flex justify-center-safe text-center py-8 '>
 
       <p onClick={()=>send('skills')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
+      {/* <p onClick={()=>send('skill')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p> */}
      </div>
 
 

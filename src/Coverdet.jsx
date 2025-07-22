@@ -1,9 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Moreskills from './Display/Moreskills'
 import { div } from 'framer-motion/client'
 
 export default function Coverdet({text}) {
     let [cancel, setcancel] =useState(false)
+  
+
+  
+  useEffect(() => {
+    setcancel(false)
+  }, [text])
 
   let canceldis = ()=>{
     setcancel(!cancel)
@@ -29,7 +35,7 @@ export default function Coverdet({text}) {
   
             <div className=''>
 
-              {text=="skills" && <Moreskills/>}
+              {text=="skills"||text=="skill" && <Moreskills/>}
   
             </div>
   

@@ -18,7 +18,7 @@ const Subherosection = () => {
   to={5}
   separator=","
   direction="up"
-  duration={0.5}
+  duration={10}
   className="count-up-text"
 />}
  btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
@@ -30,7 +30,7 @@ const Subherosection = () => {
   to={25}
   separator=","
   direction="up"
-  duration={5}
+  duration={10}
   className="count-up-text"
 />} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs'  btndetail2='Project count ' style='whitespace-nowrap     ' />
             </div>
@@ -42,7 +42,7 @@ const Subherosection = () => {
   to={6}
   separator=","
   direction="up"
-  duration={5}
+  duration={10}
   className="count-up-text"
 />} btndetailsty='md:text-4xl text-xl ' btndetail2sty='text-[#787878] md:text-xl text-xs' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>

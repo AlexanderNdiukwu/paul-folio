@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Pagebtn from '../Pagebutton/Pagebtn'
 import Technicalheader from './Technicalheader'
 import Technicalexpcard from './Technicalexpertcard/Technicalexpcard'
@@ -8,13 +8,21 @@ import BatteryAnimation from '../BatteryAnimation'
 import Loader from '../Loader'
 import ChargingBattery from '../ChargingBattery'
 
-const Technicalpage = () => {
+const Technicalpage = ({data}) => {
     let  [change,setchange] =useState(false)
+    let  [senddata,setsenddata] =useState('')
+    let [count,setcount]=useState(0)
 
     let chan = ()=>{
       setchange(!change)
     }
-
+    let send = (a)=>{
+        setsenddata(a)
+        setcount(count++)
+        data(a)
+        
+      }
+  
 
     let lists=[
             {text:'reat',color:'bg-green-400'},
@@ -210,7 +218,7 @@ Let’s build smarter, faster, and beautifully. */}
             <Charge text='Express.js' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
             <div className='rounded-b-xl overflow-hidden'>
             <Charge text='Appwrite' color='bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent'/>
-
+           {/* <p className='text-white'>{senddata}</p> */}
 
             </div>
             {/* <Charge text='next.jsx' color='bg-gradient-to-r from-transparent via-[#00ffd1] to-transparent' />
@@ -343,7 +351,7 @@ Let’s build smarter, faster, and beautifully. */}
             
      <div className='text-white flex justify-center-safe text-center py-8 '>
 
-      <p className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
+      <p onClick={()=>send('skills')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
      </div>
 
 

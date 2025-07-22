@@ -40,14 +40,21 @@ const Herosectionpage = () => {
   showTooltip={true}
   displayOverlayContent={true}
   overlayContent={
-    <p className="tilted-card-demo-text">
-     {/* <div className='flex md:gap-3 gap-1 pb-4 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF] px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
-
-  
-</div> */}
-
+    <p className="   absolute top-15 w-100 left-0 ">
+ 
+<RotatingText
+  texts={[ 'hello ','Moi Moi', 'bonjour ']} 
+  mainClassName=" text-white overflow-hidden px-9 pb-4 pr-3 h-10   rounded-lg whitespace-nowrap"
+  staggerFrom={"last"}
+  initial={{ y: "100%" }}
+  animate={{ y: 5 }}
+  exit={{ y: "-120%" }}
+  staggerDuration={0.025}
+  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-5   md:pb-1"
+  transition={{ type: "spring", damping: 40, stiffness: 500  }}
+  rotationInterval={4000}
+/>
+ 
 
     </p>
   }

@@ -1,5 +1,5 @@
 
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import Particles from "./HeroBackground/Particles"
 import Herosectionpage from "./HeroSection/Herosectionpage"
 import NavbarPage from "./Navbar/NavbarPage"
@@ -13,8 +13,11 @@ import Coverdet from "./Coverdet"
 
 
 function App() {
+  let [collectdata, setcollectdata] = useState('')
   const containerRef = useRef()
- 
+     
+  
+
   return (
    <div className="select-none font-serif relative" >
 
@@ -41,8 +44,14 @@ function App() {
 
      
     <div>
-      <Technicalpage/>
+      <Technicalpage data={setcollectdata}/>
     </div>
+
+    <div className="text-white">
+      {collectdata }
+
+    </div>
+   
 
     <div className="">
       <ProjectMainProject/>
@@ -84,10 +93,10 @@ function App() {
     </div>
 
 
-{/* 
+
     <div className="" >
-      <Coverdet/>
-    </div> */}
+      <Coverdet text={collectdata}/>
+    </div>
 
 
 

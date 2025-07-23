@@ -42,7 +42,7 @@ const Herosectionpage = () => {
   overlayContent={
     <p className="   absolute top-15 w-100 left-0 ">
  
-<RotatingText
+{/* <RotatingText
   texts={[ 'hello ','Moi Moi', 'bonjour ']} 
   mainClassName=" text-white overflow-hidden px-9 pb-4 pr-3 h-10   rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
@@ -54,7 +54,7 @@ const Herosectionpage = () => {
   transition={{ type: "spring", damping: 40, stiffness: 500  }}
   rotationInterval={4000}
 />
- 
+  */}
 
     </p>
   }
@@ -70,8 +70,8 @@ const Herosectionpage = () => {
 <div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
      <div className='hidden md:block'>
     <div className='flex md:gap-3 gap-1 pb-7 pt-7 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg hover:bg-[#2DD4BF] hover:text-[#0A0B0D] transition    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
-    {/* <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5]    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/> */}
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26]  text-[#00D9F5] border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg hover:bg-[#2DD4BF] hover:text-[#0A0B0D] transition    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
+    {/* <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5]  text-[#00c2ff]  md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/> */}
     <Pagebtn btndetail='Robotics Engineer' style=' md:text-sm  border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg hover:bg-[#2DD4BF] hover:text-[#0A0B0D] transition  px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
   
 </div>
@@ -110,7 +110,7 @@ const Herosectionpage = () => {
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
     <div className='  items-center text-white hidden md:block'>
-           <div className='text-[#7C3AED]'>
+           <div className='text-[#00c2ff]'>
            {/* <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> */}
 
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
@@ -124,7 +124,7 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap flex items-center w-2xl  h-15'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack', 'Software']} 
-  mainClassName="text-[#7C3AED] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-white bg-[#00c2ff] overflow-hidden px-2 pb-4 pr-3 h-13 mr-1 justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -135,7 +135,7 @@ const Herosectionpage = () => {
   rotationInterval={3000}
 />
 
-  <div className='text-[#7C3AED] relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+  <div className='text-[#00c2ff] relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
 engineer"
 
   </div>
@@ -194,7 +194,7 @@ engineer"
 
     </div>
 
-  <div className=' relative text-white/50'>
+  <div className=' relative text-[#00c2ff]'>
  
   <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
   />
@@ -231,8 +231,9 @@ engineer"
 <div className=''>
 
 <div className='flex md:text-xl items-center  text-xs md:gap-3 gap-1 pt-7 '>
-    <Pagebtn btndetail='Explore Projects' style='bg-[#8A00FF]/20  text-[#8A00FF]   rounded-[26843500px] md:py-2 md:px-8 px-4 py-1.5  ' />
-    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-[#00D9F5] bg-[#E5FBFE]/20'/>
+    <Pagebtn btndetail='Explore Projects' style=' text-black border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition  rounded-[26843500px] md:py-2 md:px-8 px-4 py-1.5  ' />
+    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' '/>
+    {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='   border border-[#2DD4BF]  px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-black'/> */}
 </div>
 </div>
 

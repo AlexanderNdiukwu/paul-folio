@@ -12,11 +12,11 @@ const NavbarPage = () => {
 
       {/* NAV MENU */}
       <div className='hidden md:hidden lg:block rounded-lg'>
-        <div className='flex border border-[#818CF8] rounded-lg bg-[#1E1E22]/60 text-[#E0F2FE]'>
+        <div className='flex border border-white/5 bg-[#2DD4BF]/20  rounded-lg  text-[#E0F2FE]'>
           {["About", "Skills", "Projects", "Experience", "Contact"].map((item, i) => (
             <p
               key={i}
-              className={`px-3 py-2 transition-all duration-300 ease-in-out hover:bg-[#7C3AED]/30 hover:text-white hover:scale-105 transform ${
+              className={`px-3 py-2 transition-all duration-300 ease-in-out hover:bg-[#2DD4BF]  hover:text-white hover:scale-105 transform ${
                 i === 0 ? 'rounded-l-lg' : i === 4 ? 'rounded-r-lg' : ''
               }`}
             >
@@ -33,13 +33,13 @@ const NavbarPage = () => {
 
           <Navbarbtn
             btndetail="Let's talk"
-            style='w-36 text-center bg-gradient-to-r from-[#6366F1] to-[#3B82F6] text-white font-bold px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='w-36 text-center  text-[#00D9F5] border border-[#2DD4BF] text-black   rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition  font-bold px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
           />
 
           <Navbarbtn
             btndetail='Get in Touch'
-            style='text-[#E0F2FE] font-bold px-6 py-1 rounded-lg'
-            style1='bg-gradient-to-r from-[#00D9F5] via-[#8A00FF] to-[#4E4E75] text-white hover:scale-105 transition'
+            style=' font-bold px-6 py-1 rounded-lg'
+            style1='bg-[#2DD4BF] text-black hover:scale-105 rounded-md shadow-md transition'
           />
         </div>
       </div>

@@ -96,7 +96,7 @@ I’m multilingual — fluent in **English, French, Finnish, Igbo,** and **Yorub
   </p>
 </details>
   </div>
-  <div className=" hidden md:block text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white text-xl font-semibold px-6 py-10 pb-5">
+  <div className=" hidden md:block text-[#00c2ff]/90  text-xl font-semibold px-6 py-10 pb-5">
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 

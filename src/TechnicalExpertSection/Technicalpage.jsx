@@ -8,7 +8,7 @@ import BatteryAnimation from '../BatteryAnimation'
 import Loader from '../Loader'
 import ChargingBattery from '../ChargingBattery'
 
-const Technicalpage = ({data}) => {
+const Technicalpage = ({data,countdet}) => {
     let  [change,setchange] =useState(false)
     let  [senddata,setsenddata] =useState('')
     let [count,setcount]=useState(0)
@@ -18,8 +18,8 @@ const Technicalpage = ({data}) => {
     }
     let send = (a)=>{
         setsenddata(a)
-        setcount(count++)
-        data(a)
+        countdet(p=> p+1)
+        data('skills')
         
       }
   
@@ -349,9 +349,9 @@ Let’s build smarter, faster, and beautifully. */}
             </div>
 
             
-     <div className='text-white flex justify-center-safe text-center py-8 '>
+     <div key={count} className='text-white flex justify-center-safe text-center py-8 '>
 
-      <p onClick={()=>send('skills')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
+      <p  onClick={()=>send()} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
       {/* <p onClick={()=>send('skill')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p> */}
      </div>
 

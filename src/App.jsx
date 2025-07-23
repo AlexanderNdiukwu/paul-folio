@@ -14,6 +14,7 @@ import Coverdet from "./Coverdet"
 
 function App() {
   let [collectdata, setcollectdata] = useState('')
+  let [num , setnum ]= useState(0)
   const containerRef = useRef()
      
   
@@ -44,14 +45,9 @@ function App() {
 
      
     <div>
-      <Technicalpage data={setcollectdata}/>
+      <Technicalpage data={setcollectdata} countdet={setnum} />
     </div>
 
-    <div className="text-white">
-      {collectdata }
-
-    </div>
-   
 
     <div className="">
       <ProjectMainProject/>
@@ -95,7 +91,7 @@ function App() {
 
 
     <div className="" >
-      <Coverdet text={collectdata}/>
+      <Coverdet text={collectdata} key={num}/>
     </div>
 
 

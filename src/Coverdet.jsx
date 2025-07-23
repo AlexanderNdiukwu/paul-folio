@@ -35,7 +35,7 @@ export default function Coverdet({text}) {
   
             <div className=''>
 
-              {text=="skills"||text=="skill" && <Moreskills/>}
+              {text=="skills" && <Moreskills/>}
   
             </div>
   

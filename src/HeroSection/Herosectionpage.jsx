@@ -70,8 +70,9 @@ const Herosectionpage = () => {
 <div className='md:text-5xl text-3xl font-bold md:w-2xl w-90  text-zinc-900 '>
      <div className='hidden md:block'>
     <div className='flex md:gap-3 gap-1 pb-7 pt-7 '>
-    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5]    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
-    <Pagebtn btndetail='Robotics Engineer' style='bg-[#170927] md:text-sm text-[#8A00FF]  px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
+    <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5] border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg hover:bg-[#2DD4BF] hover:text-[#0A0B0D] transition    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/>
+    {/* <Pagebtn btndetail='Full-Stack Developer' style='bg-[#091F26] text-[#00D9F5]    md:text-sm md:py-1  px-4 whitespace-nowrap py-1 text-[8px]  rounded-[26843500px] text-center items-center  '/> */}
+    <Pagebtn btndetail='Robotics Engineer' style=' md:text-sm  border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg hover:bg-[#2DD4BF] hover:text-[#0A0B0D] transition  px-4 md:py-1 rounded-[26843500px] text-[8px] whitespace-nowrap py-1'  />
   
 </div>
 
@@ -109,7 +110,8 @@ const Herosectionpage = () => {
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
     <div className='  items-center text-white hidden md:block'>
-           <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+           <div className='text-[#7C3AED]'>
+           {/* <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> */}
 
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
             
@@ -122,7 +124,7 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap flex items-center w-2xl  h-15'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack', 'Software']} 
-  mainClassName=" text-[#8A00FF] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#7C3AED] overflow-hidden px-2 pb-4 pr-3  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -133,7 +135,7 @@ const Herosectionpage = () => {
   rotationInterval={3000}
 />
 
-  <div className='text-transparent relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+  <div className='text-[#7C3AED] relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
 engineer"
 
   </div>

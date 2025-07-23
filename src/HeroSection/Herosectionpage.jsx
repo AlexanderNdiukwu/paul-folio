@@ -124,7 +124,7 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap flex items-center w-2xl  h-15'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack', 'Software']} 
-  mainClassName="text-white bg-[#00c2ff] overflow-hidden px-2 pb-4 pr-3 h-13 mr-1 justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-white  overflow-hidden px-2 pb-4 pr-3  mr-1 justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -230,9 +230,9 @@ engineer"
 
 <div className=''>
 
-<div className='flex md:text-xl items-center  text-xs md:gap-3 gap-1 pt-7 '>
+<div className='flex md:text-xl items-center text-black  text-xs md:gap-3 gap-1 pt-7 '>
     <Pagebtn btndetail='Explore Projects' style=' text-black border border-[#2DD4BF] text-[#2DD4BF] px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition  rounded-[26843500px] md:py-2 md:px-8 px-4 py-1.5  ' />
-    <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' '/>
+    {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style=' '/> */}
     {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='   border border-[#2DD4BF]  px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-black'/> */}
 </div>
 </div>

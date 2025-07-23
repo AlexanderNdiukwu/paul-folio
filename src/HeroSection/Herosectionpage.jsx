@@ -110,7 +110,7 @@ const Herosectionpage = () => {
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
     <div className='  items-center text-white hidden md:block'>
-           <div className='text-[#00c2ff]'>
+           <div className='text-[#E0F2FE]'>
            {/* <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> */}
 
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
@@ -124,7 +124,7 @@ const Herosectionpage = () => {
 <div className='whitespace-nowrap flex items-center w-2xl  h-15'>
 <RotatingText
   texts={[ 'Robotics','Full-Stack', 'Software']} 
-  mainClassName="text-white  overflow-hidden px-2 pb-4 pr-3  mr-1 justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#7C3AED]  overflow-hidden px-2 pb-4 pr-3  mr-1 justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -135,7 +135,7 @@ const Herosectionpage = () => {
   rotationInterval={3000}
 />
 
-  <div className='text-[#00c2ff] relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
+  <div className='text-[#E0F2FE] relative h-full bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'>
 engineer"
 
   </div>
@@ -259,6 +259,8 @@ engineer"
     <div className=''>
  
         <Subherosection/>
+
+        
     </div>
 
 

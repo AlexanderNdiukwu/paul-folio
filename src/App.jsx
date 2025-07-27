@@ -22,7 +22,8 @@ function App() {
   return (
    <div className="select-none font-serif relative" >
 
-
+{/* this is the orange color i wanted to have [#ff8c00]  */}
+{/* and this is the bg i wanted  bg-[#2DD4BF] */}
 
     <div
     ref={containerRef}

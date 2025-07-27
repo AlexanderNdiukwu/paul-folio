@@ -9,8 +9,8 @@ const Subherosection = () => {
   return (
     <div className=' '>
 
-        <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-[#00c2ff] pt-8 w-full h-full   md:items-center   '>
-            <div className='w-full bg-[#00c2ff]/5   lg:h-32 border lg:w-69 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
+        <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-white pt-8 w-full h-full   md:items-center   '>
+            <div className='w-full border-[#00c2ff]  lg:h-30 border h-17 lg:w-74 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail= 
 
 {<CountUp
@@ -21,10 +21,10 @@ const Subherosection = () => {
   duration={10}
   className="count-up-text"
 />}
- btndetailsty='md:text-4xl text-xl ' btndetail2sty=' md:text-xl text-xs ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
+ btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
             </div>
              
-            <div className='bg-[#00c2ff]/5 w-full lg:h-32 border lg:w-69 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center '>
+            <div className='border-[#00c2ff] w-full lg:h-30 border lg:w-74 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-2xl flex justify-center items-center '>
             <Pagebtn btndetail={<CountUp
   from={0}
   to={25}
@@ -32,11 +32,11 @@ const Subherosection = () => {
   direction="up"
   duration={10}
   className="count-up-text"
-/>} btndetailsty='md:text-4xl text-xl ' btndetail2sty=' md:text-xl text-xs'  btndetail2='Project count ' style='whitespace-nowrap     ' />
+/>} btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] '  btndetail2='Project count ' style='whitespace-nowrap     ' />
             </div>
 {/* text-[#787878] */}
 
-            <div  className='bg-[#00c2ff]/5 w-full lg:h-32 border lg:w-69 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center' >
+            <div  className=' border-[#00c2ff]  w-full lg:h-30 border lg:w-74 md:rounded-3xl rounded-xl text-center px-2 py-3 shadow-2xl flex justify-center items-center' >
             <Pagebtn btndetail={<CountUp
   from={0}
   to={6}
@@ -44,15 +44,15 @@ const Subherosection = () => {
   direction="up"
   duration={10}
   className="count-up-text"
-/>} btndetailsty='md:text-4xl text-xl ' btndetail2sty=' md:text-xl text-xs' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
+/>} btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>
 
-            <div  className='bg-[#00c2ff]/5 lg:h-32  w-full border lg:w-69 md:rounded-3xl rounded-xl text-center px-30  py-2  shadow-2xl flex justify-center items-center col-span-3 lg:col-span-1'>
+            <div  className=' lg:h-30 border-[#00c2ff] h-17 w-full border lg:w-74 md:rounded-3xl rounded-xl text-center px-30  py-2  shadow-2xl flex justify-center items-center col-span-3 lg:col-span-1'>
             <Pagebtn btndetail=
   
 {<RotatingText
   texts={[ "4",'Python', 'JavaScript', 'C++', 'Java']} 
-  mainClassName=" text-[#00D9F5] md:text-3xl text-xl overflow-hidden px-2  h-10 md:h-11 md:h-10 pr-3  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-white md:text-3xl text-lg overflow-hidden px-2   h-10 md:h-11 md:h-10 pr-3  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -63,7 +63,7 @@ const Subherosection = () => {
   rotationInterval={3000}
 />
 }
- btndetailsty='md:text-4xl text-xl ' btndetail2sty=' md:text-xl text-xs ' btndetail2='programming Languages' style='whitespace-nowrap text-center  '/>
+  btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='programming Languages' style='whitespace-nowrap text-center  '/>
             </div>
 
 

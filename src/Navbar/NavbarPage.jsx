@@ -4,19 +4,21 @@ import Logo from './Logo';
 
 const NavbarPage = () => {
   return (
-    <div className='bg-[#0A0B0D]/80 backdrop-blur-sm flex items-center justify-between border border-[#2DD4BF]/20 rounded-xl md:mx-8 mx-3 py-1 px-2'>
+    <div className=' backdrop-blur-sm flex items-center  justify-between  rounded-xl md:mx-8 mx-3 py-1 px-2'>
+    {/* <div className='bg-[#0A0B0D]/80 backdrop-blur-sm flex items-center  justify-between border border-[#2DD4BF]/20 rounded-xl md:mx-8 mx-3 py-1 px-2'> */}
 
       <div>
         <Logo />
       </div>
 
-      {/* NAV MENU */}
+
       <div className='hidden md:hidden lg:block rounded-lg'>
-        <div className='flex border border-white/5 bg-[#2DD4BF]/20  rounded-lg  text-[#E0F2FE]'>
+        <div className='flex   rounded-lg  text-white'>
+        {/* <div className='flex border border-white/5 bg-[#00c2ff]/20  rounded-lg  text-white'> */}
           {["About", "Skills", "Projects", "Experience", "Contact"].map((item, i) => (
             <p
               key={i}
-              className={`px-3 py-2 transition-all duration-300 ease-in-out hover:bg-[#2DD4BF]  hover:text-white hover:scale-105 transform ${
+              className={`px-3 py-2 transition-all duration-300 ease-in-out hover:text-[#f02e00]  text-base  hover:scale-105 transform ${
                 i === 0 ? 'rounded-l-lg' : i === 4 ? 'rounded-r-lg' : ''
               }`}
             >
@@ -26,20 +28,21 @@ const NavbarPage = () => {
         </div>
       </div>
 
-      {/* BUTTONS */}
+
       <div className='hidden md:block'>
         <div className='flex gap-3'>
           <Navbarbtn />
 
           <Navbarbtn
             btndetail="Let's talk"
-            style='w-36 text-center  text-[#00D9F5] border border-[#2DD4BF] text-black   rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition  font-bold px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='w-36 text-center  text-[#00D9F5] border border-[#f02e00] text-black text-sm   rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
           />
 
           <Navbarbtn
             btndetail='Get in Touch'
-            style=' font-bold px-6 py-1 rounded-lg'
-            style1='bg-[#2DD4BF] text-black hover:scale-105 rounded-md shadow-md transition'
+            style='w-36 text-center  text-[#00D9F5] border border-[#f02e00] text-black text-sm   rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+
+
           />
         </div>
       </div>

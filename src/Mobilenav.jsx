@@ -6,7 +6,7 @@ export default function Mobilenav() {
       <div className='w-8 h-fit py-3 border break-all border-white/5 rounded-l-md flex flex-col justify-center items-center  backdrop-blur-3xl'>
          <p className='text-white/30'>h</p>
          <p className='text-white/30'>a</p>
-         {/* <p className='text-white/30'>p</p> */}
+         <p className='text-white/30'>p</p>
         
 
       </div>

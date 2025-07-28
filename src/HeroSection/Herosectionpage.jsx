@@ -232,12 +232,14 @@ engineer"
 
 <div className='flex md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
     
-    <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '>
+    <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '>
+    {/* <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '> */}
     <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
 
     </div>
    
-   <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
+   <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
+   {/* <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'> */}
 
     <span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-3 text-center animate-bounce  text-black font-extrabold ">

@@ -76,7 +76,7 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
 
 
     
-    <div onClick={chan} className="text-sm  flex justify-center text-[#f02e00] animate-pulse">
+    <div onClick={chan} className="text-sm  flex justify-center text-gray-400 animate-pulse">
     {!change ?
 "  Tap to learn more ↓" 
 :

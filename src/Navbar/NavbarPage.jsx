@@ -53,7 +53,7 @@ const NavbarPage = () => {
           <Navbarbtn
             btndetail='Get in Touch'
             parent={'md:py-0.5'}
-            style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-sm  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[10px]  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
             // style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
 
 

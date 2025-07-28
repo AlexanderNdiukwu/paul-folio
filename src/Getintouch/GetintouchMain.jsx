@@ -66,7 +66,7 @@ const GetintouchMain = () => {
 
                 </div>
                 <div className='md:col-span-2'>
-                <button type="submit" className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 rounded-lg w-full py-1  md:py-2'>Send Message</button>
+                <button type="submit" className='border text-sm border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 rounded-lg w-full py-1  md:py-2'>Send Message</button>
            
        
                     <div className='flex justify-center py-2 items-center'>

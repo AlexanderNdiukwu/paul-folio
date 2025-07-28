@@ -351,7 +351,7 @@ Let’s build smarter, faster, and beautifully. */}
             
      <div key={count} className='text-white flex justify-center-safe text-center py-8 '>
 
-      <p  onClick={()=>send()} className='hover:text-white   bg-gradient-to-r from-[#f02e00]/20 via-[#f02e00]  to-[#f02e00]/20 border border-[#f02e00]/20 py-3 px-6 rounded-2xl text-black'>More Skills </p>
+      <p  onClick={()=>send()} className='hover:text-white text-sm  bg-gradient-to-r from-[#f02e00]/20 via-[#f02e00]  to-[#f02e00]/20 border border-[#f02e00]/20 py-3 px-6 rounded-2xl text-black'>More Skills </p>
       {/* <p onClick={()=>send('skill')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p> */}
      </div>
 

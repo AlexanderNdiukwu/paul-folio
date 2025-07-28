@@ -1,7 +1,7 @@
 import React from 'react'
 import CountUp from '../CountUp'
 
-const Pagebtn = ({style1,style,btndetail,btndetail2,img,btndetailsty,btndetail2sty}) => {
+const Pagebtn = ({style1,style,btndetail,btndetail2,img,btndetailsty,btndetail2sty,parent}) => {
   return (
     <div className='' >
 
@@ -11,13 +11,18 @@ const Pagebtn = ({style1,style,btndetail,btndetail2,img,btndetailsty,btndetail2s
 
             {img && <img src={img} alt="img" className='lg:size-4  size-3 animate-bounce ' />}
 
-          
+          <div className={parent}>
            <div>
-            <p className={btndetailsty}>{btndetail}</p>
+            <div className={btndetailsty}>{btndetail}</div>
+
+           </div>
+           <div>
+            <p className={btndetail2sty}>{btndetail2}</p>
 
            </div>
 
-            <p className={btndetail2sty}>{btndetail2}</p>
+          </div>
+
 
 
         </div>

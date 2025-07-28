@@ -63,7 +63,7 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' h-[60vh] w-[100vw]  flex flex-col justify-center md:justify-end '>
+    <div className=' h-[55vh] w-[100vw]  flex flex-col justify-center md:justify-end '>
 
 
 
@@ -80,7 +80,7 @@ const Herosectionpage = () => {
 <div className='block lg:hidden pb-2 relative '>
   <div className='flex'>
   <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80  '/>
-  <p className=' text-[10px] absolute right-[24%] top-9 animate-bounce text-[#00c2ff]/80'> 
+  <div className=' text-[10px] absolute right-[24%] top-9 animate-bounce text-[#00c2ff]/80'> 
   
  
 <RotatingText
@@ -95,7 +95,7 @@ const Herosectionpage = () => {
   transition={{ type: "spring", damping: 40, stiffness: 500  }}
   rotationInterval={4000}
 />
-   </p>
+   </div>
 
   </div>
 </div>
@@ -147,12 +147,12 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-         <div className='text-white text-xl'>
+         <div className='text-white text-2xl'>
           {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
 
 
         {/* <div className=' text-2xl text-white'> */}
-        "Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
+         "Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
         <span className='hidden md:block'> a</span>
         
         
@@ -165,12 +165,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden  text-xl '>i am a</span>
+  <span className='block md:hidden  text-2xl '>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName="  text-xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#00c2ff]  text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -181,7 +181,7 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className=' text-xl '>
+  <div className=' text-2xl '>
   {/* <div className='text-white text-2xl'> */}
 engineer"
 
@@ -230,24 +230,24 @@ engineer"
 
 <div className=''>
 
-<div className='flex md:text-xl items-center text-black  text-xs md:gap-4 gap-1 pt-7 '>
+<div className='flex md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
     
-    <div className='bg-[#f02e00] rounded-lg border border-[#f02e00]'>
-    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-xs  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-1.5  ' />
+    <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '>
+    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
 
     </div>
    
-   <div className='flex bg-[#f02e00] gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
+   <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
 
     <span>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-2 text-center animate-bounce  text-black font-extrabold ">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-3 text-center animate-bounce  text-black font-extrabold ">
   <path fillRule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75Zm-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z" clipRule="evenodd" />
 </svg>
 
     </span>
     <div className=''>
 
-    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-xs text-black  text-[#2DD4BF] rounded-xl py-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-1.5'/>
+    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-[11px] text-black rounded-xl py-1 px-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-2'/>
     </div>
    </div>
     {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='   border border-[#2DD4BF]  px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-black'/> */}

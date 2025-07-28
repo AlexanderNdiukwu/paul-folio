@@ -55,9 +55,9 @@ const Technicalpage = ({data,countdet}) => {
 
             <div className='lg:mx-30   mx-3 pt-6 '>
 
-            <div className='bg-[#444449]/50 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
+            <div className='bg-[#444449]/15 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
+                <p className='md:text-4xl text-3xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
                   <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
                   <div className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></div>
 
@@ -66,8 +66,8 @@ const Technicalpage = ({data,countdet}) => {
                  
             </div >
                 <div className='text-white '>
-                  <details className="md:hidden  text-white px-2 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white ">
+                  <details className="md:hidden  text-white px-3 py-2 rounded-md">
+  <summary className="cursor-pointer italic font-semibold text-white  text-center">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  
@@ -76,7 +76,7 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
 
 
     
-    <div onClick={chan} className="text-sm italic flex justify-center text-gray-400 animate-pulse">
+    <div onClick={chan} className="text-sm  flex justify-center text-[#f02e00] animate-pulse">
     {!change ?
 "  Tap to learn more ↓" 
 :
@@ -84,19 +84,19 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
    }
 </div>
   </summary>
-  <p className="mt-2 text-center  italic text-transparent bg-clip-text bg-gradient-to-r  from-[#00c2ff]  to-white">
+  <p className="mt-2 text-center text-base text-white">
       
-   i am based in **Lagos**, Nigeria, and originally from **Imo State**.
+   i am based in Lagos, Nigeria, and originally from Imo State.
 
-I specialize in combining **robotics** and **software engineering** to solve real-world problems, with a focus on intelligent systems and clean UI/UX.
+I specialize in combining robotics and software engineering to solve real-world problems, with a focus on intelligent systems and clean UI/UX.
 
-I’m multilingual — fluent in **English, French, Finnish, Igbo,** and **Yoruba**, and I thrive in **team-based, collaborative environments** where innovation and efficiency matter.
+I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba, and I thrive in team-based, collaborative environments where innovation and efficiency matter.
 
   
   </p>
 </details>
   </div>
-  <div className=" hidden md:block text-[#00c2ff]/90  text-xl font-semibold px-6 py-10 pb-5">
+  <div className=" hidden md:block text-white  text-xl font-semibold px-6 py-10 pb-5">
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 
@@ -141,7 +141,7 @@ Let’s build smarter, faster, and beautifully. */}
               </div>
             <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-6 px-4 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
-            <div className='text-[#00D9F5]  '>
+            <div className='text-[#00c2ff]  '>
 
                 <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
             </div>
@@ -199,7 +199,7 @@ Let’s build smarter, faster, and beautifully. */}
               </div>
             <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-5  md:py-7 pt-4 md:pt-4 md:pb-7 px-3 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
-            <div className='text-[#00D9F5]  '>
+            <div className='text-[#00c2ff]  '>
 
                 <Technicalexpcard Carddetails='Backend Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
             </div>
@@ -264,7 +264,7 @@ Let’s build smarter, faster, and beautifully. */}
               </div>
             <div className='bg-[#F8F8F8]/5 border border-black/20 rounded-3xl pb-6  md:py-7 pt-4 md:pt-4 md:pb-7 px-4 w-full '>
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
-            <div className='text-[#00D9F5]  '>
+            <div className='text-[#00c2ff]   '>
 
                 <Technicalexpcard Carddetails='Robotics Development' style='md:text-3xl   text-2xl py-1 px-1 font-bold'/>
             </div>
@@ -351,7 +351,7 @@ Let’s build smarter, faster, and beautifully. */}
             
      <div key={count} className='text-white flex justify-center-safe text-center py-8 '>
 
-      <p  onClick={()=>send()} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p>
+      <p  onClick={()=>send()} className='hover:text-white   bg-gradient-to-r from-[#f02e00]/20 via-[#f02e00]  to-[#f02e00]/20 border border-[#f02e00]/20 py-3 px-6 rounded-2xl text-black'>More Skills </p>
       {/* <p onClick={()=>send('skill')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p> */}
      </div>
 

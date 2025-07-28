@@ -26,14 +26,14 @@ export default function Coverdet({text}) {
       <div className={`${cancel?'hidden':'block'}`}>
         
   
-      <div className='  flex flex-col justify-center w-[100vw] h-[100vh] backdrop-blur-xl  fixed top-10 lg:top-0 z-50  items-center '>
+      <div className='  flex flex-col justify-center w-[100vw] h-[100vh] backdrop-blur-xl  fixed top-0  z-50  items-center '>
           <div>
           <div className='flex justify-end'>
             <p onClick={canceldis} className='text-blue-700 h-fit'>cancel</p>
           </div>
-          <div className='w-[90vw] h-[80vh] lg:w-[80vw] lg:h-[70vh] z-10 rounded-lg px-10 py-7  '>
+          <div className='w-[100vw] h-[80vh] lg:w-[80vw]  lg:h-[70vh] z-10 rounded-lg md:px-10 px-6 py-7  '>
   
-            <div className=''>
+            <div className=' '>
 
               {text=="skills" && <Moreskills/>}
   

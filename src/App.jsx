@@ -9,6 +9,7 @@ import ProjectMainProject from "./Feactuesfolderpage/ProjectMainProject"
 import GetintouchMain from "./Getintouch/GetintouchMain"
 import Footermain from "./Footerpage/Footermain"
 import Coverdet from "./Coverdet"
+import Mobilenav from "./Mobilenav"
 
 
 
@@ -96,7 +97,10 @@ function App() {
     </div>
 
 
-
+    <div>
+      <Mobilenav/>
+      
+    </div>
   
 
 

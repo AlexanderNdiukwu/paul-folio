@@ -17,115 +17,64 @@ const ProjectMainProject = () => {
 
         <div className='md:grid flex flex-col lg:grid-cols-4 md:grid-cols-2 lg:gap-7 gap-5 py-5 text-white/50 '>
 
-        <div className=' w-full h-fit  border border-white/20 rounded-2xl pb-3 bg-white/5  '>
-            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+        <div className=' w-full h-fit   shadow-lg shadow-[#00c2ff] rounded-2xl pb-3   '>
+            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp'  imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
 
             <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+                 <div className='border-r-2 h-9 w-2 border-white/5 absolute right-0 bottom-1 animate-pulse '>
 
                 </div>
             <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+            <div className='border-l h-9 w-4 border-white/20 absolute left-0 bottom-0.5 animate-pulse '>
 
             </div>
             </div>
         </div>
 
-          <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
 
-             <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
-
-                </div>
-            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
-
-            </div>
-            </div>
-        </div>
-
-          <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+         <div className=' w-full h-fit   shadow-lg shadow-[#00c2ff] rounded-2xl pb-3   '>
+            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp'  imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
 
             <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+                 <div className='border-r-2 h-9 w-2 border-white/5 absolute right-0 bottom-1 animate-pulse '>
 
                 </div>
             <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+            <div className='border-l h-9 w-4 border-white/20 absolute left-0 bottom-0.5 animate-pulse '>
 
             </div>
             </div>
         </div>
 
-         <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-  <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+         <div className=' w-full h-fit   shadow-lg shadow-[#00c2ff] rounded-2xl pb-3   '>
+            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp'  imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+
+            <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-2 border-white/5 absolute right-0 bottom-1 animate-pulse '>
 
                 </div>
             <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+            <div className='border-l h-9 w-4 border-white/20 absolute left-0 bottom-0.5 animate-pulse '>
 
             </div>
             </div>
         </div>
- 
         
-         <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-  <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
+         <div className=' w-full h-fit   shadow-lg shadow-[#00c2ff] rounded-2xl pb-3   '>
+            <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp'  imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
+
+            <div className='flex md:gap-3 gap-1 mx-3 relative '>
+                 <div className='border-r-2 h-9 w-2 border-white/5 absolute right-0 bottom-1 animate-pulse '>
 
                 </div>
             <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
+            <div className='border-l h-9 w-4 border-white/20 absolute left-0 bottom-0.5 animate-pulse '>
 
             </div>
             </div>
         </div>
 
-           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-  <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
 
-                </div>
-            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
-
-            </div>
-            </div>
-        </div>
-
-           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-
-          <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
-
-                </div>
-            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
-
-            </div>
-            </div>
-        </div>
-
-           <div className=' w-full h-fit  border border-white/20 rounded-2xl  pb-3 bg-white/5   '>
-            <Projectcard imgstyle='object-cover   relative w-full rounded-t-2xl  md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp' imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />
-
-           <div className='flex md:gap-3 gap-1 mx-3 relative '>
-                 <div className='border-r-2 h-9 w-4 border-white/20 absolute right-0 bottom-1 animate-pulse '>
-
-                </div>
-            <ScrollingText text={<Technicalexpcard img={[{image:'/images/facebook.png',imgdet:'facebook'} ,{image:'/images/instagram.png',imgdet:'inst'} ,]} />}/>
-            <div className='border-l-2 h-9 w-4 border-white/20 absolute left-0 bottom-1 animate-pulse '>
-
-            </div>
-            </div>
-        </div>
 
 
 
@@ -138,9 +87,10 @@ const ProjectMainProject = () => {
         </div>
 
         
-     <div className='text-white flex justify-center-safe text-center py-8 '>
+      <div  className='text-white flex justify-center-safe text-center py-8 '>
 
-      <p className='hover:text-white/50 border bg-white/10 border-white/20 text-white py-3 px-6 rounded-2xl '>More Projects </p>
+      <p  className='hover:text-white border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/20 via-[#f02e00] to-[#f02e00]/20 py-3 px-6 rounded-2xl text-black'>More Projects </p>
+      {/* <p onClick={()=>send('skill')} className='hover:text-white border border-[#00c2ff]/20 bg-gradient-to-r from-transparent via-[#00c2ff]/50 to-transparent py-3 px-6 rounded-2xl text-black'>More Skills </p> */}
      </div>
 
 

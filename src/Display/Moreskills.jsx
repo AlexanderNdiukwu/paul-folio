@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Moreskills() {
   return (
-    <div className='flex justify-between items-center gap-4 '>
-
-        <div className=' py-4 px-4 bg-white/5 w-full rounded-lg border border-white/20 shadow-blue-500 shadow-2xl'>
+    <div className='flex justify-between items-center gap-4  overflow-scroll  '>
+       
+        <div className=' py-4 px-3  bg-white/5 min-w-full rounded-lg border border-white/20 shadow-blue-500 shadow-2xl'>
             <p className='text-3xl font-bold text-[#00c2ff]'>Frontend Skills</p>
 
             <div className='py-6'>
@@ -31,7 +31,7 @@ export default function Moreskills() {
         </div>
 
      
-        <div className=' py-4 px-3 bg-white/5 rounded-lg w-full border border-white/20 shadow-blue-500 shadow-2xl'>
+        <div className=' py-4 px-3 bg-white/5 rounded-lg min-w-full border border-white/20 shadow-blue-500 shadow-2xl'>
             <p className='text-3xl font-bold text-[#00c2ff]'>Frontend Skills</p>
 
             <div className='py-6'>
@@ -58,7 +58,7 @@ export default function Moreskills() {
         </div>
 
     
-        <div className=' py-4 px-3 bg-white/5 rounded-lg border w-full border-blue-700 shadow-blue-500 shadow-2xl'>
+        <div className=' py-4 px-3 bg-white/5 rounded-lg border min-w-full border-blue-700 shadow-blue-500 shadow-2xl'>
             <p className='text-3xl font-bold text-[#00c2ff]'>Frontend Skills</p>
 
             <div className='py-6'>

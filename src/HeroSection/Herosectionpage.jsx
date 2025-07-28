@@ -228,9 +228,9 @@ engineer"
     <p>Coding the Future.</p>
 </div> */}
 
-<div className=''>
+<div className='hidden'>
 
-<div className='flex md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
+<div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
     
     <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '>
     {/* <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '> */}

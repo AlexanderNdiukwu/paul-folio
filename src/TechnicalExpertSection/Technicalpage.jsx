@@ -57,7 +57,7 @@ const Technicalpage = ({data,countdet}) => {
 
             <div className='bg-[#444449]/15 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-3xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
+                <p className='md:text-4xl text-2xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
                   <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
                   <div className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></div>
 
@@ -67,7 +67,7 @@ const Technicalpage = ({data,countdet}) => {
             </div >
                 <div className='text-white '>
                   <details className="md:hidden  text-white px-3 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-white  text-center">
+  <summary className="cursor-pointer italic font-semibold text-white text-sm  text-center">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  

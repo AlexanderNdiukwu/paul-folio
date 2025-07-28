@@ -14,7 +14,7 @@ export default function Charge({ text = 'react', color = 'bg-[#00ffd1]/40' }) {
       }}
     >
       <div className={`${color}`}>
-        <p className="text-center text-md   capitalize font-semibold py-1">
+        <p className="text-center text-md text-md  capitalize font-semibold py-1">
           {text}
         </p>
       </div>

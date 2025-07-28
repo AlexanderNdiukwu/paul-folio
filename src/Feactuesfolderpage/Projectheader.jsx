@@ -5,7 +5,7 @@ const Projectheader = () => {
     <div>
 
         <div>
-            <p className='md:text-4xl text-3xl text-[#00c2ff] font-serif whitespace-nowrap font-bold underline'>
+            <p className='md:text-4xl text-2xl text-[#00c2ff] font-serif whitespace-nowrap font-bold underline'>
             Top Projects
             {/* Featured Projects */}
             </p>

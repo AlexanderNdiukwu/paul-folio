@@ -147,7 +147,7 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-         <div className='text-white text-2xl'>
+         <div className='text-white text-xl'>
           {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
 
 
@@ -165,12 +165,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden  text-2xl '>i am a</span>
+  <span className='block md:hidden  text-xl '>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName="text-[#00c2ff]  text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#00c2ff]  text-xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -181,7 +181,7 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className=' text-2xl '>
+  <div className=' text-xl '>
   {/* <div className='text-white text-2xl'> */}
 engineer"
 

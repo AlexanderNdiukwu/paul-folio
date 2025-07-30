@@ -79,7 +79,7 @@ const Herosectionpage = () => {
 
      </div>
 <div className='block lg:hidden pb-2 relative '>
-  <div className='flex border border-white/5 rounded-lg '>
+  <div className='flex  rounded-lg '>
   <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80 justify-center flex items-center   '/>
   <div className=' text-[10px] absolute right-[24%] top-9 animate-bounce text-[#00c2ff]/80'> 
   

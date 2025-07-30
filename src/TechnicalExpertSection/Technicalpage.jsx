@@ -57,7 +57,7 @@ const Technicalpage = ({data,countdet}) => {
 
             <div className='bg-[#444449]/15 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
-                <p className='md:text-4xl text-2xl mb-2 underline text-[#00c2ff] md:w-100 px-4 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-1  text-center'>About Me </p>
+                <p className='md:text-4xl text-3xl mb-2 underline text-[#00c2ff] md:w-100 px-6 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-2  text-center'>About Me </p>
                   <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
                   <div className='absolute hidden md:block right-5 top-2  rotate-180'> <Loader size="md" /></div>
 
@@ -67,7 +67,7 @@ const Technicalpage = ({data,countdet}) => {
             </div >
                 <div className='text-white '>
                   <details className="md:hidden  text-white px-3 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-white text-sm   text-center">
+  <summary className="cursor-pointer leading-5 italic font-semibold text-white text-sm ">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  
@@ -77,14 +77,14 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
 
     
     <div onClick={chan} className="text-sm  flex justify-center text-gray-400 animate-pulse">
-    {!change ?
-"  Tap to learn more ↓" 
-:
+    {change ?
 "Tap to hide "
+:
+"  Tap to learn more ↓" 
    }
 </div>
   </summary>
-  <p className="mt-2 text-center text-base  text-white">
+  <p className="mt-2 text-center leading-5 text-base font-semibold  text-white">
       
    i am based in Lagos, Nigeria, and originally from Imo State.
 
@@ -96,7 +96,7 @@ I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba, and
   </p>
 </details>
   </div>
-  <div className=" hidden md:block text-white md:text-2xl  lg:text-xl  font-semibold px-6 py-10 pb-5">
+  <div className="leading-8 hidden md:block text-white md:text-2xl  lg:text-xl  font-semibold px-6 py-10 pb-5">
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 

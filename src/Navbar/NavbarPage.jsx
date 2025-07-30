@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbarbtn from '../Pagebutton/Pagebtn';
 import Logo from './Logo';
+// import { Link } from 'react-router-dom'
+
 
 const NavbarPage = () => {
   return (
-    <div className=' backdrop-blur-sm flex items-center  justify-between border border-white/10 lg:border-0  rounded-xl md:mx-8 mx-3 py-1 px-2'>
+    <div className=' backdrop-blur-sm flex items-center  justify-between border border-white/10 lg:border-0  rounded-xl md:mx-8 mx-3 py-2 px-2'>
     {/* <div className='bg-[#0A0B0D]/80 backdrop-blur-sm flex items-center  justify-between border border-[#2DD4BF]/20 rounded-xl md:mx-8 mx-3 py-1 px-2'> */}
 
       <div>
@@ -17,12 +19,14 @@ const NavbarPage = () => {
         {/* <div className='flex border border-white/5 bg-[#00c2ff]/20  rounded-lg  text-white'> */}
           {["Home","About", "Skills", "Projects", "Experience"].map((item, i) => (
             <p
+            
               key={i}
               className={`px-3 py-2 transition-all duration-300 ease-in-out hover:text-[#f02e00]  text-base  hover:scale-105 transform ${
                 i === 0 ? 'rounded-l-lg' : i === 4 ? 'rounded-r-lg' : ''
               } ${item == "Home" ? 'text-[#f02e00]':''} `}
             >
-              {item}
+            {item}  
+             {/* <Link>{item}</Link>  */}
             </p>
           ))}
         </div>
@@ -42,11 +46,12 @@ const NavbarPage = () => {
             parent={'flex px-4 gap-1 py-0.5'}
             btndetail2sty={'whitespace-nowrap'}
             btndetailsty={'whitespace-nowrap'}
-            style='w-38 text-center  border border-[#f02e00]/20  text-black text-sm   rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold  py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='w-38 text-center  border border-[#f02e00]/20  text-black text-sm   rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold  py-1 rounded-md shadow-md hover:scale-105 transition'
+            // style='w-38 text-center  border border-[#f02e00]/20  text-black text-sm   rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold  py-1 rounded-md shadow-md hover:scale-105 transition'
           />
 
           </div>
-          
+       
 
           <div className=''>
 

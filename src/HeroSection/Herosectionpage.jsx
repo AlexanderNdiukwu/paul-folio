@@ -63,7 +63,8 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  pt-6 md:pt-0   flex flex-col  md:justify-end '>
+    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  justify-center  flex flex-col  md:justify-end '>
+    {/* <div className=' md:h-[55vh] h-[60vh] w-[100vw]  pt-10 md:pt-0   flex flex-col  md:justify-end '> */}
 
 
 
@@ -78,8 +79,8 @@ const Herosectionpage = () => {
 
      </div>
 <div className='block lg:hidden pb-2 relative '>
-  <div className='flex'>
-  <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80  '/>
+  <div className='flex border border-white/5 rounded-lg '>
+  <img src="/images/uploadimg.png" alt="" className='w-30 md:w-80 justify-center flex items-center   '/>
   <div className=' text-[10px] absolute right-[24%] top-9 animate-bounce text-[#00c2ff]/80'> 
   
  
@@ -113,7 +114,7 @@ const Herosectionpage = () => {
            <div className='	text-white '>
            {/* <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> */}
 
-        "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
+        Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
             
         </div>
         {/* <div className=' w-full h-fit whitespace-nowrap '>
@@ -147,12 +148,12 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-         <div className='text-white text-lg'>
+         <div className='text-white text-2xl'>
           {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
 
 
         {/* <div className=' text-2xl text-white'> */}
-         "Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
+         Hi, i am Ndiukwu <br/> Chukwuemeka Paul. 
         <span className='hidden md:block'> a</span>
         
         
@@ -165,12 +166,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden  text-lg '>i am a</span>
+  <span className='block md:hidden  text-2xl'>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName="text-[#00c2ff]  text-lg overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#00c2ff]  text-2xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -181,9 +182,9 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className=' text-lg '>
+  <div className=' text-2xl '>
   {/* <div className='text-white text-2xl'> */}
-engineer"
+engineer.
 
   </div>
   
@@ -234,7 +235,7 @@ engineer"
     
     <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '>
     {/* <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '> */}
-    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  lg:text-black text-white text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
+    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
 
     </div>
    
@@ -249,7 +250,7 @@ engineer"
     </span>
     <div className=''>
 
-    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-[11px] lg:text-black text-white rounded-xl py-1 px-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-2'/>
+    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-[11px] text-black  rounded-xl py-1 px-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-2'/>
     </div>
    </div>
     {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='   border border-[#2DD4BF]  px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-black'/> */}

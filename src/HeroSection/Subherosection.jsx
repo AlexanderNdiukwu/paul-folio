@@ -9,7 +9,7 @@ const Subherosection = () => {
   return (
     <div className=' '>
 
-        <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-white pt-8 w-full h-full   md:items-center   '>
+        <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-white pt-9 w-full h-full   md:items-center   '>
             <div className='w-full   lg:h-30  h-16 lg:w-74 md:rounded-3xl shadow-md md:shadow-lg rounded-xl text-center px-2 py-3 shadow-[#00c2ff] flex justify-center items-center '>
             <Pagebtn btndetail= 
 
@@ -47,7 +47,7 @@ const Subherosection = () => {
 />} btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='Robotic & AI' style='whitespace-nowrap '/>
             </div>
 
-            <div  className=' lg:h-30  h-16 w-full  lg:w-74 md:rounded-3xl rounded-xl text-center px-30  py-2 my-1 border border-[#00c2ff]/20 md:shadow-lg shadow-md shadow-[#00c2ff] flex justify-center items-center col-span-3 lg:col-span-1'>
+            <div  className=' lg:h-30  h-16 w-full  lg:w-74 md:rounded-3xl rounded-xl text-center px-30  py-2 my-1 border border-[#00c2ff]/20 md:border-0 md:shadow-lg shadow-md shadow-[#00c2ff] flex justify-center items-center col-span-3 lg:col-span-1'>
             <Pagebtn btndetail=
   
 {<RotatingText

@@ -31,9 +31,20 @@ function App() {
     // className="relative w-full h-screen overflow-hidden">
 
      className="relative w-full h-full overflow-hidden"> 
+    <div className="hidden lg:block">
 
-    <Particles />
+    <Particles  particleCount = {1400} />
+    </div>
 
+    <div className="block lg:hidden">
+
+    <Particles  particleCount = {7000} />
+    </div>
+
+     
+
+
+   
     <div className=" w-full fixed top-0 z-50 py-2  ">
     <NavbarPage/>
 

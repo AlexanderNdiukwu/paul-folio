@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-7 pt-7  text-white h-[90vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-7 pt-3  text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -63,7 +63,7 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[60vh] w-[100vw]   flex flex-col  md:justify-end '>
+    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  pt-6 md:pt-0   flex flex-col  md:justify-end '>
 
 
 
@@ -230,11 +230,11 @@ engineer"
 
 <div className=''>
 
-<div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
+<div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-2 '>
     
     <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '>
     {/* <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '> */}
-    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
+    <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[11px]  lg:text-black text-white text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
 
     </div>
    
@@ -249,7 +249,7 @@ engineer"
     </span>
     <div className=''>
 
-    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-[11px] text-black rounded-xl py-1 px-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-2'/>
+    <Pagebtn  btndetail='Download CV' btndetailsty='  ' style='md:text-lg text-[11px] lg:text-black text-white rounded-xl py-1 px-1  md:py-3   hover:text-[#0A0B0D] transition  md:py-2  py-2'/>
     </div>
    </div>
     {/* <Pagebtn img='../../images/HeroSectionImage/downloadframe.png' btndetail='Download CV' style='   border border-[#2DD4BF]  px-6 py-3 rounded-lg bg-[#2DD4BF] hover:text-[#0A0B0D] transition flex items-center gap-1 rounded-[26843500px] md:py-2 md:px-8 px-4 py-1 border border-[#00D9F5] text-black'/> */}

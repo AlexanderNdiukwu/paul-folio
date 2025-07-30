@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-7 pt-3    text-white h-[100vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-7 pt-4   text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -63,7 +63,7 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[100vh] w-[100vw]    flex flex-col justify-center md:justify-end '>
+    <div className=' md:h-[55vh] h-[80vh] w-[90vw]  border  flex flex-col justify-between  md:justify-end '>
 
 
 
@@ -263,6 +263,12 @@ engineer"
 
 
 
+ <div className='block lg:hidden '>
+ 
+        <Subherosection/>
+
+        
+    </div>
 
 
 
@@ -275,7 +281,7 @@ engineer"
 
 
 
-    <div className=''>
+    <div className='hidden lg:block'>
  
         <Subherosection/>
 

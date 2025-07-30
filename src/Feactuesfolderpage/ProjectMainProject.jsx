@@ -15,7 +15,7 @@ const ProjectMainProject = () => {
             <Projectheader />
         </div>
 
-        <div className='md:grid flex flex-col lg:grid-cols-4 lg:gap-7 gap-5 py-5 text-white/50 '>
+        <div className='md:grid flex flex-col lg:grid-cols-4 md:grid-cols-2 lg:gap-7 gap-5 py-5 text-white/50 '>
 
         <div className=' w-full h-fit   shadow-lg shadow-[#00c2ff] rounded-2xl pb-3   '>
             <Projectcard imgstyle='object-cover  relative w-full rounded-t-2xl md:h-49 h-40' img='../../images/HeroSectionImage/logo.webp'  imgdetails='Autonomous Drone System' imgdescription='Advanced drone control system with computer vision and autonomous navigation capabilities.' />

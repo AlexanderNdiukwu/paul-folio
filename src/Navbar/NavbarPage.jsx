@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const NavbarPage = () => {
   return (
-    <div className=' backdrop-blur-sm flex items-center  justify-between border border-white/10 lg:border-0  rounded-xl md:mx-8 mx-3 py-1 px-2'>
+    <div className=' backdrop-blur-sm flex items-center  justify-between border border-white/10 lg:border-0  rounded-xl md:mx-8 mx-3 py-0.5 px-2'>
     {/* <div className='bg-[#0A0B0D]/80 backdrop-blur-sm flex items-center  justify-between border border-[#2DD4BF]/20 rounded-xl md:mx-8 mx-3 py-1 px-2'> */}
 
       <div>
@@ -53,7 +53,7 @@ const NavbarPage = () => {
           <Navbarbtn
             btndetail='Get in Touch'
             parent={'md:py-0.5'}
-            style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[10px]  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px] font-bold  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
             // style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
 
 

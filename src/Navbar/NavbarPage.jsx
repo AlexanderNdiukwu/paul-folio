@@ -32,17 +32,17 @@ const NavbarPage = () => {
       <div className=' '>
         <div className='flex gap-3'>
          
-          <div className='hidden md:block'>
+          <div className=''>
           <Navbarbtn
             btndetail2="Download CV"
             btndetail={   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-2 text-center animate-bounce  text-black font-extrabold ">
   <path fillRule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v11.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3a.75.75 0 0 1 .75-.75Zm-9 13.5a.75.75 0 0 1 .75.75v2.25a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V16.5a.75.75 0 0 1 1.5 0v2.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V16.5a.75.75 0 0 1 .75-.75Z" clipRule="evenodd" />
 </svg>}
             // btndetail="Let's talk"
-            parent={'flex px-4 gap-1 py-0.5'}
+            parent={'flex jusify-center items-center md:px-4 px-1 md:gap-1 gap-0.5 py-0.5'}
             btndetail2sty={'whitespace-nowrap'}
             btndetailsty={'whitespace-nowrap'}
-            style='w-38 text-center  border border-[#f02e00]/20  text-black text-sm   rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold  py-1 rounded-md shadow-md hover:scale-105 transition'
+            style='md:w-38 text-center  border border-[#f02e00]/20  text-black md:text-sm text-[9px]   rounded-lg bg-gradient-to-r from-[#f02e00]/30 md:from-[#f02e00] via-[#f02e00] md:to-[#f02e00] to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold  rounded-md shadow-md hover:scale-105 transition'
           />
 
           </div>
@@ -52,8 +52,8 @@ const NavbarPage = () => {
 
           <Navbarbtn
             btndetail='Get in Touch'
-            parent={'md:py-0.5'}
-            style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[10px]  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
+            parent={'md:py-0.5 px-1 py-0.5'}
+            style='md:w-38  text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 md:from-[#f02e00] via-[#f02e00] md:to-[#f02e00] to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6  rounded-md shadow-md hover:scale-105 transition'
             // style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
 
 

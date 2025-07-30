@@ -228,7 +228,7 @@ engineer"
     <p>Coding the Future.</p>
 </div> */}
 
-<div className='hidden'>
+<div className=''>
 
 <div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
     

@@ -40,7 +40,7 @@ const GetintouchMain = () => {
             <div className='py-4 ' >
                 <Getintouchheader/>
 
-                <div className='text-sm text-white py-1'>
+                <div className='text-sm text-white/40 py-1'>
                 Full-stack developer and robotics engineer specializing in creating innovative solutions that bridge the digital and physical worlds.
 
                 </div>

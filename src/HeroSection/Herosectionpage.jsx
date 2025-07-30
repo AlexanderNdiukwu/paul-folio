@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-5 pt-3  text-white h-[90vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-7 pt-3  text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -63,7 +63,7 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  flex flex-col justify-center md:justify-end '>
+    <div className=' md:h-[55vh] h-[60vh] w-[100vw] border  flex flex-col justify-center md:justify-end '>
 
 
 

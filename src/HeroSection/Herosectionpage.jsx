@@ -11,7 +11,7 @@ const Herosectionpage = () => {
 
   return (
 
-    <div className=' md:mx-9 mx-3 md:pt-7 pt-4   text-white h-[90vh] flex flex-col md:justify-between'>
+    <div className=' md:mx-9 mx-3 md:pt-7 pt-7  text-white h-[90vh] flex flex-col md:justify-between'>
 
 
 
@@ -63,7 +63,7 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[80vh] w-[90vw]  border  flex flex-col justify-between  md:justify-end '>
+    <div className=' md:h-[55vh] h-[60vh] w-[100vw]   flex flex-col  md:justify-end '>
 
 
 
@@ -110,7 +110,7 @@ const Herosectionpage = () => {
     {/* Full-Stack & Robotics Engineer building intelligent systems where software meets machines. */}
 
     <div className='  items-center text-white hidden md:block'>
-           <div className='	text-white  '>
+           <div className='	text-white '>
            {/* <div className='text-transparent bg-clip-text bg-gradient-to-r from-[#00c2ff] to-white'> */}
 
         "Hi, i am Ndiukwu Chukwuemeka Paul ,I'm a
@@ -146,8 +146,8 @@ engineer"
 
     </div>
     
-    <div className='  items-center  block md:hidden  '>
-         <div className='text-white text-xl font-extrabold'>
+    <div className='  items-center  block md:hidden '>
+         <div className='text-white text-lg'>
           {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
 
 
@@ -165,12 +165,12 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden  text-xl font-extrabold '>i am a</span>
+  <span className='block md:hidden  text-lg '>i am a</span>
   <div className=''>
 
 <RotatingText
   texts={[ 'Robotics','Full-Stack ', 'Software']} 
-  mainClassName="text-[#00c2ff]   text-xl overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
+  mainClassName="text-[#00c2ff]  text-lg overflow-hidden px-2 pb-1.5  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -181,7 +181,7 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className=' text-xl '>
+  <div className=' text-lg '>
   {/* <div className='text-white text-2xl'> */}
 engineer"
 
@@ -194,7 +194,7 @@ engineer"
 
     </div>
 
-  <div className=' relative text-white/40  '>
+  <div className=' relative text-white/40 '>
  
   <ScrollingText text={'Bridging the gap between software and hardware. Creating innovative solutions that combine web technologies with robotics and automation systems.'}
   />
@@ -230,7 +230,7 @@ engineer"
 
 <div className=''>
 
-<div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-2  '>
+<div className='flex  md:text-xl items-center text-black  text-xs md:gap-4 gap-3 pt-7  '>
     
     <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '>
     {/* <div className='border border-[#f02e00]/20 bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '> */}
@@ -238,7 +238,7 @@ engineer"
 
     </div>
    
-   <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  md:gap-1 gap-0.5 rounded-lg justify-center items-center  md:px-8 px-2'>
+   <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
    {/* <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'> */}
 
     <span>
@@ -263,12 +263,6 @@ engineer"
 
 
 
- <div className='block lg:hidden '>
- 
-        <Subherosection/>
-
-        
-    </div>
 
 
 
@@ -281,7 +275,7 @@ engineer"
 
 
 
-    <div className='hidden lg:block'>
+    <div className=''>
  
         <Subherosection/>
 

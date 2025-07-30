@@ -67,7 +67,7 @@ const Technicalpage = ({data,countdet}) => {
             </div >
                 <div className='text-white '>
                   <details className="md:hidden  text-white px-3 py-2 rounded-md">
-  <summary className="cursor-pointer italic font-semibold text-white text-sm  text-center">
+  <summary className="cursor-pointer italic font-semibold text-white text-sm   text-center">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  
@@ -84,7 +84,7 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
    }
 </div>
   </summary>
-  <p className="mt-2 text-center text-base text-white">
+  <p className="mt-2 text-center text-base  text-white">
       
    i am based in Lagos, Nigeria, and originally from Imo State.
 
@@ -96,7 +96,7 @@ I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba, and
   </p>
 </details>
   </div>
-  <div className=" hidden md:block text-white  text-xl font-semibold px-6 py-10 pb-5">
+  <div className=" hidden md:block text-white md:text-2xl  lg:text-xl  font-semibold px-6 py-10 pb-5">
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 
@@ -143,7 +143,7 @@ Let’s build smarter, faster, and beautifully. */}
             <div className='bg-[#F8F8F8]/5 rounded-xl'>
             <div className='text-[#00c2ff]  '>
 
-                <Technicalexpcard Carddetails='Full-Stack Development' style='md:text-3xl  text-2xl py-1 px-1 font-bold'/>
+                <Technicalexpcard Carddetails='Full-Stack Development' style='lg:text-3xl md:text-4xl  text-2xl py-1 px-1 font-bold'/>
             </div>
 
 

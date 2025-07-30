@@ -21,7 +21,7 @@ const Subherosection = () => {
   duration={10}
   className="count-up-text"
 />}
- btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
+ btndetailsty='md:text-4xl text-xl ' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='Work Experience' style='whitespace-nowrap  '/>
             </div>
              
             <div className='border-black w-full lg:h-30 border lg:w-74 md:rounded-3xl rounded-xl text-center px-2 py-3  shadow-md md:shadow-lg shadow-[#00c2ff] flex justify-center items-center '>

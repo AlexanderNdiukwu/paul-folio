@@ -32,7 +32,7 @@ const NavbarPage = () => {
       <div className=' '>
         <div className='flex gap-3'>
          
-          <div className=''>
+          <div className='hidden md:block'>
           <Navbarbtn
             btndetail2="Download CV"
             btndetail={   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-2 text-center animate-bounce  text-black font-extrabold ">
@@ -53,7 +53,7 @@ const NavbarPage = () => {
           <Navbarbtn
             btndetail='Get in Touch'
             parent={'md:py-0.5 px-1 py-0.5'}
-            style='md:w-38  text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 md:from-[#f02e00] via-[#f02e00] md:to-[#f02e00] to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6  rounded-md shadow-md hover:scale-105 transition'
+            style='md:w-38  text-center  border border-[#f02e00]/20 text-black md:text-sm text-xs  rounded-lg bg-[#f02e00] hover:text-[#0A0B0D] transition  font-bold md:px-6  rounded-md shadow-md hover:scale-105 transition'
             // style='md:w-38 w-22 text-center  border border-[#f02e00]/20 text-black md:text-sm text-[9px]  rounded-lg bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 hover:text-[#0A0B0D] transition  font-bold md:px-6 py-1 rounded-md shadow-md hover:scale-105 transition'
 
 

@@ -8,7 +8,7 @@ export default function Mobilenav() {
 
         <a 
           className='text-[#f02e00]/70 hover:text-white border-b border-white/20 pb-1 transition-colors duration-300'
-          href="#Home"
+          href="#Home1"
         >
           <MdHome className="w-6 h-6" />
         </a>

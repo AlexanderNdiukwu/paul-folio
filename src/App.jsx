@@ -24,6 +24,7 @@ function App() {
 
    <div className="select-none font-serif relative" >
       <div className="">
+         <span id='Home1'></span>
       <Mobilenav/>
       
     </div>
@@ -111,6 +112,7 @@ function App() {
 
 
     <div className="" >
+      
       <Coverdet text={collectdata} key={num}/>
     </div>
 

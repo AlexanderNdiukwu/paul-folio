@@ -86,7 +86,7 @@ const Herosectionpage = () => {
  
 <RotatingText
   texts={[ 'Welcome to my space -- get it ? ','maybe i am your next hire ? 👀', 'i think on a different plane ']} 
-  mainClassName=" text-white overflow-hidden px-2 pb-4 pr-3 h-10  justify-center rounded-lg whitespace-nowrap"
+  mainClassName=" text-white/95 overflow-hidden px-2 pb-4 pr-3 h-10  justify-center rounded-lg whitespace-nowrap"
   staggerFrom={"last"}
   initial={{ y: "100%" }}
   animate={{ y: 5 }}
@@ -148,7 +148,7 @@ engineer"
     </div>
     
     <div className='  items-center  block md:hidden '>
-         <div className='text-white text-xl'>
+         <div className='text-white/95 text-xl'>
           {/* bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent */}
 
 
@@ -166,7 +166,7 @@ engineer"
         </div>  */}
 
 <div className='md:whitespace-nowrap flex items-center lg:w-2xl'>
-  <span className='block md:hidden  text-xl'>i am a</span>
+  <span className='block md:hidden text-white/95 text-xl'>i am a</span>
   <div className=''>
 
 <RotatingText
@@ -182,7 +182,7 @@ engineer"
   rotationInterval={3000}
 />
   </div>
-  <div className=' text-xl '>
+  <div className=' text-xl text-white/95 '>
   {/* <div className='text-white text-2xl'> */}
 engineer.
 

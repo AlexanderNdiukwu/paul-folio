@@ -86,7 +86,7 @@ Creative thinker, real-world problem solver.     I build robotics systems and we
    }
 </div>
   </summary>
-  <p className="mt-2 text-center leading-5 text-base font-semibold  text-white">
+  <p className="mt-2 text-center leading-5 text-base font-semibold  text-white/90">
       
    i am based in Lagos, Nigeria, and originally from Imo State.
 

@@ -239,8 +239,8 @@ engineer.
 
     </div>
    
-   <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
-   {/* <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'> */}
+   {/* <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'> */}
+   <div className='flex border border-[#f02e00]/20  bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'>
 
     <span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="md:w-5 w-3 text-center animate-bounce  text-black font-extrabold ">

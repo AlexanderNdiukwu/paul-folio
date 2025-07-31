@@ -69,7 +69,7 @@ const Technicalpage = ({data,countdet}) => {
                 <div className='text-white '>
                   
                   <details className="md:hidden  text-white px-3 py-2 rounded-md">
-  <summary className="cursor-pointer leading-5 italic font-semibold text-white text-sm ">
+  <summary className="cursor-pointer leading-5 italic font-semibold text-white text-sm text-center  ">
     👋
     Hi, I’m Ndiukwu Chukwuemeka Paul — a 400-level Mechatronics Engineering student at the University of Port Harcourt, Nigeria.  — a robotics and full-stack engineer blending hardware with code.  
 I build smart web apps and machines with React, Django, React Native and C++.  

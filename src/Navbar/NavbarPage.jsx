@@ -14,7 +14,7 @@ const NavbarPage = () => {
       </div>
 
 
-      <div className='hidden md:hidden lg:block rounded-lg'>
+      <div className='hidden md:hidden lg:block rounded-lg ml-18'>
         <div className='flex   rounded-lg  text-white'>
         {/* <div className='flex border border-white/5 bg-[#00c2ff]/20  rounded-lg  text-white'> */}
           {["Home","About", "Skills", "Projects", "Experience"].map((item, i) => (
@@ -25,8 +25,8 @@ const NavbarPage = () => {
                 i === 0 ? 'rounded-l-lg' : i === 4 ? 'rounded-r-lg' : ''
               } ${item == "Home" ? 'text-[#f02e00]':''} `}
             >
-            {item}  
-             {/* <Link>{item}</Link>  */}
+              
+             <a href={`#${item}`} className='scroll-smooth'>{item}</a>
             </p>
           ))}
         </div>
@@ -54,7 +54,7 @@ const NavbarPage = () => {
        
 
           <div className=''>
-
+          <a href="#Touch">
           <Navbarbtn
             btndetail='Get in Touch'
             parent={'md:py-0.5'}
@@ -63,10 +63,12 @@ const NavbarPage = () => {
 
 
           />
+          </a>
+          
           </div>
         </div>
       </div>
-
+    
       {/* HAMBURGER */}
       {/* <div className='block md:hidden text-[#E0F2FE]'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="size-6" viewBox="0 0 24 24">

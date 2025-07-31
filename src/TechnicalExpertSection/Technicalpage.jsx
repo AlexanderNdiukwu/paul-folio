@@ -44,6 +44,7 @@ const Technicalpage = ({data,countdet}) => {
 
   return (
     <div>
+      
         <div className=' md:mx-8 mx-3 py-4 '>
 
             <div className=' pb-10 rounded-lg'>
@@ -55,7 +56,7 @@ const Technicalpage = ({data,countdet}) => {
 
             <div className='lg:mx-30   mx-3 pt-6 '>
 
-            <div className='bg-[#444449]/15 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
+            <div  className='bg-[#444449]/15 relative   w-full h-fit rounded-lg border-b-1 border-[#333]'>
             <div className=' font-bold text-white    flex justify-center '>
                 <p className='md:text-4xl text-3xl mb-2 underline text-[#00c2ff] md:w-100 px-6 bg-black/70 md:rounded-b-2xl rounded-b-lg md:rounded-t-sm  md:pb-0.5 py-2  text-center'>About Me </p>
                   <div className='absolute block md:hidden right-2 top-2  rotate-180'> <Loader size="sm" /></div>
@@ -66,6 +67,7 @@ const Technicalpage = ({data,countdet}) => {
                  
             </div >
                 <div className='text-white '>
+                  
                   <details className="md:hidden  text-white px-3 py-2 rounded-md">
   <summary className="cursor-pointer leading-5 italic font-semibold text-white text-sm ">
     👋
@@ -96,13 +98,15 @@ I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba, and
   </p>
 </details>
   </div>
-  <div className="leading-8 hidden md:block text-white md:text-2xl  lg:text-xl  font-semibold px-6 py-10 pb-5">
+
+  <div  className="leading-8 hidden md:block text-white md:text-2xl  lg:text-xl  font-semibold px-6 py-10 pb-5">
+    
   I'm Ndiukwu Chukwuemeka Paul — i am based in Lagos, Nigeria, and originally from Imo State. I’m multilingual — fluent in English, French, Finnish, Igbo, and Yoruba,
 I’m a passionate problem-solver who merges robotics and intelligent software to build real-world solutions.
 
-As a full-stack developer and UI engineer, I bring ideas to life using modern tools like React, Next.js, Tailwind CSS, TypeScript, Django, and C++. — and I build cross-platform mobile apps using React Native. My approach to development is not just technical — it’s creative, human-centered, and constantly evolving.
+As a full-stack developer  <span id='Skills'></span> and UI engineer, I bring ideas to life using modern tools like React, Next.js, Tailwind CSS, TypeScript, Django, and C++. — and I build cross-platform mobile apps using React Native. My approach to development is not just technical — it’s creative, human-centered, and constantly evolving.
 
-I thrive on blending hardware intelligence with scalable code, designing UIs with tools like Figma, ShadCN, and DaisyUI, and building robust backend systems using Python, Java, Django, and Node.js. Whether it’s a robotic system or a web app, I believe in thinking beyond the obvious — no dull solutions.
+I thrive on blending hardware intelligence  with scalable code, designing UIs with tools like Figma, ShadCN, and DaisyUI, and building robust backend systems using Python, Java, Django, and Node.js. Whether it’s a robotic system or a web app, I believe in thinking beyond the obvious — no dull solutions.
 
 Let’s build smarter, faster, and beautifully.
 
@@ -122,7 +126,7 @@ Let’s build smarter, faster, and beautifully. */}
 
 
                 <div className='h-1 w-full animate-pulse  bg-gradient-to-r from-transparent via-[#00c2ff] to-transparent absolute bottom-0 '>
-
+       
                 </div>
             </div>
 
@@ -362,7 +366,7 @@ Let’s build smarter, faster, and beautifully. */}
 
             </div>
     
-          
+           <span id='Projects'></span>
 
             </div>
 

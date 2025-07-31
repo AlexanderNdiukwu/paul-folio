@@ -30,15 +30,16 @@ function App() {
     ref={containerRef}
     // className="relative w-full h-screen overflow-hidden">
 
-     className="relative w-full h-full overflow-hidden"> 
+     className="relative w-full h-full overflow-hidden "> 
     <div className="hidden lg:block">
+       <span id='Home'></span>
 
     <Particles  particleCount = {1400} />
     </div>
 
     <div className="block lg:hidden">
 
-    <Particles  particleCount = {7000} />
+    <Particles  particleCount = {5000} />
     </div>
 
      
@@ -49,7 +50,7 @@ function App() {
     <NavbarPage/>
 
     </div>
-    <div className="relative z-10 md:pt-18 pt-13 h-fit ">
+    <div  className="relative z-10 md:pt-18 pt-13 h-fit ">
 
 
     <Herosectionpage/>
@@ -57,7 +58,8 @@ function App() {
 
 
      
-    <div>
+    <div >
+      
       <Technicalpage data={setcollectdata} countdet={setnum} />
     </div>
 

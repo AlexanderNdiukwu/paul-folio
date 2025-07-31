@@ -7,7 +7,7 @@ import RotatingText from '../RotatingText'
 
 const Subherosection = () => {
   return (
-    <div className=' '>
+    <div  className=' '>
 
         <div className=' grid lg:grid-cols-4 justify-between justify-items-center grid-cols-3 lg:gap-8 gap-2  font-bold text-white pt-9 w-full h-full   md:items-center   '>
             <div className='w-full   lg:h-30  h-16 lg:w-74 md:rounded-3xl shadow-md md:shadow-lg rounded-xl text-center px-2 py-3 shadow-[#00c2ff] flex justify-center items-center '>
@@ -64,12 +64,13 @@ const Subherosection = () => {
 />
 }
   btndetailsty='md:text-4xl text-xl' btndetail2sty=' md:text-xl text-[10px] ' btndetail2='programming Languages' style='whitespace-nowrap text-center  '/>
+   <div id='About'></div>
             </div>
 
 
             
 
-          
+         
         </div>
       
     </div>

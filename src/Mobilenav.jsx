@@ -1,16 +1,31 @@
 import React from 'react'
-import { MdHome } from "react-icons/md";
-import { MdOutlineEngineering } from "react-icons/md";
-import { MdOutlineWorkHistory } from "react-icons/md";
+import { MdHome, MdOutlineEngineering, MdOutlineWorkHistory } from "react-icons/md";
+
 export default function Mobilenav() {
   return (
-    <div className='fixed top-27 text-white right-0 md:hidden block '>
-      <div className='w-8 h-fit py-3 border break-all border-white/5 gap-2 rounded-l-md flex flex-col justify-center items-center  backdrop-blur-3xl'>
-        
-         <a className='text-[#f02e00] border-b border-white/20 pb-1 hover:text-white' href="#Home"><MdHome /></a> 
-         <div className='text-[#f02e00] border-b border-white/20 pb-1'><a href="#About"><MdOutlineEngineering /></a></div>
-         <p className='text-[#f02e00]'><a href="#Projects"><MdOutlineWorkHistory /></a></p>
-        
+    <div className='fixed top-28 right-0 md:hidden block z-50'>
+      <div className='w-8 py-3 border border-white/5 gap-2 rounded-l-md flex flex-col justify-center items-center backdrop-blur-3xl'>
+
+        <a 
+          className='text-[#f02e00]/70 hover:text-white border-b border-white/20 pb-1 transition-colors duration-300'
+          href="Home"
+        >
+          <MdHome className="w-6 h-6" />
+        </a>
+
+        <a 
+          className='text-[#f02e00]/70 hover:text-white border-b border-white/20 pb-1 transition-colors duration-300'
+          href="#About"
+        >
+          <MdOutlineEngineering className="w-6 h-6" />
+        </a>
+
+        <a 
+          className='text-[#f02e00]/70 hover:text-white transition-colors duration-300'
+          href="#Projects"
+        >
+          <MdOutlineWorkHistory className="w-6 h-6" />
+        </a>
 
       </div>
     </div>

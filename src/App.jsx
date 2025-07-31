@@ -21,7 +21,12 @@ function App() {
   
 
   return (
+
    <div className="select-none font-serif relative" >
+      <div className="">
+      <Mobilenav/>
+      
+    </div>
 
 {/* this is the orange color i wanted to have [#ff8c00]  */}
 {/* and this is the bg i wanted  bg-[#2DD4BF] */}
@@ -32,14 +37,15 @@ function App() {
 
      className="relative w-full h-full overflow-hidden "> 
     <div className="hidden lg:block">
-       <span id='Home'></span>
+       {/* <span id='Home'></span> */}
+       <span id='#Home'></span>
 
     <Particles  particleCount = {1400} />
     </div>
 
     <div className="block lg:hidden">
 
-    <Particles  particleCount = {5000} />
+    <Particles  particleCount = {3000} />
     </div>
 
      
@@ -110,10 +116,7 @@ function App() {
     </div>
 
 
-    <div>
-      <Mobilenav/>
-      
-    </div>
+  
   
 
 

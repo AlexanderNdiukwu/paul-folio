@@ -16,7 +16,7 @@ const NavbarPage = () => {
 
       <div className='hidden md:hidden lg:block rounded-lg ml-18'>
         <div className='flex   rounded-lg  text-white'>
-        {/* <div className='flex border border-white/5 bg-[#00c2ff]/20  rounded-lg  text-white'> */}
+  
           {["Home","About", "Skills", "Projects", "Experience"].map((item, i) => (
             <p
             

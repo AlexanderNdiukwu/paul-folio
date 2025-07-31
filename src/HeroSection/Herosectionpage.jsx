@@ -63,8 +63,8 @@ const Herosectionpage = () => {
 </div>
 
         
-    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  justify-center  flex flex-col  md:justify-end '>
-    {/* <div className=' md:h-[55vh] h-[60vh] w-[100vw]  pt-10 md:pt-0   flex flex-col  md:justify-end '> */}
+    {/* <div className=' md:h-[55vh] h-[60vh] w-[100vw]  justify-center  flex flex-col  md:justify-end '> */}
+    <div className=' md:h-[55vh] h-[60vh] w-[100vw]  pt-10 md:pt-0   flex flex-col  md:justify-end '>
 
 
 

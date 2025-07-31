@@ -37,9 +37,8 @@ function App() {
 
      className="relative w-full h-full overflow-hidden "> 
     <div className="hidden lg:block">
-       {/* <span id='Home'></span> */}
-       <span id='#Home'></span>
-
+       <span id='Home'></span>
+ 
     <Particles  particleCount = {1400} />
     </div>
 

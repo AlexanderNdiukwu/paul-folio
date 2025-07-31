@@ -235,8 +235,11 @@ engineer.
     
     {/* <div className='border border-[#f02e00]/20 bg-[#f02e00] lg:hidden block rounded-lg '> */}
     <div className='border border-[#f02e00]/20 md:border-[#f02e00]/20 md:bg-[#f02e00] bg-gradient-to-r from-[#f02e00]/30 via-[#f02e00]  to-[#f02e00]/30 lg:hidden block rounded-lg '>
+<a href="#Projects">
     <Pagebtn btndetail='Explore Projects' btndetailsty='' style='md:text-lg text-[10px]  text-black  text-[#2DD4BF] py-1 md:py-3 rounded-lg  hover:text-[#0A0B0D] transition   md:py-2 md:px-8 px-2 py-2  ' />
 
+
+</a>
     </div>
    
    {/* <div className='flex border border-[#f02e00]/20  bg-[#f02e00] lg:hidden  gap-1 rounded-lg justify-center items-center  md:px-8 px-2'> */}
